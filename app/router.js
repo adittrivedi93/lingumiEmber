@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('home', {path: '/'});
   this.route('aboutUs');
   this.route('method');
+  this.route('system');
   this.route('login');
   this.route('registerAccount');
 });

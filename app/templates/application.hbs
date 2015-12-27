@@ -1,11 +1,13 @@
-<header> 
-	<h1>Lingumi</h1>
-</header>
-
 <div>
-	{{outlet}}
-</div>
+	<header> 
+		{{partial 'navbar'}}
+	</header>
 
-<footer>
-	Lingumi Ltd.
-</footer>
+	<div class="content">
+		{{outlet}}
+	</div>
+
+	<footer>
+		Lingumi Ltd.
+	</footer>
+</div>

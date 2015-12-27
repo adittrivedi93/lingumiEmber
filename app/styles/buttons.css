@@ -1,0 +1,71 @@
+.btn-navbar {
+	padding: 10px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: #323232;
+}	
+.btn-navbar a {
+	color: #323232;
+}
+.navbar .btn-cyan {
+	border-bottom: 4px solid #009fe3;
+}
+.navbar .btn-cyan:hover {
+	border-bottom: 4px solid #009fe3;
+	background-color: #009fe3 !important;
+	color: white;
+}
+.navbar .btn-magenta {
+	border-bottom: 4px solid #e6007e;
+}
+.navbar .btn-magenta:hover {
+	border-bottom: 4px solid #e6007e;
+	background-color: #e6007e !important;
+	color: white;
+}
+.navbar .btn-green {
+	border-bottom: 4px solid #00983a;
+}
+.navbar .btn-green:hover {
+	border-bottom: 4px solid #00983a;
+	background-color: #00983a !important;
+	color: white;
+}
+.navbar .btn-red {
+	border-bottom: 4px solid red;
+}
+.navbar .btn-red:hover {
+	border-bottom: 4px solid red;
+	background-color: red !important;
+	color: white;
+}
+.content .btn-cyan {
+	background-color: #009fe3;
+}
+.content .btn-magenta {
+	background-color: #e6007e;
+}
+.content .btn-green {
+	background-color: #00983a;
+}
+.content .btn-red {
+	background-color: #323232;
+}
+.content .btn-red:hover {
+	color: #009fe3;
+	background-color: white;
+	border: 1px solid #009fe3;
+}
+.content .btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 24px;
+    color: white;
+}

@@ -1,0 +1,51 @@
+.html {
+	width: 100%;
+	font-weight: 300;
+}
+.content {
+	width: 100%;
+	padding-top: 20%;;
+	background: url('/assets/web_bg.gif');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #323232;
+}
+
+.navbar {
+	background-color: transparent;
+	position: absolute;
+	border: none;
+	z-index: 1;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	color: #323232;
+	padding-bottom: 5px;
+}
+.navbar-noscroll {
+	padding-top: 10%;
+}
+.navbar-nav {
+	padding-right: 15px;
+	-webkit-backface-visibility: hidden;
+}
+.navbar-brand {
+	padding: 15px 5px;
+}
+/*.nav-opacity {
+	background-color: white;
+}*/
+
+.navbar-right .btn {
+	margin: 5px 5px;
+}
+.navbar-header img {
+	width: 9em;
+}
+.navbar-scroll {
+	background-color: white !important;
+}
