@@ -1,5 +1,5 @@
 <div id="navigation">
-	<nav class="navbar navbar-default navbar-noscroll">
+	<nav class="navbar navbar-default navbar-noscroll navbar-fixed-top">
 
 		<div class="navbar-header">
 			<a class ="navbar-brand" href="/">
@@ -31,3 +31,17 @@
 		</div>
 	</nav>
 </div>
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+    var nav = $('.navbar-default');
+    var top = 200;
+    if ($(window).scrollTop() >= top) {
+
+        nav.addClass('navbar-scroll');
+
+    } else {
+        nav.removeClass('navbar-scroll');
+    }
+});
+</script>
