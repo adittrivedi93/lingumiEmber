@@ -17,6 +17,9 @@
 	font-weight: 300;
 	font-size: 3em;
 }
+#strapline h3 {
+	font-weight: 300;
+}
 
 #middle {
 	text-align: center;
@@ -45,9 +48,13 @@
 	padding-left: 12%;
 	padding-top: 4%;
 }
-.explainers h2, h4, p, #bottom h2, h4, p {
-		font-weight: 300;
-			line-height: 140%;
+.explainers h4, #bottom h4 {
+	font-weight: 300;
+	line-height: 140%;
+}
+.explainers h2, #bottom h2 {
+	font-weight: 300;
+	line-height: 140%;
 }
 .explainers a {
 	text-decoration: underline;

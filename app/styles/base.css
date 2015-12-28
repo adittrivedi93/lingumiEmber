@@ -8,6 +8,7 @@
 	background: url('/assets/web_bg.gif');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li > a {

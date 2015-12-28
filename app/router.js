@@ -14,6 +14,12 @@ Router.map(function() {
   this.route('system');
   this.route('login');
   this.route('registerAccount');
+  this.route('benefits');
+  this.route('educators');
+  this.route('slt');
+  this.route('faq');
+  this.route('testimonials');
+  this.route('blog');
 });
 
 export default Router;
