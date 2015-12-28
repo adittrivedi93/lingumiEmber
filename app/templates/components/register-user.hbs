@@ -1,0 +1,15 @@
+<form id = "Registration">
+	<h2>{{title}} </h2>
+	<p>
+		Email: {{input value = email type="email" placeholder="Email"}}
+	</p>
+	<p>
+		Password: {{input value = password type = "password" placeholder ="password" }}
+		{{get password "length"}}
+	</p>
+	<p>
+		Repeat Password: {{input value = repeatPassword type = "password" placeholder ="password" }}
+	</p>
+	<p> {{passwordStrength}} </p>
+	<button {{action 'registration'}}>Register</button>
+</form>

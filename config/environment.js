@@ -14,8 +14,24 @@ module.exports = function(environment) {
     },
 
     APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
+      applicationId: 'NwfA1WJLRR60Gms1oLqieScFRjWM9NZiZyjtplt2',
+      restApiId: 'UVO0qxa1Y91qfqpNdnlNckqMv2naRGcelvEDFIKG',
+      javascriptId: 'UwY0CCkPXvLAailbo7AiMo2jHEoi3aMyyqZWW2kj'
+    },
+
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-eval' https://www.parsecdn.com/ ",
+      'font-src': "'self' ",
+      'connect-src': "'self' *",
+      'img-src': "'self'",
+      'style-src': "'self'",
+      'media-src': "'self'",
+    },
+
+    'simple-auth': {
+      authorizer: 'authorizer:parse',
+      crossOriginWhitelist: ['https://api.parse.com']
     }
   };
 
