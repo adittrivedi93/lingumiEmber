@@ -11,10 +11,17 @@ Router.map(function() {
   this.route('home', {path: '/'});
   this.route('aboutUs');
   this.route('method');
+  this.route('system');
   this.route('login');
   this.route('registerAccount');
   this.route('forgottenPassword');
   this.route('profile');
+  this.route('benefits');
+  this.route('educators');
+  this.route('slt');
+  this.route('faq');
+  this.route('testimonials');
+  this.route('blog');
 });
 
 export default Router;

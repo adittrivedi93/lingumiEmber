@@ -1,0 +1,59 @@
+.html {
+	width: 100%;
+	font-weight: 300;
+}
+.content {
+	width: 100%;
+	padding-top: 20%;;
+	background: url('/assets/web_bg.gif');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	font-weight: 300;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #323232;
+}
+.navbar-default {
+	background-image: none !important;
+	background-color: transparent !important;
+	border: 0px 0px;
+}
+.navbar {
+	border: 0px 0px;
+	z-index: 1;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	color: #323232;
+	padding-bottom: 5px;
+}
+.navbar-fixed-top {
+	border-width: 0 0 0 !important;
+	box-shadow: none !important;
+}
+.navbar-noscroll {
+	padding-top: 10%;
+}
+.navbar-nav {
+	padding-right: 15px;
+}
+.navbar-brand {
+	padding: 15px 5px;
+}
+/*.nav-opacity {
+	background-color: white;
+}*/
+
+.navbar-right .btn {
+	margin: 5px 5px;
+}
+.navbar-header img {
+	width: 9em;
+}
+.navbar-scroll {
+	background-color: white !important;
+	padding-top: 0;
+	border-bottom: 1px solid #b7b6b7 !important;
+}

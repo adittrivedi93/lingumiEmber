@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# lingumiEmber
+=======
 # Lingumi-ember
 
 This is the default readme for Ember.  
@@ -53,3 +56,4 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+>>>>>>> 3a66d88bb816b3dd1032bd4a6e469ec09965e600
