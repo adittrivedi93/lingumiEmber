@@ -14,6 +14,8 @@ Router.map(function() {
   this.route('system');
   this.route('login');
   this.route('registerAccount');
+  this.route('forgottenPassword');
+  this.route('profile');
   this.route('benefits');
   this.route('educators');
   this.route('slt');

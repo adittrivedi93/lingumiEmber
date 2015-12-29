@@ -1,16 +1,2 @@
-<p>I'm the registration page</p>
-
-<h2>Registration </h2>
-<li>
-	<label for="email">Email: </label>
-    <input type="email" id="email" placeholder="Email">
-</li>
-<li>
-	<label for="password">Password: </label>
-    <input type="password" id="password" placeholder="Password">
-</li>
-<li>
-	<label for="repeatPassword">Repeat Password: </label>
-    <input type="password" id="repeatPassword" placeholder="Repeat Password">
-</li>
-<button id="buttonRegister">Register</button>
+<!-- this template calls a component, called 'register user', and it has an action inside it called 'registration' which we'll need to pass up to a controller for this template, which is called 'register-account.js' -->
+{{#register-user registrationComplete="registrationComplete"}}{{/register-user}}
