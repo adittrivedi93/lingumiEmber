@@ -20,6 +20,14 @@
 #strapline h3 {
 	font-weight: 300;
 }
+#flags {
+	width: 100%;
+	padding: 2%;
+}
+#flags img {
+	width: 8%;
+	padding: 1%;
+}
 
 #middle {
 	text-align: center;
@@ -32,6 +40,21 @@
 }
 #middle .btn {
 	margin-left: 10px;
+}
+#play_styles {
+	width: 100%;
+	background-color: #009fe3;
+	margin-top: 2%;
+	color: white;
+	padding-bottom: 2%;
+}
+.play_styles{
+	width: 20%;
+	padding: 2%;
+}
+.play_styles_centre {
+	width:30%;
+	padding: 1%;
 }
 
 #video-embed {
@@ -46,7 +69,7 @@
 	text-align: center;
 	padding-right: 12%;
 	padding-left: 12%;
-	padding-top: 4%;
+	padding-top: 2%;
 }
 .explainers h4, #bottom h4 {
 	font-weight: 300;
@@ -174,6 +197,12 @@
 	.navbar-nav {
 		background-color: white;
 		width:100%;
+	}
+	#flags img {
+		width: 15%;
+	}
+	#play_styles img {
+		width: 30%;
 	}
 }
 

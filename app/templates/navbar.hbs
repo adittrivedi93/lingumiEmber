@@ -14,7 +14,7 @@
 			<ul class="nav navbar-nav navbar-right nav-pills">
 				<li>{{#link-to 'home' class="btn btn-navbar btn-cyan"}}Home{{/link-to}}</li>
 				<li>{{#link-to 'system' class="btn btn-navbar btn-green"}}What{{/link-to}}</li>
-				<li>{{#link-to 'method' class="btn btn-navbar btn-magenta"}}How{{/link-to}}</li>				
+				<li>{{#link-to 'method' class="btn btn-navbar btn-magenta"}}How{{/link-to}}</li>	
 
 				<li class="dropdown">
 					<a class="dropdown-toggle btn btn-navbar btn-cyan" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
@@ -34,7 +34,7 @@
 <script type="text/javascript">
 	$(window).scroll(function() {
     var nav = $('.navbar-default');
-    var top = 200;
+    var top = 100;
     if ($(window).scrollTop() >= top) {
 
         nav.addClass('navbar-scroll');
