@@ -8,6 +8,7 @@
 	background: url('/assets/web_bg.gif');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -54,4 +55,5 @@
 .navbar-scroll {
 	background-color: white !important;
 	padding-top: 0;
+	border-bottom: 1px solid #b7b6b7 !important;
 }
