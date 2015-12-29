@@ -13,6 +13,8 @@ Router.map(function() {
   this.route('method');
   this.route('login');
   this.route('registerAccount');
+  this.route('forgottenPassword');
+  this.route('profile');
 });
 
 export default Router;

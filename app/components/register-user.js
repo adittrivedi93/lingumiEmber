@@ -36,45 +36,46 @@ export default Ember.Component.extend({
 	actions:{
 		registration: function(){
 			console.log("click from component");
-			this.sendAction('registration');
-		// 	var email = this.get('email');
-		// 	var password = this.get('password');
-		// 	if(this.get('email').length>6){
-		// 		if(this.get('password') == this.get('repeatPassword')){
-		// 			Parse.initialize("NwfA1WJLRR60Gms1oLqieScFRjWM9NZiZyjtplt2",
-  //           		"UwY0CCkPXvLAailbo7AiMo2jHEoi3aMyyqZWW2kj");
-		// 			var query = new Parse.Query(Parse.User);
-		// 			query.equalTo("username",this.get('email'));
-		// 			query.first({
-		// 				success:function(results){
-		// 					if(results == undefined){
-		// 						console.log("user does not exist");
-		// 						var user = new Parse.User();
-		// 						user.set("username", email);
-		// 						user.set("password", password);
-		// 						user.set("email", email);
+			var email = this.get('email');
+			var password = this.get('password');
+			var self = this;
+			if(this.get('email').length>6){
+				if(this.get('password') == this.get('repeatPassword')){
+					Parse.initialize("NwfA1WJLRR60Gms1oLqieScFRjWM9NZiZyjtplt2",
+            		"UwY0CCkPXvLAailbo7AiMo2jHEoi3aMyyqZWW2kj");
+					var query = new Parse.Query(Parse.User);
+					query.equalTo("username",this.get('email'));
+					query.first({
+						success:function(results){
+							if(results == undefined){
+								console.log("user does not exist");
+								var user = new Parse.User();
+								user.set("username", email);
+								user.set("password", password);
+								user.set("email", email);
 
-		// 						user.signUp(null, {
-		// 						  success: function(user) {
-		// 						    // Hooray! Let them use the app now.
-		// 						    console.log("User added, time to re-direct pages");
-		// 						  },
-		// 						  error: function(user, error) {
-		// 						    // Show the error message somewhere and let the user try again.
-		// 						    alert("Error: " + error.code + " " + error.message);
-		// 						  }
-		// 						});
-		// 					} else {
-		// 						console.log("user already exists");
-		// 					}
-		// 				}
-		// 			});
-		// 		} else{
-		// 			console.log("passwords do not match");
-		// 		}
-		// 	} else{
-		// 		console.log("Enter an email");
-		// 	}
+								user.signUp(null, {
+								  success: function(user) {
+								    // Hooray! Let them use the app now.
+								    console.log("User added, time to re-direct pages");
+									self.sendAction('registrationComplete');
+								  },
+								  error: function(user, error) {
+								    // Show the error message somewhere and let the user try again.
+								    alert("Error: " + error.code + " " + error.message);
+								  }
+								});
+							} else {
+								console.log("user already exists");
+							}
+						}
+					});
+				} else{
+					console.log("passwords do not match");
+				}
+			} else{
+				console.log("Enter an email");
+			}
 		}
 	}
 });

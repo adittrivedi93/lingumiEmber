@@ -1,11 +1,11 @@
-<form id = "Login">
+<form {{action 'loginUser' on='submit'}}>
 	<p>
-		Email: {{input value = attrs.userLogin.username type="text" placeholder="username"}}
+		Email: {{input value = username type="email" placeholder="username"}}
 	</p>
 	<p>
-		Password: {{input value = attrs.userLogin.password type = "password" placeholder ="password" }}
+		Password: {{input value = password type = "password" placeholder ="password" }}
 	</p>
 	<p>
-		<button {{action 'loginUser' userLogin}} >Login</button>
+		<button type="submit">Login</button>
 	</p>
 </form>

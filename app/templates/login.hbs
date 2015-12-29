@@ -1,6 +1,7 @@
 <h2>Sign In</h2>
 <ul>
-	{{#user-login userLogin=model }}{{/user-login}}
+	{{#user-login userLoggedIn = "userLoggedIn"}}{{/user-login}}
 	<button>{{#link-to 'registerAccount'}}Register{{/link-to}}</button>
+	<button>{{#link-to 'forgottenPassword'}}Forgotten Password{{/link-to}}</button>
 </ul>
 
