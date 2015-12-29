@@ -191,6 +191,15 @@
   color: #fff;
   background-color:#3498db;
 }
+#lang_dev img {
+	width: 60%;
+}
+#second_lang img{
+	width: 60%;
+}
+#info_pack {
+	text-align: center;
+}
 
 /*media queries for smaller screens*/
 @media (max-width: 770px) {
