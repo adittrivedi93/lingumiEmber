@@ -14,8 +14,8 @@ module.exports = function(environment) {
     },
 
     APP: {
-      applicationId: 'NwfA1WJLRR60Gms1oLqieScFRjWM9NZiZyjtplt2',
-      restApiId: 'UVO0qxa1Y91qfqpNdnlNckqMv2naRGcelvEDFIKG',
+      applicationId: 'RsJm94yZUSGu6BYuMSxNAevaCZhSsdNAQhuhCOa8',
+      restApiId: 'ruXnbRArqxN8y3bysbGErgAIHR6qEkISFPynlC2z',
       javascriptId: 'UwY0CCkPXvLAailbo7AiMo2jHEoi3aMyyqZWW2kj'
     },
 

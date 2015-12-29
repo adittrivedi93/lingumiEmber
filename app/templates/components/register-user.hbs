@@ -1,4 +1,7 @@
-<form id = "Registration">
+<!-- I've put the action in the form tag, with the button having a submit function, but you could add the action to the button itself - it's just that since the form will contain info later we want to submit the whole form so I think best this way -->
+
+<form {{action 'registration' on='submit'}}>
+
 	<h2>{{title}} </h2>
 	<p>
 		Email: {{input value = email type="email" placeholder="Email"}}
@@ -11,5 +14,5 @@
 		Repeat Password: {{input value = repeatPassword type = "password" placeholder ="password" }}
 	</p>
 	<p> {{passwordStrength}} </p>
-	<button {{action 'registration'}}>Register</button>
+	<button type="submit">Register</button>
 </form>

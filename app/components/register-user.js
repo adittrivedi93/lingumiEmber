@@ -33,10 +33,15 @@ export default Ember.Component.extend({
 		}
 	}.observes('password'),
 
-	actions:{
+// here we're sending the action 'registration' up (this is called 'bubbling up') to outside of our component, 
+// where it will look for a controller, which is register-user.js
+	actions: {
 		registration: function(){
-			console.log("click from component");
 			this.sendAction('registration');
+			return true;
+		}
+	}
+			
 		// 	var email = this.get('email');
 		// 	var password = this.get('password');
 		// 	if(this.get('email').length>6){
@@ -75,8 +80,7 @@ export default Ember.Component.extend({
 		// 	} else{
 		// 		console.log("Enter an email");
 		// 	}
-		}
-	}
+
 });
 
 function hasLower(str){
