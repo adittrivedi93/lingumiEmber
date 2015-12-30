@@ -4,7 +4,7 @@ export default Ember.Component.extend({
 	firstName: '',
 	lastName: '',
 	genderIndex: 0,
-	dob: '',
+	dateOfBirth: '',
 
 	gender: Ember.computed('genderIndex', function() {
 		return this.get('genders')[this.get('genderIndex')];
@@ -17,14 +17,20 @@ export default Ember.Component.extend({
 		{name: 'prefer not to say'},
 	],
 
+	dOfBirth: function(){
+		var date = this.get('dob');
+		this.set('dateOfBirth', date.toDateString());
+		console.log("reached");
+	}.observes('dob'),
+
 	actions:{
-		'submitParentProfile': function(){
+		'registerChildProfile': function(){
+			this.set('gender.name','');
 			console.log(this.get('firstName'));
 			console.log(this.get('lastName'));
-			console.log(this.get('nationality.name'));
-			if(this.get('genders.name').length==0){
-				//if nationality 
-			}
+			console.log(this.get('dob'));
+			var date = this.get('dob');
+			console.log(date.toDateString());
 		}
 	}
 });

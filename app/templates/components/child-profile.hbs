@@ -1,5 +1,5 @@
 <h2>Child profile</h2>
-<form {{action 'registerChildProfiile1' on='submit'}}>
+<form {{action 'registerChildProfile' on='submit'}}>
 	<p>
 		First Name: {{input value = firstName type="text" placeholder="First Name"}}
 	</p>
@@ -22,6 +22,6 @@
 	</p>
 	<p>{{firstName}} {{lastName}}</p>
 	<p>{{gender.name}}</p>
-	<p>{{dob}}</p>
+	<p>{{dateOfBirth}}</p>
 	<button type="submit">Submit</button>
 </form>
