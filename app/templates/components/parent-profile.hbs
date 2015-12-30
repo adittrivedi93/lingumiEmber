@@ -1,20 +1,32 @@
 <h2>Parent profiles</h2>
 <form {{action 'submitParentProfile' on='submit'}}>
 	<p>
-		First Name: {{input value = firstName type="text" placeholder="First Name"}}
+		<b> First Name: </b> {{input value = firstName type="text" placeholder="First Name"}}
 	</p>
+
 	<p>
-		Last Name: {{input value = lastName type="text" placeholder="Last Name"}}
+		<b> Last Name: </b> {{input value = lastName type="text" placeholder="Last Name"}}
 	</p>
+
 	<p>
-	Nationality:
+	<b> Nationality: </b>
 	<select onchange={{action (mut languageIndex) value="target.value"}}>
 	  {{#each languages as |languageChoice index|}}
 	    <option value={{ index }} selected={{eq languageIndex index}}>{{languageChoice.name}}</option>
 	  {{/each}}
 	</select>
 	</p>
+
+	<p>
+	<b> Gender: </b>
+	<select onchange={{action (mut genderIndex) value="target.value"}}>
+	  {{#each genders as |genderChoice index|}}
+	    <option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
+	  {{/each}}
+	</select>
+	</p>
+
 	<p>{{firstName}} {{lastName}}</p>
 	<p>{{nationality.name}}</p>
-	<button type="submit">Submit</button>
+	<button type="submit">Save</button>
 </form>

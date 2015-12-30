@@ -17,13 +17,11 @@
 	</select>
 	</p>
 	<p>
-		<label>
-		  Date of Birth:
-		  {{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
-		</label>
+		<b> Date of Birth: </b>
+		{{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
 	</p>
 	<p>{{firstName}} {{lastName}}</p>
 	<p>{{gender.name}}</p>
 	<p>{{dateOfBirth}}</p>
-	<button type="submit">Submit</button>
+	<button type="submit">Save</button>
 </form>
