@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import utilities from '../utilities/utilities';
 
 export default Ember.Component.extend({
 	firstName: '',
@@ -20,11 +21,27 @@ export default Ember.Component.extend({
 
 	actions:{
 		'submitParentProfile': function(){
-			console.log(this.get('firstName'));
-			console.log(this.get('lastName'));
-			console.log(this.get('nationality.name'));
-			if(this.get('nationality.name').length==0){
-				//if nationality 
+			var firstName = this.get('firstName');
+			var lastName = this.get('lastName');
+			var nationality = this.get('nationality.name');
+			if(utilities.lengthChecker(firstName,0)&&utilities.lengthChecker(lastName,0)&&
+				utilities.lengthChecker(nationality,0)){
+				var user = Parse.User.current();
+				var ParentProfile = Parse.Object.extend("ParentProfile");
+				var profile = new ParentProfile({
+					"firstName":firstName,
+					"lastName":lastName,
+					"nationality": nationality,
+					"user": user
+				});
+				profile.save(null,{
+					success: function(result){
+						console.log("saved parent profile successfully");
+					},
+					error: function(error){
+						console.log("Error saving parent profile: " +error.message)
+					}
+				});
 			}
 		}
 	}

@@ -1,27 +1,29 @@
 <h2>Child profile</h2>
-<form {{action 'registerChildProfiile1' on='submit'}}>
+<form {{action 'submitChildProfile' on='submit'}}>
 	<p>
-		First Name: {{input value = firstName type="text" placeholder="First Name"}}
+		<b> First Name: </b>
+		{{input value = firstName type="text" placeholder="First Name"}}
 	</p>
 	<p>
-		Last Name: {{input value = lastName type="text" placeholder="Last Name"}}
+		<b> Last Name: </b>
+		{{input value = lastName type="text" placeholder="Last Name"}} 
 	</p>
 	<p>
-	Gender:
+	<b> Gender: </b>
 	<select onchange={{action (mut genderIndex) value="target.value"}}>
 	  {{#each genders as |genderChoice index|}}
 	    <option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
 	  {{/each}}
 	</select>
+	</p>
 	<p>
 		<label>
 		  Date of Birth:
-		  {{pikaday-input value=dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
+		  {{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
 		</label>
-	</p>
 	</p>
 	<p>{{firstName}} {{lastName}}</p>
 	<p>{{gender.name}}</p>
-	<p>{{dob}}</p>
+	<p>{{dateOfBirth}}</p>
 	<button type="submit">Submit</button>
 </form>
