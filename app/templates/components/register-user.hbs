@@ -1,24 +1,26 @@
-<div class="form">
+<div class="form" id="reg_form">
 	<form {{action 'registration' on='submit'}} class="form-inline">
 		<h2>{{title}} </h2>
 
-		<div class="form-group">
-			<label>
-				Email:
-			</input>
-			{{input value = email type="email" class="input form-control input-lg" id="reg_email_input" placeholder="Email"}}
+		<div id="form-sections">
+			<div class="form-group">
+					<label>Email:</label>
+				{{input value = email type="email" class="input form-control input-lg" id="reg_email_input" placeholder="Email"}}
+			</div>
+
+			<div class="form-group">
+				<label>Password:</label>
+				{{input value = password class="input form-control input-lg" id="reg_pword_input" type = "password" placeholder ="password" }}
+				<!-- {{get password "length"}} -->
+			</div>
+
+			<div class="form-group">
+				<label>Repeat Password:</label>
+				{{input value = repeatPassword class="input form-control input-lg" id="reg_pword_input2" type = "password" placeholder ="password" }}
+			</div>
 		</div>
 
-		<div class="form-group">
-			Password: {{input value = password class="input form-control input-lg" id="reg_pword_input" type = "password" placeholder ="password" }}
-			<!-- {{get password "length"}} -->
-		</div>
-
-		<div class="form-group">
-			Repeat Password: {{input value = repeatPassword class="input form-control input-lg" id="reg_pword_input" type = "password" placeholder ="password" }}
-		</div>
-
-		<p> {{passwordStrength}} </p>
-		<button type="submit">Register</button>
+<!-- 		<p> {{passwordStrength}} </p> -->
+		<button type="submit" class="btn btn-cyan btn-register">Register</button>
 	</form>
 </div>

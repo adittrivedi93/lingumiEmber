@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 
-	title: 'Register User',
+	title: 'Register to get started',
 	email: '',
 	password: '',
 	repeatPassword: '',
