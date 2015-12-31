@@ -7,6 +7,7 @@ export default Ember.Component.extend(Ember.TargetActionSupport,{
 
 	didInsertElement(){
 		//Here we will check whether the user is logged in
+		console.log("reached");
 		this.triggerAction({
 			action: 'checkUserStatus',
 			target: this
@@ -25,6 +26,19 @@ export default Ember.Component.extend(Ember.TargetActionSupport,{
 			} else{
 				this.set('userLoggedIn', false);
 			}
+		},
+
+		'selectedMore': function(){
+			if(Parse.User.current()){
+				this.set('userLoggedIn', true);
+			} else{
+				this.set('userLoggedIn', false);
+			}
+		},
+
+		'logout': function(){
+			Parse.User.logOut();
+			this.set('userLoggedIn', false);
 		}
 	}
 });

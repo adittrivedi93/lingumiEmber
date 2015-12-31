@@ -18,7 +18,7 @@
 
 
 				<li class="dropdown">
-					<a class="dropdown-toggle btn btn-navbar btn-cyan" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+					<a class="dropdown-toggle btn btn-navbar btn-cyan" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {{action 'selectedMore' on='click'}}>More<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>{{#link-to 'benefits'}}Benefits{{/link-to}}</li>
 						<li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
@@ -27,8 +27,10 @@
 						<li>{{#link-to 'educators'}}Schools & Nurseries{{/link-to}}</li>
 						<li>{{#if userLoggedIn}}
 								{{#link-to 'profile'}}<strong>Profile</strong>{{/link-to}}
+								<button {{action "logout" on="click"}}>Logout</button>
 							{{else}}
 								{{#link-to 'registerAccount'}}<strong>Sign Up</strong>{{/link-to}}
+								{{#link-to 'login'}}<strong>Login</strong>{{/link-to}}
 							{{/if}}
 						</li>
 					</ul>
