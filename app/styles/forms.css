@@ -1,11 +1,91 @@
+/*general form-related css*/
 .form {
 	text-align: center;
-	padding-right: 12%;
-	padding-left: 12%;
-	padding-top: 2%;
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-bottom: 15%;
+	font-weight: 300;
+	color: white;
+
 }
 .form .input {
-	max-width: 500px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.form-group {
+	width: 100%;
+	padding: 5px 0;
+	text-align: right;
+}
+#form-sections {
+	padding-right: 30%;
+}
+.form-inline {
+	padding: 5%;
+	background-color: #585558;
+	border-radius: 15px;
+	padding-bottom: 10%;
+}
+.form-inline label {
+	font-size: 1.2em;
+}
+.form-inline .btn {
+	float: right;
+	margin: 2%;
+	margin-right: 30%;
+}
+@media (max-width: 770px) {
+	.form {
+		padding-top: 2%;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	#form-sections {
+		padding-right: 0;
+	}
+	.form-group {
+		text-align: center;
+	}
+	/*reset password specific*/
+	#forgotten_pass_form .form-inline {
+	padding-bottom: 20%;
+	margin-top: 10%;
+}
+}
+/*sign-in form specific css*/
+#login_form h2 {
+	margin: 3% 0;
+}
+.btn-login {
+	margin: 2%;
+}
+.btn-discrete {
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 5px;
+	margin: 10px 0;
+}
+#buttons-linetwo {
+	padding-right: 32%;
+	padding-top: 2%; 
+}
+#buttons-linetwo .btn-discrete {
+	float:right;
+}
+.btn-discrete {
+	margin: 3px;
+}
+.btn-discrete a {
+	color: white;
+}
+.btn-discrete a:hover {
+	color: white;
+	text-decoration: underline;
+}
+/*registration-form specific css*/
+#reg_form h2 {
+	margin: 3% 0;
 }

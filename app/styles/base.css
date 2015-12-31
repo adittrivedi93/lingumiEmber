@@ -1,14 +1,19 @@
-.html {
+html {
 	width: 100%;
-	font-weight: 300;
 }
+
 .content {
 	width: 100%;
 	padding-top: 20%;;
 	background: url('/assets/web_bg.gif');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+}
+.content h2 {
 	font-weight: 300;
+}
+.content label {
+	font-weight: 500;
 }
 
 .navbar-default .navbar-nav > li > a {
