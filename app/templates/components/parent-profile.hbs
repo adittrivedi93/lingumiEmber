@@ -10,9 +10,9 @@
 
 	<p>
 	<b> Nationality: </b>
-	<select onchange={{action (mut languageIndex) value="target.value"}}>
-	  {{#each languages as |languageChoice index|}}
-	    <option value={{ index }} selected={{eq languageIndex index}}>{{languageChoice.name}}</option>
+	<select onchange={{action (mut nationalityIndex) value="target.value"}}>
+	  {{#each nationalities as |nationalityChoice index|}}
+	    <option value={{ index }} selected={{eq nationalityIndex index}}>{{nationalityChoice.name}}</option>
 	  {{/each}}
 	</select>
 	</p>

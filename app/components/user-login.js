@@ -19,6 +19,7 @@ export default Ember.Component.extend({
 				  error: function(user, error) {
 				    // The login failed. Check error to see why.
 				    console.log(error.code+": " + error.message);
+				    alert("Error with login: " + error.message);
 				  }
 				});
           	} else {
