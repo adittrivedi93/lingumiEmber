@@ -6,17 +6,17 @@ export default Ember.Component.extend({
 	lastName: '',
 	parentId:'',
 	genderIndex: 0,
-	languageIndex: 0,
+	nationalityIndex: 0,
 
-	nationality: Ember.computed('languageIndex', function() {
-		return this.get('languages')[this.get('languageIndex')];
+	nationality: Ember.computed('nationalityIndex', function() {
+		return this.get('nationalities')[this.get('nationalityIndex')];
 	}),
 
 	gender: Ember.computed('genderIndex', function() {
 		return this.get('genders')[this.get('genderIndex')];
 	}),
 
-	languages: [
+	nationalities: [
 		{name: ''},
 		{name: 'Chinese'},
 		{name: 'English'},
