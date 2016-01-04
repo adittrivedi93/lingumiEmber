@@ -1,11 +1,27 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-
+	needs: 'quickReg',
 	title: 'Register to get started',
 	email: '',
 	password: '',
 	repeatPassword: '',
+	count:false,
+
+	didRender: function(){
+		if(this.get('count') == false){		
+			this.set('count',true);
+			Ember.run.scheduleOnce('afterRender', this, 'setQuickRegEmail');
+		}
+	},
+
+	setQuickRegEmail: function(){
+		if(this.get('model').length==0){
+			console.log("correctomondo");
+		} else{
+			this.set('email', this.get('model'));
+		}
+	},
 
 	changePasswordStrength: function(){
 		var strengthCounter =0;
@@ -57,8 +73,19 @@ export default Ember.Component.extend({
 								user.signUp(null, {
 								  success: function(user) {
 								    // Hooray! Let them use the app now.
-								    console.log("User added, time to re-direct pages");
-									self.sendAction('registrationComplete');
+								    if(self.get('model').length>0){
+										var QuickReg = Parse.Object.extend("QuickRegistration");
+										var query = new Parse.Query(QuickReg);
+										query.equalTo("Email", self.get('model'));
+										query.find().then(function(results) {
+										    return Parse.Object.destroyAll(results);
+										}).then(function() {
+										    console.log("successfully registered account");
+										    self.sendAction("registrationComplete");
+										}, function(error) {
+										    // Error
+										});
+								    } 
 								  },
 								  error: function(user, error) {
 								    // Show the error message somewhere and let the user try again.
