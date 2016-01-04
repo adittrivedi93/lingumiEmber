@@ -40,8 +40,8 @@ export default Ember.Component.extend({
 
 	actions:{
 		'submitChildProfile': function(){
-			var firstName = this.get('firstName');
-			var lastName = this.get('lastName');
+			var firstName = this.get('childFirstName');
+			var lastName = this.get('childLastName');
 			var gender = this.get('gender.name');
 			var dob = this.get('dob');
 			//strDob just used to check length as is a string object

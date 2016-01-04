@@ -1,27 +1,56 @@
-<h2>Child profile</h2>
-<form {{action 'submitChildProfile' on='submit'}}>
-	<p>
-		<b> First Name: </b>
-		{{input value = firstName type="text" placeholder="First Name"}}
-	</p>
-	<p>
-		<b> Last Name: </b>
-		{{input value = lastName type="text" placeholder="Last Name"}} 
-	</p>
-	<p>
-	<b> Gender: </b>
-	<select onchange={{action (mut genderIndex) value="target.value"}}>
-	  {{#each genders as |genderChoice index|}}
-	    <option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
-	  {{/each}}
-	</select>
-	</p>
-	<p>
-		<b> Date of Birth: </b>
-		{{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
-	</p>
-	<p>{{firstName}} {{lastName}}</p>
-	<p>{{gender.name}}</p>
-	<p>{{dateOfBirth}}</p>
-	<button type="submit">Save</button>
-</form>
+<script>
+$(document).ready(function(){   
+	$('#child_added').hide();
+    $('.add_child_now').click(function() { //event called
+    	console.log("reached_hiding");
+        $("#add_child").hide(); // to hide all forms
+        $('#child_added').show();  //to dispaly needed form only
+          return false //option to stop
+ });
+
+ });
+</script>
+
+<div id="add_child">
+	<button type="submit" class="add_child_now btn btn-cyan">Add Child</button>
+</div>
+
+<div id="child_added">
+
+	<h2>Child profile</h2>
+	<form {{action 'submitChildProfile' on='submit'}}>
+
+		<div class="form-group">
+			<label>First Name:</label>
+			{{input value = childFirstName type="text" placeholder="First Name"}}
+		</div>
+
+		<div class="form-group">
+			<label>Last Name:</label>
+			{{input value = childLastName type="text" placeholder="Last Name"}} 
+		</div>
+
+		<div class="form-group">
+			<label>Gender:</label>
+			<select onchange={{action (mut genderIndex) value="target.value"}}>
+		  		{{#each genders as |genderChoice index|}}
+		    		<option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
+		  		{{/each}}
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label>Date of Birth:</label>
+			{{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
+		</div>
+
+		<button type="submit" class="btn btn-magenta">Save</button>
+	</form>
+	<div class="profile_output" id="child_output">
+		<p>Name:{{childFirstName}} {{childLastName}}</p>
+		<p>Gender: {{gender.name}}</p>
+		<p>Birthday: {{dateOfBirth}}</p>
+	</div>
+</div>
+
+
