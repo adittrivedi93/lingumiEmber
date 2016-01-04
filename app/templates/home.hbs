@@ -3,15 +3,16 @@
 <div class="top">
 
 	<div id="strapline">
-		<h2>Language development through play</h2>
-		<h3>Language learning and development at home for 2-6 year olds</h3>
+		<h2>Early learning to make your child smarter</h2>
+		<h3>Unlock the benefits of language learning at home</h3>
 		<div id="flags">
-			<h4>Supported languages:</h4>
+			<h4>Play and learn to speak:</h4>
 			<img src="assets/flag_gb.png">
 			<img src="assets/flag_fr.png">
 			<img src="assets/flag_cn.png">
 			<img src="assets/flag_sp.png">
 			<img src="assets/flag_it.png">
+			<img src="assets/age_label.gif" id="age_label">
 		</div>
 		<a href="#middle" class="btn btn-cyan"><span class="glyphicon glyphicon-chevron-down"></span>Watch the video</a>
 	</div>
@@ -25,24 +26,24 @@
 	<a href="#explainers" class="btn btn-magenta">How does it work? <span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
 
-	<div id="signup">
+	<div class="signup">
 		<p>Sign up here to start your Lingumi journey:</p>
           {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
   	</div>
 </div>
 <div class="row explainers landing_link" id="explainers">
-		<h2>How it works.</h2>
+		<h2>How does it work?</h2>
 		<div class="col-lg-4">
 			<img class="cubey" src="/assets/setup_icon1.png" width="100" height="100">
-			<h2>Get the Starter Kit</h2>
-			<h4>As a Lingumi member, the first step is the starter kit: physical cubes that interact with a tablet or smartphone in amazing ways to teach you and your child words and phrases through interactive games. Get started <a href="/sign-up">here</a>.</h4>
+			<h2>The Starter Kit</h2>
+			<h4>The first step is the starter kit: physical cubes that interact with a tablet or smartphone in amazing ways to teach you and your child words and phrases through interactive games. Buy your set <a href="/sign-up">here</a>.</h4>
 
 			
 		</div>
 		<div class="col-lg-4">
 			<img class="cubey" src="/assets/setup_icon2.png" width="100" height="100">
 			<h2>Download the apps</h2>
-			<h4>We'll help you download and setup the apps with the starter kit. 'First Words' gets you and your child started in a new language, and 'First Verbs' helps you expand your knowledge. Find out more <a href="/products">about the apps.</a></h4>
+			<h4>We'll help you download and setup the apps with the starter kit. 'First Words' gets you and your child started in a new language, and 'First Verbs' helps you expand your knowledge. Find out more <a href="/system">about the apps.</a></h4>
 			
 		</div>
 		<div class="col-lg-4">
@@ -147,23 +148,9 @@
 </div>
 
 
-<div id="signup">
+<div class="signup">
 	<p>Sign up here to start your Lingumi journey:</p>
-
-		<!-- Begin MailChimp Signup Form -->
-    <div id="mc_embed_signup">
-      <form action="//lingumi.us11.list-manage.com/subscribe/post?u=9c97205cb20435bb6d6cfe65b&amp;id=034aa41be7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_fdea3709b78b0c61d2a925c48_c871c6d81c" tabindex="-1" value="">
-          </div>
-          <div class="clear"><input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </div>
-          
-      </form>
-    </div>
-		<!--End mc_embed_signup-->
+		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
 </div>
 
 <div class="row explainers" id="info_pack">
