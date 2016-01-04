@@ -1,6 +1,10 @@
 .top {
 	width: 100%;
 }
+.landing_link {
+	padding-top: 4%;
+	margin-top: -4%;
+}
 #header-image {
 	width: 100%;
 }
@@ -48,6 +52,7 @@
 	color: white;
 	padding-bottom: 2%;
 }
+
 .play_styles{
 	width: 20%;
 	padding: 2%;
@@ -69,13 +74,12 @@
 	text-align: center;
 	padding-right: 12%;
 	padding-left: 12%;
-	padding-top: 2%;
 }
-.explainers h4, #bottom h4 {
+.explainers h4, #who_for h4 {
 	font-weight: 300;
 	line-height: 140%;
 }
-.explainers h2, #bottom h2 {
+.explainers h2, #who_for h2 {
 	font-weight: 300;
 	line-height: 140%;
 }
@@ -88,7 +92,7 @@
 .col-lg-4 h4 {
 	padding: 2% 5%;
 }
-#bottom img {
+#who_for img {
 	margin: 10px 10px;
 }
 #action {
@@ -112,14 +116,14 @@
 #preorder {
 	text-align: center;
 }
-#bottom h2, h4 {
+#who_for h2, h4 {
 	font-weight: 300;
 }
 .explainers .btn {
 	margin-left: 10px;
 }
 
-.banner {
+.landing_banner {
 	width: 100%;
 	border: 1px solid #009fe3;
 	background-color: #009fe3;
@@ -137,6 +141,7 @@
 	background-color: #009fe3;
 	padding-top: 20px;
 	text-align: center;
+	margin-bottom: 4%;
 }
 #signup form {
 	background-color: #009fe3;
@@ -194,11 +199,15 @@
 #lang_dev img {
 	width: 60%;
 }
+
 #second_lang img{
 	width: 60%;
 }
 #info_pack {
 	text-align: center;
+}
+.landing_banner {
+	margin: 2% 0;
 }
 
 /*media queries for smaller screens*/
