@@ -64,4 +64,7 @@ html {
 }
 #welcome {
 	float: right;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }

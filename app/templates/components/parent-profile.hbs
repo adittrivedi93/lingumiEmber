@@ -1,32 +1,36 @@
 <h2>Parent profiles</h2>
 <form {{action 'submitParentProfile' on='submit'}}>
-	<p>
-		<b> First Name: </b> {{input value = firstName type="text" placeholder="First Name"}}
-	</p>
+	<div class="form-group">
+		<label>First Name:</label> 
+		{{input value = firstName type="text" placeholder="First Name"}}
+	</div>
 
-	<p>
-		<b> Last Name: </b> {{input value = lastName type="text" placeholder="Last Name"}}
-	</p>
+	<div class="form-group">
+		<label>Last Name:</label>
+		{{input value = lastName type="text" placeholder="Last Name"}}
+	</div>
 
-	<p>
-	<b> Nationality: </b>
+	<div class="form-group">
+	<label>Nationality:</label>
 	<select onchange={{action (mut nationalityIndex) value="target.value"}}>
 	  {{#each nationalities as |nationalityChoice index|}}
 	    <option value={{ index }} selected={{eq nationalityIndex index}}>{{nationalityChoice.name}}</option>
 	  {{/each}}
 	</select>
-	</p>
+	</div>
 
-	<p>
-	<b> Gender: </b>
+	<div class="form-group">
+	<label>Gender:</label>
 	<select onchange={{action (mut genderIndex) value="target.value"}}>
 	  {{#each genders as |genderChoice index|}}
 	    <option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
 	  {{/each}}
 	</select>
-	</p>
-
-	<p>{{firstName}} {{lastName}}</p>
-	<p>{{nationality.name}}</p>
-	<button type="submit">Save</button>
+	</div>
+	<button type="submit" class="btn btn-cyan">Save</button>
 </form>
+
+<div class="profile_output" id="parent_output">
+	<p>Name: {{firstName}} {{lastName}}</p>
+	<p>Nationality: {{nationality.name}}</p>
+</div>
