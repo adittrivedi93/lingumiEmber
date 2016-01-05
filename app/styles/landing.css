@@ -19,7 +19,13 @@
 #strapline h2 {
 	margin: 15px 25px;
 	font-weight: 300;
-	font-size: 3em;
+	font-size: 3.2em;
+}
+#strapline h3 {
+	font-size: 2.2em;
+}
+#strapline h4 {
+	font-size: 2em;
 }
 #strapline h3 {
 	font-weight: 300;
@@ -32,7 +38,9 @@
 	width: 8%;
 	padding: 1%;
 }
-
+#flags .btn {
+	margin-top: -40px;
+}
 #middle {
 	text-align: center;
 	margin-top: 2%;
@@ -50,7 +58,7 @@
 	background-color: #009fe3;
 	margin-top: 2%;
 	color: white;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 }
 
 .play_styles{
@@ -123,13 +131,28 @@
 	margin-left: 10px;
 }
 
-.landing_banner {
+.banner {
 	width: 100%;
 	border: 1px solid #009fe3;
 	background-color: #009fe3;
 	margin-top: 2%;
-	padding-top: 10px;
+	padding: 4% 10%;
 	text-align: left;
+	color: white;
+	margin: 4% 0;
+}
+.banner h4 {
+	font-weight: 300;
+	font-size: 2em;
+}
+.age_range {
+	border-radius: 16px;
+	background-color: #e6007e;
+	margin: 1% 30%;
+	height: 40px;
+}
+#play_styles h4 {
+	color: #baf4fe;
 }
 
 /* Mailchimp signup stuff */
@@ -139,17 +162,16 @@
 	width: 100%;
 	border: 1px solid #009fe3;
 	background-color: #009fe3;
-	padding-top: 20px;
+	padding: 4% 0;
 	text-align: center;
 	margin-bottom: 4%;
-	padding-bottom: 20px;
 }
 .signup form {
 	background-color: #009fe3;
 }
 .signup p {
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 2.5em;
 	color: white;
 }
 .signup input {
@@ -230,12 +252,20 @@
   color: #fff;
   background-color:#3498db;
 }
-#lang_dev img {
-	width: 60%;
+#kit_contents h3, #kit_contents p {
+	font-weight: 300;
+	color: #009fe3;
 }
-
-#second_lang img{
+#kit_cubes img {
+	width: 80%;
+}
+#our_apps img{
 	width: 60%;
+	margin: 3px 0;
+}
+#our_langs img {
+	width: 15%;
+	margin: 5px;
 }
 #info_pack {
 	text-align: center;
@@ -248,6 +278,9 @@
 }
 #flags h4 {
 	margin-bottom: -20px;
+}
+#design_how h2 {
+	margin-bottom: 3%;
 }
 
 /*media queries for smaller screens*/

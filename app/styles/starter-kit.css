@@ -1,0 +1,15 @@
+#get_kit h3, #get_kit p {
+	font-weight: 300;
+	color: #009fe3;
+}
+#get_kit {
+	background-color: white;
+	padding: 1% 12%;
+	margin-top: 1%;
+}
+#get_kit h2 {
+	margin-bottom: 1%;
+}
+#get_kit .btn {
+	margin: 3% 0;
+}

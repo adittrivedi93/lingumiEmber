@@ -22,6 +22,8 @@ Router.map(function() {
   this.route('faq');
   this.route('testimonials');
   this.route('blog');
+  this.route('starter-kit');
+  this.route('contact');
 });
 
 export default Router;
