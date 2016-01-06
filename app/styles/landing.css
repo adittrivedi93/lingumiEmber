@@ -15,11 +15,12 @@
 }
 #strapline {
 	text-align: center;
+	padding-top: 5%;
 }
 #strapline h2 {
 	margin: 15px 25px;
 	font-weight: 300;
-	font-size: 3.2em;
+	font-size: 2.8em;
 }
 #strapline h3 {
 	font-size: 2.2em;

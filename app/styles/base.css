@@ -4,8 +4,8 @@ html {
 
 .content {
 	width: 100%;
-	padding-top: 20%;;
-	background: url('/assets/web_bg.gif');
+	padding-top: 16%;;
+	background: url('/assets/web_bg3.gif');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 }
@@ -55,7 +55,7 @@ html {
 	margin: 5px 5px;
 }
 .navbar-header img {
-	width: 9em;
+	width: 12em;
 }
 .navbar-scroll {
 	background-color: white !important;
@@ -68,3 +68,9 @@ html {
 	bottom: 0;
 	left: 0;
 }
+@media (max-width: 770px) {
+	.content {
+		padding-top: 22%;
+	}
+}
+

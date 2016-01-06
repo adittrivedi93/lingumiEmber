@@ -1,0 +1,23 @@
+/*reg-info component*/
+
+#reg_why_btn {
+	border: 0px transparent;
+	width: auto;
+	background-color: transparent;
+	font-weight: 300;
+	color: #baf4fe;
+}
+.reg_info {
+	padding-left: 25%;
+	display: none;
+}
+.reg_info ul li {
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #fff;
+	margin: 0.5% 0;
+}
+.reg_info ul {
+    text-align: left;
+    list-style-position: inside;
+}
