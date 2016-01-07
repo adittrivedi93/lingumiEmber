@@ -4,7 +4,7 @@ export default Ember.Component.extend({
 	actions: {
 		showinfo: function() {
       console.log("ready and up");
-			$('.reg_info').toggle();
+			Ember.$('.reg_info').toggle();
       return false;
    //  		$('#reg_why_btn').click(function() { //event called
    //  			if($('#reg_info').is(':hidden')){
