@@ -59,7 +59,7 @@
 	background-color: #009fe3;
 	margin-top: 2%;
 	color: white;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 }
 
 .play_styles{
@@ -154,6 +154,9 @@
 }
 #play_styles h4 {
 	color: #baf4fe;
+}
+#benefits_signup h2 {
+	margin-top: 2%;
 }
 
 /* Mailchimp signup stuff */

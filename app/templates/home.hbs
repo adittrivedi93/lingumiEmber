@@ -22,7 +22,7 @@
 <div id="middle">
 	<div id = "video-embed" class="landing_link">
 	<iframe src="https://player.vimeo.com/video/147697603" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><a href="https://vimeo.com/147697603"></a><br/>
-	<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-cyan">Buy</a>
+	{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
 	<a href="#explainers" class="btn btn-magenta">How does it work? <span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
 
@@ -37,7 +37,7 @@
 		<div class="col-lg-4">
 			<img class="cubey" src="/assets/setup_icon1.png" width="100" height="100">
 			<h2>The Starter Kit</h2>
-			<h4>The first step is the starter kit: physical cubes that interact with a tablet or smartphone in amazing ways to teach you and your child words and phrases through interactive games. Buy your set <a href="/sign-up">here</a>.</h4>
+			<h4>The first step is the starter kit: physical cubes that interact with a tablet or smartphone in amazing ways to teach you and your child words and phrases through interactive games. Buy your set <a href="/products">here</a>.</h4>
 
 		</div>
 		<div class="col-lg-4">
@@ -53,7 +53,7 @@
 		</div>
 </div>
 <div class="action">
-		<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-cyan">Buy</a>
+		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
 		<a href="#kit_contents" class="btn btn-magenta">What is it for?</a>
 </div>
 
@@ -62,7 +62,7 @@
 	<h2>What will you learn with Lingumi?</h2>
 	<h4>Learn over 50 words and over 10 phrases in a new language, selected from the <strong>Oxford CDI</strong>, a list of the first words learned by infants in their first language.</h4>
 
-	<div class="col-sm-4">
+	<div class="col-sm-4" id="learning_benefits">
 		<div class="age_range" id="two_up">
 			<h3>2-3 +</h3>
 		</div>
@@ -107,7 +107,8 @@
 			<h4>ask & answer questions</h4>
 			<h4>group play & imagination</h4>
 	</div>
-	<div class="signup">
+	<div class="signup" id="benefits_signup">
+		<h2>Get started by entering your email address</h2>
 		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
 	</div>
 </div>
@@ -117,7 +118,7 @@
 	<div class="col-md-4 kit_content_columns" id="kit_cubes">
 		<h3><strong>Five squishy character cubes</strong></h3>
 		<h4>Colourful cubes that interact with our apps in magical ways</h4>
-		<img src="assets/development_graph.png">
+		<img src="assets/kit_smaller.png">
 		<h3><strong>Box and stand</strong></h3>
 		<h4>The box creates a playing surface for your child to place the cubes, and the stand holds your tablet or smartphone</h4>
 	</div>
@@ -139,10 +140,11 @@
 		<h3><strong>Technical information</strong></h3>
 		<h4>The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS 8.4 and above, or Android devices running 2.3 or above.</h4>
 	</div>
-	<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-cyan">Buy</a>
-	{{#link-to 'contact' class="btn btn-navbar btn-magenta"}}Ask a question{{/link-to}}
 </div>
-	
+<div class="centered">
+{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
+	{{#link-to 'contact' class="btn btn-navbar btn-green"}}Ask a question{{/link-to}}
+</div>
 
 <div class="banner">
 	<!-- <img src="testimonial1.png"> -->
@@ -170,7 +172,7 @@
 		<h4>Piece about how it's designed with special needs in mind and testing with NHS and Downs Syndrome Charities. See <a href="/benefits">the benefits</a> here.</h4><br/>
 	</div>
 	<div class="action">
-		{{#link-to 'starter-kit' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
+		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
 		<a href="#who_for" class="btn btn-magenta">Who is it for?</a>
 	</div>
 </div>
@@ -200,7 +202,7 @@
 		<h2>Teachers & professionals</h2>
 		<h4>Lingumi Cubes are brilliant for nurseries or therapy environments. They're <strong>tactile, responsive, and visual</strong>, designed to promote co-ordinated attention in children. The activities are short, and it takes 20 seconds to set up.</h4>
 	</div>
-	<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-cyan">Buy</a>
+	{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
 	<a href="#action" class="btn btn-magenta">What's included?</a>
 </div>
 	
