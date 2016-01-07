@@ -1,10 +1,36 @@
 /*classes refering to method content are also used in system.html to refer to system content under name method*/
 
 #journey_header {
-	padding: 5% 15%;
-}
-#journey_header {
+	padding: 2% 15%;
 	text-align: center;
+}
+#journey_header img {
+	width: 65%;
+	padding: 1%;
+}
+#method_intro {
+	text-align: left;
+	padding-top: 3%;
+}
+.method_number {
+	border-radius: 25px;
+	color: white;
+	font-size: 24px;
+}
+.method_number p {
+	background-color: #e6007e;
+	width: 30px;
+	height: 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-weight: 500;
+}
+.method_number {
+	float: left;
+	margin-right: 2%;
+}
+.inline_step {
+	padding-top: 3%;
 }
 .float-left {
 	float: left;
@@ -49,4 +75,9 @@
 }
 .subnav {
 	display: inline-block;
+}
+@media (max-width: 770px) {
+	#journey_header img {
+		width: 75%;
+	}
 }
