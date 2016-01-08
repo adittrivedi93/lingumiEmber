@@ -1,6 +1,9 @@
 html {
 	width: 100%;
 }
+.page_content {
+	text-align: center;
+}
 .page_content h2, .page_content h4, .page_content p {
 	font-weight: 300;
 }
