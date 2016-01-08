@@ -4,10 +4,12 @@
 			<h2>The Starter Kit:</h2>
 			<img src="assets/starter_kit.png">
 		</div>
-		<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-magenta">Checkout</a>
+		<!-- <a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-magenta">Checkout</a> -->
+		{{#link-to 'checkout' class="btn btn-magenta"}}Checkout{{/link-to}}
 		{{#scroll-to href='#kit_info' label='Kitinfo' offset=-60 class="btn btn-cyan"}}
 			More info
-			{{/scroll-to}}
+		{{/scroll-to}}
+		
 		<div class="row" id="kit_info">
 			<div class="col-md-4 kit_content_columns" id="kit_cubes">
 				<h3><strong>Five squishy character cubes</strong></h3>
@@ -35,7 +37,7 @@
 				<h4>The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS 8.4 and above, or Android devices running 2.3 or above.</h4>
 			</div>
 		</div>
-		<a href="https://shop.trycelery.com/page/a38df9aa-20bd-47e0-a5ea-f3caf0d52325" class="btn btn-navbar btn-magenta">Checkout</a>
+		{{#link-to 'checkout' class="btn btn-magenta"}}Checkout{{/link-to}}
 		{{#link-to 'contact' class="btn btn-navbar btn-cyan"}}Ask a question{{/link-to}}
 	</div>
 </div>
