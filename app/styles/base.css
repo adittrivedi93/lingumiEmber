@@ -1,9 +1,7 @@
 html {
 	width: 100%;
 }
-.page_content {
-	text-align: center;
-}
+
 .page_content h2, .page_content h4, .page_content p {
 	font-weight: 300;
 }
@@ -79,6 +77,11 @@ html {
 	margin-right: auto;
 	margin-top: 1%;
 }
+.well_padded {
+	margin-top: 3%;
+	padding: 1% 20%;
+}
+
 @media (max-width: 770px) {
 	.content {
 		padding-top: 22%;

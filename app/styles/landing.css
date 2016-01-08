@@ -64,11 +64,11 @@
 
 .play_styles{
 	width: 20%;
-	padding: 2%;
+	padding: 2% 0;
 }
 .play_styles_centre {
 	width:30%;
-	padding: 1%;
+	padding: 1% 0;
 }
 
 #video-embed {
@@ -164,13 +164,15 @@
 .signup {
 	margin-top: 30px;
 	width: 100%;
-	border: 1px solid #009fe3;
-	background-color: #009fe3;
 	padding: 4% 0;
 	text-align: center;
 	margin-bottom: 4%;
 }
-.signup form {
+.signup_landing {
+	border: 1px solid #009fe3;
+	background-color: #009fe3;
+}
+.signup_landing form {
 	background-color: #009fe3;
 }
 .signup p {

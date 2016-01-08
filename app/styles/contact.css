@@ -1,0 +1,11 @@
+#contact_us .col-md-6 h4, #contact_us .col-md-6 p {
+	margin-top: 4%;
+}
+#map {
+        width: 500px;
+        height: 400px;
+      }
+.map-canvas {
+    height: 500px;
+    width: 500px;
+}
