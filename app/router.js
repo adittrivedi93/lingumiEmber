@@ -28,6 +28,7 @@ Router.map(function() {
   this.route('order-conf');
   this.route('international');
   this.route('about');
+  this.route('reg-complete');
 });
 
 export default Router;

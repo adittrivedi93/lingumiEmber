@@ -77,9 +77,18 @@ html {
 	margin-right: auto;
 	margin-top: 1%;
 }
+.quite_padded {
+	padding: 1% 15%;
+}
 .well_padded {
 	margin-top: 3%;
 	padding: 1% 20%;
+}
+.float_right {
+	text-align: right;
+}
+.float_left {
+	text-align:left;
 }
 
 @media (max-width: 770px) {

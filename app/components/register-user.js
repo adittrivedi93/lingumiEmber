@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 	needs: 'quickReg',
-	title: 'Register to get started',
+	title: 'Become a member today:',
 	email: '',
 	password: '',
 	repeatPassword: '',
@@ -51,7 +51,6 @@ export default Ember.Component.extend({
 
 	actions:{
 		registration: function(){
-			console.log("click from component");
 			var email = this.get('email');
 			var password = this.get('password');
 			var self = this;
@@ -69,6 +68,7 @@ export default Ember.Component.extend({
 								user.set("username", email);
 								user.set("password", password);
 								user.set("email", email);
+								console.log("success so far");
 
 								user.signUp(null, {
 								  success: function(user) {
@@ -93,15 +93,15 @@ export default Ember.Component.extend({
 								  }
 								});
 							} else {
-								console.log("user already exists");
+								alert("user already exists");
 							}
 						}
 					});
 				} else{
-					console.log("passwords do not match");
+					alert("passwords do not match");
 				}
 			} else{
-				console.log("Enter an email");
+				alert("Enter an email");
 			}
 		}
 	}
