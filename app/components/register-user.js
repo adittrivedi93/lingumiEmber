@@ -17,7 +17,6 @@ export default Ember.Component.extend({
 
 	setQuickRegEmail: function(){
 		if(this.get('model').length==0){
-			console.log("correctomondo");
 		} else{
 			this.set('email', this.get('model'));
 		}
@@ -50,7 +49,7 @@ export default Ember.Component.extend({
 	}.observes('password'),
 
 	actions:{
-		registration: function(){
+		registrationComplete: function(){
 			var email = this.get('email');
 			var password = this.get('password');
 			var self = this;
@@ -81,11 +80,14 @@ export default Ember.Component.extend({
 										    return Parse.Object.destroyAll(results);
 										}).then(function() {
 										    console.log("successfully registered account");
-										    self.sendAction("registrationComplete");
+										    // self.sendAction("registrationComplete");
 										}, function(error) {
 										    // Error
 										});
+
 								    } 
+								    console.log("registration passed");
+								    self.sendAction("registrationComplete");
 								  },
 								  error: function(user, error) {
 								    // Show the error message somewhere and let the user try again.
