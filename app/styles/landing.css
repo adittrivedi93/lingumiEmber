@@ -301,5 +301,10 @@
 	#play_styles img {
 		width: 30%;
 	}
+	#middle iframe {
+	margin-bottom: 30px;
+	width: 300px;
+	height:auto;
+}
 }
 
