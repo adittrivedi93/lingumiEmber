@@ -58,7 +58,7 @@ html {
 	margin: 5px 5px;
 }
 .navbar-header img {
-	width: 12em;
+	width: 70%;
 }
 .navbar-scroll {
 	background-color: white !important;
@@ -95,5 +95,8 @@ html {
 	.content {
 		padding-top: 22%;
 	}
+	.navbar-header img {
+	width: 40%;
+}
 }
 
