@@ -45,6 +45,9 @@
 		padding-right: 10%;
 		padding-left: 10%;
 	}
+	.form .input {
+	max-width: 300px;
+	}
 	#form-sections {
 		padding-right: 0;
 	}

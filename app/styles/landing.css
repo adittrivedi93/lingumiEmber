@@ -55,7 +55,6 @@
 	margin-left: 10px;
 }
 #play_styles {
-	width: 100%;
 	background-color: #009fe3;
 	margin-top: 2%;
 	color: white;
@@ -186,7 +185,8 @@
 	text-align: center;
 	margin-bottom: 1px;
 	margin-top: 10px;
-	width: 350px;
+	width: 80%;
+	max-width: 500px;
 	border-radius: 16px;
 	border: none;
 	background-color: #fff;
@@ -238,7 +238,7 @@
   text-align: center;
   margin-bottom: 1px;
   margin-top: 10px;
-  width: 350px;
+  width: 300px;
 }
 
 #mc-embedded-subscribe {
@@ -305,6 +305,12 @@
 	margin-bottom: 30px;
 	width: 300px;
 	height:auto;
+	}
 }
+@media (max-width: 480px) {
+	#middle iframe {
+		width: 270px;
+		height: auto;
+	}
 }
 
