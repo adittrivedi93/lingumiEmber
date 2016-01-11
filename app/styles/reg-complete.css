@@ -17,8 +17,18 @@
 	width: 30px;
 	height:30px;
 }
-.reg_steps img {
+#reg_get_kit img {
 	width: 40%;
+	float: left;
+	margin: 2%;
+}
+#communities img {
+	width: 20%;
+	float: left;
+	margin: 2%;
+}
+#ref_friends img {
+	width: 20%;
 	float: left;
 	margin: 2%;
 }

@@ -1,25 +1,39 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=157390164616889";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="page_content">
 	<div class="well_padded" id="reg_complete">
 		<h4>Thanks for registering!</h4>
 		<h2>Your next steps:</h2>
 
-		<div class="row reg_steps">
+		<div class="row reg_steps" id="reg_get_kit">
 			<h4 class="number">1</h4>
 			<img src="assets/starter_kit.png">
 			<h2>Order the starter kit.</h2>
 			{{#link-to 'checkout' class="btn btn-cyan"}}Checkout{{/link-to}}
 		</div>
 
-		<div class="row reg_steps">
+		<div class="row reg_steps" id="communities">
 			<h4 class="number">2</h4>
-			<img src="assets/starter_kit.png">
+			<img src="assets/globe.png">
 			<h2>Join our communities.</h2>
+			<div class="row fb-like" style="margin:1%" data-href="https://facebook.com/lingumi" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+			<div class="row" style="margin:1%"><a href="https://twitter.com/LingumiLabs" class="twitter-follow-button" data-show-count="false">Follow @LingumiLabs on Twitter</a></div>
+
 		</div>
 
-		<div class="row reg_steps">
+		<div class="row reg_steps" id="ref_friends">
 			<h4 class="number">3</h4>
-			<img src="assets/starter_kit.png">
+			<img src="assets/ref_friends.png">
 			<h2>Refer friends for free stuff.</h2>
+			<h4>We'll send you a personal referral code to share to friends, in return for free goodies. {{#link-to 'contact'}}Contact us{{/link-to}} for more information on referral bonuses.</h4>
 		</div>
+		{{#link-to 'profile' class="btn btn-magenta"}}Continue to profile{{/link-to}}
 	</div>
 </div>
