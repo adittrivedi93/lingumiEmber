@@ -1,4 +1,4 @@
-<div id="navigation">
+<div class="row" id="navigation">
 	<nav class="navbar navbar-default navbar-noscroll navbar-fixed-top">
 
 		<div class="navbar-header">
@@ -6,7 +6,7 @@
 				<img src="/assets/brand_simple.png">
 			</a>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	                <i class="fa fa-bars"></i>
+	                <i class="fa fa-bars" style="background color: white"></i>
 	        </button>
 		</div>
 
@@ -21,9 +21,11 @@
 					<a class="dropdown-toggle btn btn-navbar btn-cyan" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {{action 'selectedMore' on='click'}}>More<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>{{#link-to 'benefits'}}Benefits{{/link-to}}</li>
+						<li>{{#link-to 'international'}}International{{/link-to}}</li>
+						<li>{{#link-to 'about'}}About Us{{/link-to}}</li>
+						<li>{{#link-to 'contact'}}Contact Us{{/link-to}}</li>
 						<li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
-						<li>{{#link-to 'testimonials'}}Testimonials{{/link-to}}</li>
-						<li>{{#link-to 'blog'}}Blog{{/link-to}}</li>
+						<li>{{#link-to 'slt'}}Special Needs{{/link-to}}</li>
 						<li>{{#link-to 'educators'}}Schools & Nurseries{{/link-to}}</li>
 						<li>{{#if userLoggedIn}}
 								{{#link-to 'profile'}}<strong>Profile</strong>{{/link-to}}

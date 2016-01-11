@@ -55,7 +55,6 @@
 	margin-left: 10px;
 }
 #play_styles {
-	width: 100%;
 	background-color: #009fe3;
 	margin-top: 2%;
 	color: white;
@@ -64,19 +63,17 @@
 
 .play_styles{
 	width: 20%;
-	padding: 2%;
+	padding: 2% 0;
 }
 .play_styles_centre {
 	width:30%;
-	padding: 1%;
+	padding: 1% 0;
 }
 
 #video-embed {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .explainers, #action {
@@ -164,13 +161,15 @@
 .signup {
 	margin-top: 30px;
 	width: 100%;
-	border: 1px solid #009fe3;
-	background-color: #009fe3;
 	padding: 4% 0;
 	text-align: center;
 	margin-bottom: 4%;
 }
-.signup form {
+.signup_landing {
+	border: 1px solid #009fe3;
+	background-color: #009fe3;
+}
+.signup_landing form {
 	background-color: #009fe3;
 }
 .signup p {
@@ -184,7 +183,8 @@
 	text-align: center;
 	margin-bottom: 1px;
 	margin-top: 10px;
-	width: 350px;
+	width: 80%;
+	max-width: 500px;
 	border-radius: 16px;
 	border: none;
 	background-color: #fff;
@@ -236,7 +236,7 @@
   text-align: center;
   margin-bottom: 1px;
   margin-top: 10px;
-  width: 350px;
+  width: 300px;
 }
 
 #mc-embedded-subscribe {
@@ -298,6 +298,17 @@
 	}
 	#play_styles img {
 		width: 30%;
+	}
+	#middle iframe {
+	margin-bottom: 30px;
+	width: 300px;
+	height:auto;
+	}
+}
+@media (max-width: 480px) {
+	#middle iframe {
+		width: 270px;
+		height: auto;
 	}
 }
 

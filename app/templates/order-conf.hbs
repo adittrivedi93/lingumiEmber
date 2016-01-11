@@ -1,0 +1,59 @@
+<head>
+    <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+   
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+   
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+ </head>
+
+<div class="page_content">
+	<div class="checkout_stage">
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="stage_point stage_point_inactive">1</div>
+				<h4>Start checkout</h4>
+			</div>
+			<div class="col-xs-4">
+				<div class="stage_point stage_point_inactive">2</div>
+				<h4>Payment</h4>
+			</div>
+			<div class="col-xs-4 checkout_active">
+				<div class="stage_point stage_point_active">3</div>
+				<h4>Confirmation</h4>
+			</div>
+		</div>
+	</div>
+
+	<!-- REMEMBER TO ADD EMAIL TO THIS PRE-FILL -->
+
+	<div class="row explainers" id="checkout_conf">
+		<h2>Thanks for your order.</h2>
+			<h4>It's on its way to you.</h4>
+			<div id="signup_bonus">
+				<h2>Want a free <strong>sticker pack</strong> for your child?</h2>
+				<h4>Just click here to tweet or share your purchase publicly on Facebook, and we'll include one in your order for free.</h4>
+				<div class="row float_right">
+					<div class="col-xs-6">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lingumi.com" data-text="I've just bought the Lingumi Starter Kit from" data-via="LingumiLabs">Tweet</a>
+					</div>
+					<div class="col-xs-6 float_left">
+						<div class="fb-share-button" data-href="http://lingumi.com" data-layout="button"></div>
+					</div>
+				</div>
+			</div>
+			<h4>All you need to do now is {{#link-to 'registerAccount'}}sign up for an account here{{/link-to}}, so you can log in to the app, save your child's progress, and find out how they are learning.</h4>
+
+	</div>
+
+</div>

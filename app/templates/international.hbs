@@ -1,0 +1,60 @@
+<head>
+    <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+   
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+   
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+ </head>
+
+<div class="page_content" id="international_page">
+	<div id="map_illustration">
+		<img src="assets/map_illustration.png">
+	</div>
+
+	<div id="send_where">
+	
+		<div class="row" id="countries_available">
+			<h2>Countries we send to:</h2>
+			<div class="col-sm-4">
+				<p>United Kingdom</p>
+				<p>Northern Ireland</p>
+				<p>France</p>
+				<p>Italy</p>
+			</div>
+			<div class="col-sm-4">
+				<p>Germany</p>
+				<p>Sweden</p>
+				<p>Austria</p>
+				<p>Netherlands</p>
+			</div>
+			<div class="col-sm-4">
+				<p>Spain</p>
+				<p>Finland</p>
+				<p>Portugal</p>
+				<p>Belgium</p>
+			</div>
+			<div class="col-sm-12">
+				{{#link-to 'checkout' class="btn btn-magenta"}}Buy{{/link-to}}
+				{{#link-to 'products' class="btn btn-cyan"}}More info{{/link-to}}
+			</div>
+		</div>
+
+		<div id="international_details">
+			<h4><strong>Want Lingumi in your country?</strong></h4>
+			<p>We're arriving in more countries all the time. To get your country top of the list, click to tweet below, or email us with your country.</p>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.lingumi.com" data-text="I'd like Lingumi in my country!" data-via="LingumiLabs" data-size="large" data-hashtags="langchat,lingumi">Tweet</a>
+			
+		</div>
+	</div>
+</div>

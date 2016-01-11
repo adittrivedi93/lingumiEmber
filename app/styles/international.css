@@ -1,0 +1,39 @@
+#international_page {
+	text-align: center;
+}
+#map_illustration {
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+#map_illustration img {
+	width: 30%;
+}
+#international_details {
+	margin: 1% 0;
+	padding: 1% 15%;
+	background-color: #585558;
+	color: white;
+}
+#international_details 
+#send_where {
+	padding-bottom: 1%;
+}
+.float_right p {
+	text-align: right;
+}
+.float_left p {
+	text-align:left;
+}
+.buy_buttons {
+	margin: 1% 0;
+}
+#countries_available {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+@media (max-width: 770px) {
+	#map_illustration img {
+		width: 70%;
+	}
+}

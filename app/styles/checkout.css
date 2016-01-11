@@ -1,0 +1,55 @@
+#checkout {
+	padding-bottom: 2%;
+	margin-top: 1%;
+}
+#checkout_conf {
+	padding: 1% 18%;
+}
+#starter_kit img {
+	width: 80%;
+}
+.checkout_stage {
+	margin-top: 2%;
+	width: 100%;
+	background-color: white;
+	color: #323232;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.checkout_stage .row {
+	width: 50%;
+    margin: 0 auto;
+}
+.checkout_stage .col-xs-4 {
+	padding: 1%;
+}
+.checkout_stage .col-xs-4 h4 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.checkout_active {
+	background-color: #009fe3;
+	color: white;
+	height: 100%;
+}
+.stage_point {
+	width: 30px;
+	height: 30px;
+	border-radius: 25px;
+	text-align: center;
+	font-weight: 500;
+	float: left;
+	font-size: 20px;
+}
+.stage_point_active {
+	background-color: #e6007e;
+}
+.stage_point_inactive {
+	border: 2px solid #e6007e;
+	color: #e6007e;
+}
+/*.checkout_stage .col-xs-4 {
+	text-align: center;
+}*/

@@ -26,9 +26,13 @@
 	background-color: #585558;
 	border-radius: 15px;
 	padding-bottom: 10%;
+	margin: 2% 0;
 }
 .form-inline label {
 	font-size: 1.2em;
+}
+#reg_form .form-inline button {
+	margin-bottom: 1%;
 }
 .form-inline .btn {
 	float: right;
@@ -40,6 +44,9 @@
 		padding-top: 2%;
 		padding-right: 10%;
 		padding-left: 10%;
+	}
+	.form .input {
+	max-width: 300px;
 	}
 	#form-sections {
 		padding-right: 0;

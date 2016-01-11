@@ -3,10 +3,12 @@
 <div class="top">
 
 	<div id="strapline">
-		<h2><strong>Interactive</strong> language learning for <strong>under 6s</strong></h2>
+		<h2>Interactive <strong>language learning</strong> for infants</h2>
+{{!-- 		<h2><strong>Teach your child a language through play</strong></h2> --}}
 
 		<div id="flags">
-			<h3>Multi-sensory. Tactile. Playful.</h3>
+			{{!-- <h3>Multi-sensory. Tactile. Playful.</h3> --}}
+			<h3>Interactive. Multi-sensory. Tactile.</h3>
 			<img src="assets/flag_gb.png">
 			<img src="assets/flag_fr.png">
 			<img src="assets/flag_cn.png">
@@ -26,8 +28,8 @@
 	<a href="#explainers" class="btn btn-magenta">How does it work? <span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
 
-	<div class="signup">
-		<p>Sign up here to start your Lingumi journey:</p>
+	<div class="signup signup_landing">
+		<p>Become a member today:</p>
           {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
           {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
   	</div>
@@ -54,7 +56,7 @@
 </div>
 <div class="action">
 		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-		<a href="#kit_contents" class="btn btn-magenta">What is it for?</a>
+		<a href="#kit_contents" class="btn btn-magenta">What's the kit?</a>
 </div>
 
 <div class="row explainers" id="play_styles">
@@ -107,7 +109,7 @@
 			<h4>ask & answer questions</h4>
 			<h4>group play & imagination</h4>
 	</div>
-	<div class="signup" id="benefits_signup">
+	<div class="signup signup_landing" id="benefits_signup">
 		<h2>Get started by entering your email address</h2>
 		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
 	</div>
@@ -139,6 +141,8 @@
 			<img src="assets/flag_sp.png">
 		<h3><strong>Technical information</strong></h3>
 		<h4>The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS 8.4 and above, or Android devices running 2.3 or above.</h4>
+		<h3><strong>Price & Shipping</strong></h3>
+		<h4>The kit costs £30 + delivery, which varies by country. To read more about our availability in your country, visit our {{#link-to 'international'}}International page{{/link-to}}.</h4>
 	</div>
 </div>
 <div class="centered">
@@ -157,19 +161,19 @@
 	<div class="col-lg-4">
 		<img class="cubey" src="/assets/structured.png" width="100" height="100">
 		<h2>Structured</h2>
-		<h4>Piece of text about the method and how it works. Read about <a href="/system">how it works</a> here.</h4>	
+		<h4>Our games and Starter Kit were designed from the ground up to integrate research into the way infants naturally learn language. Read about <a href="/method">how it works</a> here.</h4>	
 	</div>
 
 	<div class="col-lg-4">
 		<img class="cubey" src="/assets/researched.png" width="100" height="100">
 		<h2>Researched</h2>
-		<h4>Stuff about the academic research and how it works. Read <a href="/method">about the curriculum</a> here.</h4>
+		<h4>We are advised by top academics in infant language acquisition, who help us design our kit and games for effective learning. Read <a href="/method">about the method</a> here.</h4>
 	</div>
 
 	<div class="col-lg-4">
 		<img class="cubey" src="/assets/inclusive.png" width="100" height="100">
 		<h2>Inclusive</h2>
-		<h4>Piece about how it's designed with special needs in mind and testing with NHS and Downs Syndrome Charities. See <a href="/benefits">the benefits</a> here.</h4><br/>
+		<h4>We've designed our Starter Kit with special needs in mind: we've tested it with speech therapists and Down's Syndrome organisations. See <a href="/slt">how Lingumi can help your child</a> here.</h4><br/>
 	</div>
 	<div class="action">
 		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
@@ -177,8 +181,8 @@
 	</div>
 </div>
 
-<div class="signup">
-	<p>Sign up here to start your Lingumi journey:</p>
+<div class="signup signup_landing">
+	<p>Become a member today:</p>
       {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
       {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
  </div>
@@ -199,11 +203,11 @@
 
 	<div class="col-lg-4">
 		<img class="cubey" src="/assets/icon_teacher.png" width="100" height="100">
-		<h2>Teachers & professionals</h2>
+		<h2>Teachers & Professionals</h2>
 		<h4>Lingumi Cubes are brilliant for nurseries or therapy environments. They're <strong>tactile, responsive, and visual</strong>, designed to promote co-ordinated attention in children. The activities are short, and it takes 20 seconds to set up.</h4>
 	</div>
 	{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-	<a href="#action" class="btn btn-magenta">What's included?</a>
+	{{#link-to 'contact' class="btn btn-magenta"}}Contact us{{/link-to}}
 </div>
 	
 
@@ -213,7 +217,7 @@
 </div>
 
 
-<div class="signup">
-	<p>Sign up here to start your Lingumi journey:</p>
+<div class="signup signup_landing">
+	<p>Become a member today:</p>
 		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
 </div>

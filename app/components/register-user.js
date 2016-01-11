@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 	needs: 'quickReg',
-	title: 'Register to get started',
+	title: 'Become a member today:',
 	email: '',
 	password: '',
 	repeatPassword: '',
@@ -17,7 +17,6 @@ export default Ember.Component.extend({
 
 	setQuickRegEmail: function(){
 		if(this.get('model').length==0){
-			console.log("correctomondo");
 		} else{
 			this.set('email', this.get('model'));
 		}
@@ -50,8 +49,7 @@ export default Ember.Component.extend({
 	}.observes('password'),
 
 	actions:{
-		registration: function(){
-			console.log("click from component");
+		registrationComplete: function(){
 			var email = this.get('email');
 			var password = this.get('password');
 			var self = this;
@@ -69,6 +67,7 @@ export default Ember.Component.extend({
 								user.set("username", email);
 								user.set("password", password);
 								user.set("email", email);
+								console.log("success so far");
 
 								user.signUp(null, {
 								  success: function(user) {
@@ -81,11 +80,14 @@ export default Ember.Component.extend({
 										    return Parse.Object.destroyAll(results);
 										}).then(function() {
 										    console.log("successfully registered account");
-										    self.sendAction("registrationComplete");
+										    // self.sendAction("registrationComplete");
 										}, function(error) {
 										    // Error
 										});
+
 								    } 
+								    console.log("registration passed");
+								    self.sendAction("registrationComplete");
 								  },
 								  error: function(user, error) {
 								    // Show the error message somewhere and let the user try again.
@@ -93,15 +95,15 @@ export default Ember.Component.extend({
 								  }
 								});
 							} else {
-								console.log("user already exists");
+								alert("user already exists");
 							}
 						}
 					});
 				} else{
-					console.log("passwords do not match");
+					alert("passwords do not match");
 				}
 			} else{
-				console.log("Enter an email");
+				alert("Enter an email");
 			}
 		}
 	}

@@ -1,0 +1,40 @@
+#benefits {
+	margin-top: 2%;
+	padding: 0 15%;
+}
+#benefits h3 {
+	font-weight: 300;
+}
+#benefits_banner {
+	background-color: #585558;
+	padding: 1% 15%;
+	color: white;
+	margin: 2% 0;
+}
+#benefits_banner h3 {
+	color: #e9e9e9;
+	font-weight: 300;
+	margin-bottom: 2%;
+}
+.page_content {
+	text-align: center;
+}
+.benefits_signup {
+	margin-top: 2%;
+	width: 100%;
+	padding: 4% 0;
+	text-align: center;
+	margin-bottom: 4%;
+}
+.benefits_signup input {
+	border: 2px solid #e6007e;
+}
+#benefits .col-sm-4 {
+	margin-bottom: 3%;
+}
+#benefits .col-sm-4 h3, #benefits .col-sm-4 h4 {
+	color: #585558;
+}
+#benefits .col-sm-4 .age_range h3 {
+	color: white;
+}

@@ -24,6 +24,11 @@ Router.map(function() {
   this.route('blog');
   this.route('starter-kit');
   this.route('contact');
+  this.route('checkout');
+  this.route('order-conf');
+  this.route('international');
+  this.route('about');
+  this.route('reg-complete');
 });
 
 export default Router;
