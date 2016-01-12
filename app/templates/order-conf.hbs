@@ -38,8 +38,7 @@
 	<!-- REMEMBER TO ADD EMAIL TO THIS PRE-FILL -->
 
 	<div class="well_padded" id="checkout_conf">
-		<h2>Thanks for your order.</h2>
-			<h4>It's on its way to you.</h4>
+		{{#order-confirmation}}{{/order-confirmation}}
 			<div id="signup_bonus">
 				<h2>Want a free <strong>sticker pack</strong> for your child?</h2>
 				<h4>Just click here to tweet or share your purchase publicly on Facebook, and we'll include one in your order for free.</h4>
@@ -53,7 +52,6 @@
 				</div>
 			</div>
 			<h4>All you need to do now is {{#link-to 'registerAccount'}}sign up for an account here{{/link-to}}, so you can log in to the app, save your child's progress, and find out how they are learning.</h4>
-
 	</div>
 
 </div>
