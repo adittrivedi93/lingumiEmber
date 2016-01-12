@@ -1,5 +1,5 @@
 #checkout {
-	padding-bottom: 2%;
+	padding: 2% 10%;
 	margin-top: 1%;
 }
 #checkout_conf {
@@ -9,7 +9,7 @@
 	width: 80%;
 }
 .checkout_stage {
-	margin-top: 2%;
+	margin-top: 7%;
 	width: 100%;
 	background-color: white;
 	color: #323232;
@@ -18,12 +18,12 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.checkout_link {
+	margin-top: 3%;
+}
 .checkout_stage .row {
 	width: 50%;
     margin: 0 auto;
-}
-.checkout_stage .col-xs-4 {
-	padding: 1%;
 }
 .checkout_stage .col-xs-4 h4 {
 	font-size: 18px;
@@ -31,6 +31,9 @@
 }
 .checkout_active {
 	background-color: #009fe3;
+	border-radius: 15px;
+	padding: 1% 1%;
+	margin-top: -1%;
 	color: white;
 	height: 100%;
 }

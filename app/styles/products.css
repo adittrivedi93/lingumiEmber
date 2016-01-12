@@ -1,8 +1,32 @@
 #kit_overview {
 	text-align: center;
+	padding-top: 2%;
 }
+#kit_overview_description {
+	background-color: #009fe3;
+	padding: 3% 0;
+	margin: 2% 0;
+	width: 100%;
+	color: white;
+}
+#kit_overview_description h4 {
+	margin: 2% 0;
+	font-size: 1.8em;
+	color: #e3fafe;
+}
+
 #kit_overview img {
-	width: 50%;
+	width: 80%;
+}
+#kit_cubes img {
+	width: 100%;
+}
+#our_apps img {
+	width: 90%;
+	margin: 2% 0;
+}
+#our_langs img {
+	width: 20%;
 }
 .preview {
 	text-align: center;
