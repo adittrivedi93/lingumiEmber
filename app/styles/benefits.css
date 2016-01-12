@@ -1,5 +1,5 @@
 #benefits {
-	margin-top: 2%;
+	margin-top: 5%;
 	padding: 0 15%;
 }
 #benefits h3 {
@@ -31,6 +31,9 @@
 }
 #benefits .col-sm-4 {
 	margin-bottom: 3%;
+}
+#benefits .col-sm-4 h3 {
+	font-weight: 500;
 }
 #benefits .col-sm-4 h3, #benefits .col-sm-4 h4 {
 	color: #585558;
