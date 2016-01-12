@@ -1,181 +1,129 @@
 .top {
 	width: 100%;
+	text-align: center;
 }
-.landing_link {
-	padding-top: 4%;
-	margin-top: -4%;
-}
-#header-image {
-	width: 100%;
-}
-#header-image img {
-	height: auto;
-	width: 100%;
-	margin-top: -100px;
-}
-#strapline {
+.strapline {
 	text-align: center;
 	padding-top: 5%;
+	padding-bottom: 1%;
+	z-index: 1;
 }
-#strapline h2 {
-	margin: 15px 25px;
+.strapline h2 {
 	font-weight: 300;
-	font-size: 2.8em;
-}
-#strapline h3 {
 	font-size: 2.2em;
+	margin-bottom: 5%;
 }
-#strapline h4 {
+#language_labels img, #age_label img {
+	width: 70%;
+	margin-top: -25%;
+}
+#top_kit img {
+	width: 95%;
+}
+#top_kit_exp {
+	text-align: left;
+	margin-top: 4%;
+}
+#top_kit_exp h2 {
 	font-size: 2em;
 }
-#strapline h3 {
-	font-weight: 300;
+#top_kit_exp h4 {
+	font-size: 1.4em;
+	line-height: 120%;
+	margin: 4% 0;
+	color: #e7f8fb;
 }
-#flags {
-	width: 100%;
-	padding: 2%;
+#top_kit_exp p {
+	color: #d4f7fd;
+	margin: 2% 0;
 }
-#flags img {
-	width: 8%;
-	padding: 1%;
-}
-#flags .btn {
-	margin-top: -40px;
-}
-#middle {
+.explainers {
 	text-align: center;
 	margin-top: 2%;
-}
-#middle iframe {
-	margin-bottom: 30px;
-	width: 700px;
-	height:500px;
-}
-#middle .btn {
-	margin-left: 10px;
-}
-#play_styles {
+	padding-top: 3%;
+	padding-bottom: 3%;
 	background-color: #009fe3;
-	margin-top: 2%;
-	color: white;
-	padding-bottom: 1%;
+	color:white;
+}
+.explainers h4 {
+	font-weight: 300;
+}
+.explainers h2 {
+	font-weight: 300;
 }
 
-.play_styles{
-	width: 20%;
+#story {
+	width: 100%;
+	margin-top: 2%;
+	padding-bottom: 1%;
 	padding: 2% 0;
 }
-.play_styles_centre {
-	width:30%;
-	padding: 1% 0;
+.story_row {
+	text-align: left;
+	margin: 2% 0;
 }
-
-#video-embed {
+.story_row img {
+	width: 60%;
+}
+.story_row h4 {
+	font-size: 1.8em;
+}
+.story_row p {
+	font-size: 1.4em;
+	line-height: 150%;
+}
+.p_starter {
+	color: #009fe3;
+	font-weight: 500;
+}
+#testimonials_img img {
 	width: 100%;
-	height: auto;
-	text-align: center;
+	border: 4px solid white;
+	border-radius: 100%;
 }
-
-.explainers, #action {
-	text-align: center;
-	padding-right: 12%;
-	padding-left: 12%;
+#benefits div {
+	margin: 3% 0;
+	padding: 0 3%;
 }
-.explainers h4, #who_for h4 {
-	font-weight: 300;
-	line-height: 140%;
+#benefits h4 {
+	color: #323232;
+	line-height: 150%;
 }
-.explainers h2, #who_for h2 {
-	font-weight: 300;
-	line-height: 140%;
-}
-.explainers a {
-	text-decoration: underline;
-}
-.explainers .btn {
-	margin-top: 2%;
-}
-.col-lg-4 h4 {
-	padding: 2% 5%;
-}
-#who_for img {
-	margin: 10px 10px;
-}
-#action {
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 3%;
-}
-.action {
-	width: 100%;
-	text-align: center;
-}
-#action h2, h3, h4, p {
-	font-weight: 300;
-}
-.action-header {
-	text-align: center;
-}
-.action-header img {
-	width: 40%;
-}
-#preorder {
-	text-align: center;
-}
-#who_for h2, h4 {
-	font-weight: 300;
-}
-.explainers .btn {
-	margin-left: 10px;
+#benefits h2 {
+	color: #009fe3;
 }
 
 .banner {
-	width: 100%;
-	border: 1px solid #009fe3;
-	background-color: #009fe3;
-	margin-top: 2%;
-	padding: 4% 10%;
+	background-color: #e6007e;
 	text-align: left;
 	color: white;
 	margin: 4% 0;
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
 .banner h4 {
 	font-weight: 300;
 	font-size: 2em;
 }
-.age_range {
-	border-radius: 16px;
-	background-color: #e6007e;
-	margin: 1% 30%;
-	height: 40px;
-}
-#play_styles h4 {
-	color: #baf4fe;
-}
-#benefits_signup h2 {
-	margin-top: 2%;
-}
-
-/* Mailchimp signup stuff */
-
-.signup {
-	margin-top: 30px;
-	width: 100%;
-	padding: 4% 0;
-	text-align: center;
-	margin-bottom: 4%;
-}
-.signup_landing {
-	border: 1px solid #009fe3;
-	background-color: #009fe3;
-}
-.signup_landing form {
-	background-color: #009fe3;
-}
-.signup p {
+.landing_buy h4 {
 	font-weight: 300;
 	font-size: 2.5em;
+}
+#signup_bottom {
+	background-color: #009fe3;
 	color: white;
+}
+
+/* signup stuff */
+
+.signup {
+	text-align: center;
+	margin-bottom: 4%;
+	border-right: 2px solid white;
+}
+.signup h4 {
+	font-weight: 300;
+	font-size: 2.5em;
 }
 .signup input {
 	min-height: 35px;
@@ -183,22 +131,20 @@
 	text-align: center;
 	margin-bottom: 1px;
 	margin-top: 10px;
-	width: 80%;
+	width: 50%;
 	max-width: 500px;
 	border-radius: 16px;
-	border: none;
-	background-color: #fff;
-	color: #3498db;
 	font-size:18px;
 	font-family: 'open sans', sans-serif;
 	font-weight: 700;
+	color:#585558;
 }
 .signup button {
-	margin-top: 5px;
+margin-top: 5px;
   border-radius: 16px;
   border: 2px solid white;
-  background-color: #e6007e;
-  color: #fff;
+	background-color: #e6007e;
+	color: white;
   font-family: 'open sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -208,84 +154,10 @@
 }
 .signup button:hover {
 	border: 2px solid #e6007e;
-	background-color: white;
-	color: #e6007e;
-}
-.signup #mc-embedded-subscribe.button:hover {
-  color: white;
-  background-color:#323232;
-  border: none;
-}
-.signup .clear input {
-	border-radius: 24px;
-}
-#mc_embed_signup {
-  background:#fff; 
-  clear:left; 
-  font:16px 
-  Helvetica,Arial,sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  text-align: center;
-  border: none;
-  }
-#mc_embed_signup input.email {
-  min-height: 35px;
-  font-size:18px;
-  text-align: center;
-  margin-bottom: 1px;
-  margin-top: 10px;
-  width: 300px;
+  	background-color: white;
+  	color: #e6007e;
 }
 
-#mc-embedded-subscribe {
-  margin-top: 5px;
-  border-radius: 8px;
-  border: none;
-  background-color: #fff;
-  color: #3498db;
-  font-family: 'open sans', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  width: 150px;
-  height: 40px;
-  margin-top: 10px;
-}
-#mc-embedded-subscribe.button:hover {
-  color: #fff;
-  background-color:#3498db;
-}
-#kit_contents h3, #kit_contents p {
-	font-weight: 300;
-	color: #009fe3;
-}
-#kit_cubes img {
-	width: 80%;
-}
-#our_apps img{
-	width: 60%;
-	margin: 3px 0;
-}
-#our_langs img {
-	width: 15%;
-	margin: 5px;
-}
-#info_pack {
-	text-align: center;
-}
-.landing_banner {
-	margin: 2% 0;
-}
-#age_label {
-	margin-bottom: 85px;
-}
-#flags h4 {
-	margin-bottom: -20px;
-}
-#design_how h2 {
-	margin-bottom: 3%;
-}
 
 /*media queries for smaller screens*/
 @media (max-width: 770px) {
@@ -293,22 +165,13 @@
 		background-color: white;
 		width:100%;
 	}
-	#flags img {
-		width: 15%;
+	.story_row {
+		text-align: center;
 	}
-	#play_styles img {
-		width: 30%;
+	.story_row img {
+		width: 35%;
+		margin: 2%;
 	}
-	#middle iframe {
-	margin-bottom: 30px;
-	width: 300px;
-	height:auto;
-	}
-}
-@media (max-width: 480px) {
-	#middle iframe {
-		width: 270px;
-		height: auto;
-	}
+
 }
 

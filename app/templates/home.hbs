@@ -1,223 +1,139 @@
 <!--These get injected into the outlet spacebar in 'application.hbs'-->
-
-<div class="top">
-
-	<div id="strapline">
-		<h2>Interactive <strong>language learning</strong> for infants</h2>
-{{!-- 		<h2><strong>Teach your child a language through play</strong></h2> --}}
-
-		<div id="flags">
-			{{!-- <h3>Multi-sensory. Tactile. Playful.</h3> --}}
-			<h3>Interactive. Multi-sensory. Tactile.</h3>
-			<img src="assets/flag_gb.png">
-			<img src="assets/flag_fr.png">
-			<img src="assets/flag_cn.png">
-			<img src="assets/flag_it.png">
-			<img src="assets/flag_sp.png">
-			<img src="assets/age_label.gif" id="age_label">
+<div class="page_content">
+	<div class="top">
+		<div id="video">
+			<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+			<div>
+				<div class="wistia_responsive_wrapper" style="height:450px;width:100%;">
+					<span class="wistia_embed wistia_async_ld5ha7yp8j popover=true videoFoam=true" style="display:inline-block;height:100%;width:100%;margin-top:2%">&nbsp;</span>
+				</div>
+			</div>
 		</div>
-		<a href="#middle" class="btn btn-cyan"><span class="glyphicon glyphicon-chevron-down"></span>Watch the video</a>
-	</div>
-		
-</div>
 
-<div id="middle">
-	<div id = "video-embed" class="landing_link">
-	<iframe src="https://player.vimeo.com/video/147697603" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><a href="https://vimeo.com/147697603"></a><br/>
-	{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-	<a href="#explainers" class="btn btn-magenta">How does it work? <span class="glyphicon glyphicon-chevron-down"></span></a>
-	</div>
+		<div class="strapline row">
+			<div id="language_labels" class="col-xs-3">
+				<img src="assets/language_labels.gif">
+			</div>
+			<div class="col-xs-6">
+				<h2><strong>Teach your child a language</strong> at the best age for learning</h2>
 
-	<div class="signup signup_landing">
-		<p>Become a member today:</p>
-          {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
-          {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
-  	</div>
-</div>
-<div class="row explainers landing_link" id="explainers">
-		<h2>How does it work?</h2>
-		<div class="col-lg-4">
-			<img class="cubey" src="/assets/setup_icon1.png" width="100" height="100">
-			<h2>The Starter Kit</h2>
-			<h4>The first step is the starter kit: physical cubes that interact with a tablet or smartphone in amazing ways to teach you and your child words and phrases through interactive games. Buy your set <a href="/products">here</a>.</h4>
-
+				{{#scroll-to href='#explainers' label='explainers' offset=-60 class="btn btn-cyan"}}
+					What is it?
+				{{/scroll-to}}
+			</div>
+			<div id="age_label" class="col-xs-3">
+				<img src="assets/age_label2.gif">
+			</div>
 		</div>
-		<div class="col-lg-4">
-			<img class="cubey" src="/assets/setup_icon2.png" width="100" height="100">
-			<h2>Download the apps</h2>
-			<h4>We'll help you download and setup the apps with the starter kit. 'First Words' gets you and your child started in a new language, and 'First Verbs' helps you expand your knowledge. Find out more <a href="/system">about the apps.</a></h4>
-			
+	</div>
+
+	<div class="explainers well_padded" id="explainers">
+			<div id="top_kit">
+				<img src="assets/starter_kit.png">
+			</div>
+			<div id="top_kit_exp">
+				<h2>A <strong>fun, interactive method</strong> for early years language learning.</h2>
+				<h4>Everything starts with the <strong>Learning Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone to teach sounds, words and phrases to children, <strong>through play.</strong></h4>
+				<p>Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs £35 inc. delivery to UK.</p>
+			</div>
+		<div class="action">
+	{{!-- 		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}The Cubes{{/link-to}} --}}
+			{{#scroll-to href='#story' label='story' offset=-60 class="btn btn-magenta"}}
+					The Story
+			{{/scroll-to}}
 		</div>
-		<div class="col-lg-4">
-			<img class="cubey" src="/assets/setup_icon3.png" width="100" height="100">
-			<h2>Play & learn together</h2>
-			<h4>Lingumi's games and activities are designed to be played and enjoyed by parents and children together. Siblings love playing them too. Click to <a href="/benefits">find out about the benefits.</a></h4>
+	</div>
+
+
+	<div id="story">
+		<h2>The Story</h2>
+
+		<div class="row story_row very_well_padded">
+			<div class="col-sm-3">
+				<img src="assets/researched.png">
+			</div>
+			<div class="col-sm-9">
+				<p><span class="p_starter">What is it? </span> A method developed from extensive academic research that combines <strong>tactile physical interaction</strong> with digital apps to help children learn a language, by replicating the way they naturally acquire language from birth.</p>
+			</div>
 		</div>
-</div>
-<div class="action">
-		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-		<a href="#kit_contents" class="btn btn-magenta">What's the kit?</a>
-</div>
 
-<div class="row explainers" id="play_styles">
-
-	<h2>What will you learn with Lingumi?</h2>
-	<h4>Learn over 50 words and over 10 phrases in a new language, selected from the <strong>Oxford CDI</strong>, a list of the first words learned by infants in their first language.</h4>
-
-	<div class="col-sm-4" id="learning_benefits">
-		<div class="age_range" id="two_up">
-			<h3>2-3 +</h3>
+		<div class="row story_row very_well_padded">
+			<div class="col-sm-3">
+				<img src="assets/setup_icon2.png">
+			</div>
+			<div class="col-sm-9">
+				<p><span class="p_starter">How does it work? </span>We create interactive games and activities which children and parents play together. Children play learn their first sounds in a <strong>native accent</strong>, then words, then phrases. The first step is the Learning Cubes: read about them here.</p>
+			</div>
 		</div>
-			<h3>Learn</h3>
-			<h4>motor skills</h4>
-			<h4>new sounds</h4>
-			<h4>co-ordination</h4>
-			<h4>early words</h4>
-			<h3>Think</h3>
-			<h4>communication skills</h4>
-			<h3>Create</h3>
-			<h4>explore & play</h4>
-	</div>
-	<div class="col-sm-4">
-		<div class="age_range" id="three_up">
-			<h3>3-4 +</h3>
+
+		<div class="row story_row very_well_padded">
+			<div class="col-sm-3">
+				<img src="assets/cubey_magenta.png">
+			</div>
+			<div class="col-sm-9">
+				<p><span class="p_starter">Why early years? </span>2 year olds are <strong>the world's best learners.</strong> Due to their brain plasticity, increased synaptic density, and other neurological factors, infants under the age of 6 absorb languages quickly and easily.</p>
+			</div>
 		</div>
-			<h3>Learn</h3>
-			<h4>new words</h4>
-			<h4>short phrases</h4>
-			<h3>Think</h3>
-			<h4>solve puzzles</h4>
-			<h4>build phrases</h4>
-			<h4>co-ordinated attention</h4>
-			<h3>Create</h3>
-			<h4>develop cognitive pathways</h4>
-			<h4>ask & answer questions</h4>
-	</div>
-	<div class="col-sm-4">
-		<div class="age_range" id="four_up">
-			<h3>4-5 +</h3>
+
+		<div class="row story_row very_well_padded">
+			<div class="col-sm-3">
+				<img src="assets/setup_icon3.png">
+			</div>
+			<div class="col-sm-9">
+				<p><span class="p_starter">Who are we? </span>We are: 1 English teacher, 1 computer scientist, 1 children's illustrator, + several brilliant academics who advise us. We're based in London, UK. Read more about the team {{#link-to 'about' class="underline"}}here.{{/link-to}}</p>
+			</div>
 		</div>
-			<h3>Learn</h3>
-			<h4>words & phrases in new languages</h4>
-			<h4>cultural awareness</h4>
-			<h3>Think</h3>
-			<h4>solve puzzles</h4>
-			<h4>build phrases</h4>
-			<h4>co-ordinated attention</h4>
-			<h3>Create</h3>
-			<h4>develop cognitive pathways</h4>
-			<h4>ask & answer questions</h4>
-			<h4>group play & imagination</h4>
-	</div>
-	<div class="signup signup_landing" id="benefits_signup">
-		<h2>Get started by entering your email address</h2>
-		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
-	</div>
-</div>
-
-<div class="row explainers landing_link" id="kit_contents">
-	<h2>What's in the kit?</h2>
-	<div class="col-md-4 kit_content_columns" id="kit_cubes">
-		<h3><strong>Five squishy character cubes</strong></h3>
-		<h4>Colourful cubes that interact with our apps in magical ways</h4>
-		<img src="assets/kit_smaller.png">
-		<h3><strong>Box and stand</strong></h3>
-		<h4>The box creates a playing surface for your child to place the cubes, and the stand holds your tablet or smartphone</h4>
 	</div>
 
-	<div class="col-md-4" id="our_apps">
-		<h3><strong>Free apps</strong></h3>
-		<h4>Our first app, designed with help from leading experts, is free to download, with a second free app on the way</h4>
-		<img src="assets/first_words_icon.gif">
-		<img src="assets/first_verbs_icon.gif">
-	</div>
-	<div class="col-md-4" id="our_langs">
-		<h3><strong>Learn 5 languages</strong></h3>
-		<h4>Use the Lingumi Starter Kit to develop your child's English skills, and to learn new words and phrases in 4 other languages!</h4>
-			<img src="assets/flag_gb.png">
-			<img src="assets/flag_fr.png">
-			<img src="assets/flag_cn.png">
-			<img src="assets/flag_it.png">
-			<img src="assets/flag_sp.png">
-		<h3><strong>Technical information</strong></h3>
-		<h4>The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS 8.4 and above, or Android devices running 2.3 or above.</h4>
-		<h3><strong>Price & Shipping</strong></h3>
-		<h4>The kit costs £30 + delivery, which varies by country. To read more about our availability in your country, visit our {{#link-to 'international'}}International page{{/link-to}}.</h4>
-	</div>
-</div>
-<div class="centered">
-{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-	{{#link-to 'contact' class="btn btn-navbar btn-green"}}Ask a question{{/link-to}}
-</div>
 
-<div class="banner">
-	<!-- <img src="testimonial1.png"> -->
-	<h4>"It gives her so much confidence - she goes into her own little world"</h4>
-	<h4> - Tasha, London</h4>
-</div>
-
-<div class="row explainers" id="design_how">
-	<h2>Our design principles</h2>
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/structured.png" width="100" height="100">
-		<h2>Structured</h2>
-		<h4>Our games and Starter Kit were designed from the ground up to integrate research into the way infants naturally learn language. Read about <a href="/method">how it works</a> here.</h4>	
+	<div class="centered">
+		{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="btn btn-magenta"}}
+					What our users think
+		{{/scroll-to}}
 	</div>
 
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/researched.png" width="100" height="100">
-		<h2>Researched</h2>
-		<h4>We are advised by top academics in infant language acquisition, who help us design our kit and games for effective learning. Read <a href="/method">about the method</a> here.</h4>
+	<div class="row banner well_padded" id="testimonials">
+
+		<div class="col-sm-3" id="testimonials_img">
+			<img src="assets/stories/tasha_olivia.png">
+		</div>
+		<div class="col-sm-9">
+			<h4>"It gives her so much confidence - she goes into her own little world"</h4>
+			<p> - Tasha & Olivia, London</p>
+		</div>
+		{{#link-to 'story' class="float_right btn btn-cyan"}}See the stories{{/link-to}}
 	</div>
 
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/inclusive.png" width="100" height="100">
-		<h2>Inclusive</h2>
-		<h4>We've designed our Starter Kit with special needs in mind: we've tested it with speech therapists and Down's Syndrome organisations. See <a href="/slt">how Lingumi can help your child</a> here.</h4><br/>
-	</div>
-	<div class="action">
-		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-		<a href="#who_for" class="btn btn-magenta">Who is it for?</a>
-	</div>
-</div>
+	<div class="row" id="benefits">
+		<div class="col-md-4">
+			<h2>Physical</h2>
+			<h4>With the Learning Cubes, kids don't need to tap or swipe the screen - <strong>ever</strong>. <br/>Interacting with the cubes powers the game.</h4>
+		</div>
 
-<div class="signup signup_landing">
-	<p>Become a member today:</p>
-      {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
-      {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
- </div>
+		<div class="col-md-4">
+			<h2>Shared</h2>
+			<h4>Children are proven to learn best when interacting with another person. With Lingumi, parent and child play and learn together. We'll teach you how.</h4>
+		</div>
 
-<div class="row explainers landing_link" id="who_for">
-	<h2>Who is it for?</h2>
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/icon_brain.png" width="100" height="100">
-		<h2>2 years +</h2>
-		<h4>Learning a second language in infancy improves problem-solving, task-handling, and attention in children. And because they have <strong>higher brain-plasticity</strong>, toddlers are the world's fastest learners.</h4>
+		<div class="col-md-4">
+			<h2>Playful</h2>
+			<h4>For early learners, we've replaced tapping and swiping with touching and holding: the Learning Cubes combine apps with physical play.</h4>
+		</div>
 	</div>
 
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/icon_parent.png" width="100" height="100">
-		<h2>Parents & Carers</h2>
-		<h4>Lingumi Cubes are made to be played by <strong>you and your child together.</strong> Bond with your child while learning a new language, or help your child improve their first language if they need a boost of confidence.</h4>
+{{!-- 	Add an awesome for parents (game view vs feedback) chunk here --}}
+
+	<div class="row quite_padded" id="signup_bottom">
+		<div class="signup col-md-8">
+			<h4>Become a member today:</h4>
+			<p>to get freebies & member benefits</p>
+		      {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
+		      {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
+		 </div>
+		 <div class="landing_buy col-md-4">
+		 <h4>Buy the Learning Cubes</h4>
+		 <p> & sign up later</p>
+		 	{{#link-to 'products' class="btn btn-navbar btn-magenta"}}Buy{{/link-to}}
+		 </div>
 	</div>
-
-	<div class="col-lg-4">
-		<img class="cubey" src="/assets/icon_teacher.png" width="100" height="100">
-		<h2>Teachers & Professionals</h2>
-		<h4>Lingumi Cubes are brilliant for nurseries or therapy environments. They're <strong>tactile, responsive, and visual</strong>, designed to promote co-ordinated attention in children. The activities are short, and it takes 20 seconds to set up.</h4>
-	</div>
-	{{#link-to 'products' class="btn btn-navbar btn-cyan"}}Buy{{/link-to}}
-	{{#link-to 'contact' class="btn btn-magenta"}}Contact us{{/link-to}}
-</div>
-	
-
-
-<div id="action">
-	<!-- will change this div to a set of more links? -->
-</div>
-
-
-<div class="signup signup_landing">
-	<p>Become a member today:</p>
-		{{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
 </div>
