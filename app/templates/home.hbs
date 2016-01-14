@@ -15,7 +15,10 @@
 				<img src="assets/language_labels.gif">
 			</div>
 			<div class="col-xs-6">
-				<h2><strong>Teach your child a language</strong> at the best age for learning</h2>
+				<h2>
+				<!-- translation: The interactive way to learn English for kids -->
+					<strong>Teach your child a language</strong> at the best age for learning
+				</h2>
 
 				{{#scroll-to href='#explainers' label='explainers' offset=-60 class="btn btn-cyan"}}
 					What is it?
@@ -32,9 +35,17 @@
 				<img src="assets/starter_kit.png">
 			</div>
 			<div id="top_kit_exp">
-				<h2>A <strong>fun, interactive method</strong> for early years language learning.</h2>
-				<h4>Everything starts with the <strong>Learning Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone to teach sounds, words and phrases to children, <strong>through play.</strong></h4>
-				<p>Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs £35 inc. delivery to UK.</p>
+				<h2>
+					<!-- translation: A fun, interactive way for kids to learn English -->
+					A <strong>fun, interactive method</strong> for early years language learning.
+				</h2>
+				<h4>
+					Our scientifically structured method starts with the <strong>Learning Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone to teach sounds, words and phrases to children, <strong>through play.</strong>
+				</h4>
+				<p>
+				<!-- translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy. -->
+					Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs £35 inc. delivery to UK.
+				</p>
 			</div>
 		<div class="action">
 	{{!-- 		{{#link-to 'products' class="btn btn-navbar btn-cyan"}}The Cubes{{/link-to}} --}}
@@ -53,7 +64,9 @@
 				<img src="assets/researched.png">
 			</div>
 			<div class="col-sm-9">
-				<p><span class="p_starter">What is it? </span> A method developed from extensive academic research that combines <strong>tactile physical interaction</strong> with digital apps to help children learn a language, by replicating the way they naturally acquire language from birth.</p>
+				<p>
+					<span class="p_starter">What is it? </span> A method developed from extensive academic research that combines <strong>tactile physical interaction</strong> with digital apps to help children learn a language, by replicating the way they naturally acquire language from birth.
+				</p>
 			</div>
 		</div>
 
@@ -112,28 +125,23 @@
 
 		<div class="col-md-4">
 			<h2>Shared</h2>
-			<h4>Children are proven to learn best when interacting with another person. With Lingumi, parent and child play and learn together. We'll teach you how.</h4>
+			<h4>Children are proven to learn best when interacting with another person. With Lingumi, parent and child play and learn together. We'll teach you how best to play and learn together.</h4>
 		</div>
 
 		<div class="col-md-4">
 			<h2>Playful</h2>
-			<h4>For early learners, we've replaced tapping and swiping with touching and holding: the Learning Cubes combine apps with physical play.</h4>
+			<h4>For early learners, we've replaced tapping and swiping with touching and holding: the Learning Cubes combine apps with physical play that boosts learning, and reduces screen addiction.</h4>
 		</div>
 	</div>
 
 {{!-- 	Add an awesome for parents (game view vs feedback) chunk here --}}
 
-	<div class="row quite_padded" id="signup_bottom">
-		<div class="signup col-md-8">
-			<h4>Become a member today:</h4>
-			<p>to get freebies & member benefits</p>
-		      {{#quick-reg quickReg = "quickReg"}}{{/quick-reg}}
-		      {{#reg-info showinfo = "showinfo"}}{{/reg-info}}
-		 </div>
-		 <div class="landing_buy col-md-4">
+	<div class="quite_padded" id="signup_bottom">
+
+		 <div class="landing_buy">
 		 <h4>Buy the Learning Cubes</h4>
-		 <p> & sign up later</p>
 		 	{{#link-to 'products' class="btn btn-navbar btn-magenta"}}Buy{{/link-to}}
 		 </div>
 	</div>
+	{{#signup-footer}}{{/signup-footer}}
 </div>

@@ -1,4 +1,4 @@
-html {
+html, body {
 	width: 100%;
 }
 .page_content h2, .page_content h4, .page_content p {
@@ -34,6 +34,10 @@ html {
 	color: #323232;
 	padding-bottom: 5px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 .navbar-fixed-top {
 	border-width: 0 0 0 !important;
 	box-shadow: none !important;
