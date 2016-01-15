@@ -50,8 +50,10 @@
 	margin-top: 1%;
 }
 .journey_stage {
-	display: inline-block;
-	padding-top: 5%;
+	margin: 2% 4%;
+}
+.journey_stage img {
+	width: 90%;
 }
 #journey_description {
 	text-align: center;

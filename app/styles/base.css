@@ -6,7 +6,7 @@ html, body {
 }
 .content {
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 50px;
 	text-align: center;
 }
 .content h2 {
@@ -46,7 +46,8 @@ html, body {
 	padding-right: 15px;
 }
 .navbar-brand {
-	padding: 15px 5px;
+	margin: 15px 5px;
+	max-width: 270px;
 }
 
 .navbar-right .btn {
@@ -88,13 +89,17 @@ html, body {
 .underline {
 	text-decoration: underline;
 }
-
+@media (max-width: 880px) {
+	.navbar-header img {
+	width: 60%;
+	}
+}
 @media (max-width: 770px) {
 	.content {
 		padding-top: 50px;
 	}
 	.navbar-header img {
-	width: 40%;
+	width: 60%;
 }
 }
 

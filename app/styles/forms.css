@@ -40,6 +40,14 @@
 	margin: 2%;
 	margin-right: 30%;
 }
+.checkout-form-input {
+	border-radius: 25px;
+	border: 2px solid #e6007e;
+	color: #585558;
+	min-height: 45px;
+	min-width: 220px;
+	text-align: center;
+}
 @media (max-width: 770px) {
 	.form {
 		padding-top: 2%;
