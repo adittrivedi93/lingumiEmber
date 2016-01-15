@@ -1,0 +1,60 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/order-conf.hbs+div.div.div.div.div:24
+msgid "1"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.h4:25
+msgid "Start checkout"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.div:28
+msgid "2"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.h4:29
+msgid "Payment"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.div:32
+msgid "3"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.h4:33
+msgid "Confirmation"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div:40
+msgid "{{#order-confirmation}}{{/order-confirmation}}"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.h2:43
+msgid "Encourage your friends to join you on the Lingumi journey:"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.h4:44
+msgid "Just click here to tweet or share your purchase on Facebook."
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.div.div.div:46
+msgid "Tweet"
+msgstr ""
+
+#: app/templates/order-conf.hbs+div.div.h4:54
+msgid ""
+"All you need to do now is {{#link-to 'registerAccount'}}sign up for an "
+"account here{{/link-to}}, so you can log in to the app, save your child's "
+"progress, and find out how they are learning."
+msgstr ""

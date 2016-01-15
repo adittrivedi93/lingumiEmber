@@ -1,0 +1,191 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/benefits.hbs+div.div.div.h2:5
+msgid "What are the benefits of Lingumi?"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.h3:6
+msgid ""
+"Lingumi has been designed from the ground up from academic research into how "
+"children learn language. You can read more about that {{#link-to "
+"'method'}}here.{{/link-to}} Lingumi is also structured to help with "
+"cognitive and social skills at specific ages."
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.div.h3:10
+msgid "2-3 +"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:12
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:12"
+msgid "Learn"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:13
+msgid "motor skills"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:14
+msgid "new sounds"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:15
+msgid "co-ordination"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:16
+msgid "early words"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:17
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:17"
+msgid "Think"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:18
+msgid "communication skills"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:19
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:19"
+msgid "Create"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:20
+msgid "explore & play"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.div.h3:24
+msgid "3-4 +"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:26
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:26"
+msgid "Learn"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:27
+msgid "new words"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:28
+msgid "short phrases"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:29
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:29"
+msgid "Think"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:30
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:30"
+msgid "solve puzzles"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:31
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:31"
+msgid "build phrases"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:32
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:32"
+msgid "co-ordinated attention"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:33
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:33"
+msgid "Create"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:34
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:34"
+msgid "develop cognitive pathways"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:35
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:35"
+msgid "ask & answer questions"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.div.h3:39
+msgid "4-5 +"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:41
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:41"
+msgid "Learn"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:42
+msgid "words & phrases in new languages"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:43
+msgid "cultural awareness"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:44
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:44"
+msgid "Think"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:45
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:45"
+msgid "solve puzzles"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:46
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:46"
+msgid "build phrases"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:47
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:47"
+msgid "co-ordinated attention"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h3:48
+msgctxt "app/templates/benefits.hbs div.div.div.div.h3:48"
+msgid "Create"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:49
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:49"
+msgid "develop cognitive pathways"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:50
+msgctxt "app/templates/benefits.hbs div.div.div.div.h4:50"
+msgid "ask & answer questions"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h4:51
+msgid "group play & imagination"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.div.h2:54
+msgid "Buy your set of Learning Cubes today:"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.h3:60
+msgid ""
+"'Our ability to acquire, understand and communicate language is unique "
+"compared to all other species... the fact a toddler can put words together "
+"into real sentences – it's extraordinary.'"
+msgstr ""
+
+#: app/templates/benefits.hbs+div.div.div.h4:61
+msgid "Professor Kim Plunkett, University of Oxford"
+msgstr ""

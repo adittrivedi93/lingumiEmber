@@ -1,0 +1,96 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/about.hbs+div.div.h2:3
+msgid "About Us"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.h3:4
+msgid ""
+"We founded Lingumi because we want to make it easier, cheaper, and more fun "
+"to teach your child a language at the best age for learning."
+msgstr ""
+
+#: app/templates/about.hbs+div.div.h4:5
+msgid ""
+"We're a team of teachers, learners, computer scientists, designers, and "
+"advisory academics, who love designing effective, fun, playful learning "
+"products."
+msgstr ""
+
+#: app/templates/about.hbs+div.div.h4:6
+msgid "You can read more about our story {{#link-to 'story'}}here.{{/link-to}}"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.h2:8
+msgid "Meet the team"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:12
+msgid "Toby Mather"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:13
+msgctxt "app/templates/about.hbs div.div.div.div.div.h4:13"
+msgid "Co-founder"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.p:14
+msgid ""
+"Former English teacher and Russian & Italian graduate from Oxford University."
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:18
+msgid "Adit Trivedi"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:19
+msgctxt "app/templates/about.hbs div.div.div.div.div.h4:19"
+msgid "Co-founder"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.p:20
+msgid ""
+"Web & app developer and Computer Science graduate from University College "
+"London"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:27
+msgid "Carol Woodman"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:28
+msgid "Designer"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.p:29
+msgid ""
+"Award winning children's illustrator and leading designer on work for the "
+"BBC."
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:33
+msgid "William O'Grady"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:34
+msgid "Academic Advisor"
+msgstr ""
+
+#: app/templates/about.hbs+div.div.div.div.div.p:35
+msgid ""
+"Professor of child language acquisition and author of 'How Children Learn "
+"Language', Professor O'Grady advises on the academic research that underpins "
+"the Lingumi method."
+msgstr ""

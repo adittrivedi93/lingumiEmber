@@ -1,0 +1,97 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/international.hbs+div.div.div.h2:28
+msgid "Countries we send to:"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:30
+msgid "United Kingdom"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:31
+msgid "Northern Ireland"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:32
+msgid "France"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:33
+msgid "Italy"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:36
+msgid "Germany"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:37
+msgid "Sweden"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:38
+msgid "Austria"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:39
+msgid "Netherlands"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:42
+msgid "Spain"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:43
+msgid "Finland"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:44
+msgid "Portugal"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div.p:45
+msgid "Belgium"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.div:47
+msgid ""
+"{{#link-to 'checkout' class=\"btn btn-magenta\"}}Buy{{/link-to}} {{#link-to "
+"'products' class=\"btn btn-cyan\"}}More info{{/link-to}}"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.h2:54
+msgid "Shipping info"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.h4:55
+msgid ""
+"We ship the Learning Cubes using Royal Mail Signed & Tracked service to the "
+"countries listed above."
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.h4:56
+msgid ""
+"Typical delivery time in the UK is 2-3 working days. Within Europe is 5-10 "
+"business days."
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.h4:60
+msgid "Want Lingumi in your country?"
+msgstr ""
+
+#: app/templates/international.hbs+div.div.div.p:61
+msgid ""
+"We're arriving in more countries all the time. To get your country top of "
+"the list, click to tweet below, or email us with your country."
+msgstr ""
