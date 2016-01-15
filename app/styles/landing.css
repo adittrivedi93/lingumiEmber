@@ -63,7 +63,7 @@
 	margin: 2% 0;
 }
 .story_row img {
-	width: 60%;
+	width: 100%;
 }
 .story_row h4 {
 	font-size: 1.8em;
@@ -169,7 +169,7 @@ margin-top: 5px;
 		text-align: center;
 	}
 	.story_row img {
-		width: 35%;
+		width: 60%;
 		margin: 2%;
 	}
 
