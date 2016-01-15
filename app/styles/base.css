@@ -1,16 +1,13 @@
-html {
+html, body {
 	width: 100%;
 }
-
 .page_content h2, .page_content h4, .page_content p {
 	font-weight: 300;
 }
 .content {
 	width: 100%;
-	padding-top: 16%;;
-	background: url('/assets/web_bg3.gif');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
+	padding-top: 20px;
+	text-align: center;
 }
 .content h2 {
 	font-weight: 300;
@@ -37,12 +34,13 @@ html {
 	color: #323232;
 	padding-bottom: 5px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 .navbar-fixed-top {
 	border-width: 0 0 0 !important;
 	box-shadow: none !important;
-}
-.navbar-noscroll {
-	padding-top: 10%;
 }
 .navbar-nav {
 	padding-right: 15px;
@@ -50,9 +48,6 @@ html {
 .navbar-brand {
 	padding: 15px 5px;
 }
-/*.nav-opacity {
-	background-color: white;
-}*/
 
 .navbar-right .btn {
 	margin: 5px 5px;
@@ -64,12 +59,6 @@ html {
 	background-color: white !important;
 	padding-top: 0;
 	border-bottom: 1px solid #b7b6b7 !important;
-}
-#welcome {
-	float: right;
-	position: fixed;
-	bottom: 0;
-	left: 0;
 }
 .centered {
 	text-align: center;
@@ -84,16 +73,25 @@ html {
 	margin-top: 3%;
 	padding: 1% 20%;
 }
+.very_well_padded {
+	padding: 1% 23%;
+}
 .float_right {
+	float: right;
+}
+.align_right {
 	text-align: right;
 }
 .float_left {
 	text-align:left;
 }
+.underline {
+	text-decoration: underline;
+}
 
 @media (max-width: 770px) {
 	.content {
-		padding-top: 22%;
+		padding-top: 50px;
 	}
 	.navbar-header img {
 	width: 40%;

@@ -21,3 +21,14 @@
     text-align: left;
     list-style-position: inside;
 }
+.signup_footer {
+	background-color: #e6007e;
+	background-opacity: 0.7;
+	margin-bottom: 0;
+	color: white;
+	border-top: 2px solid #585558 !important;
+	padding: 1% 20%;
+}
+.signup_footer_slim {
+	background-color: white !important;
+}

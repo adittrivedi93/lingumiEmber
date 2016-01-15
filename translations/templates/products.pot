@@ -1,0 +1,95 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/products.hbs+div.div.h2:4
+msgid "The Learning Cubes:"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.h2:9
+msgid "The most fun way to learn a language:"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.h4:10
+msgid ""
+"Soft, squishy, BPA-free cubes that interact with a tablet or smartphone to "
+"teach sounds, words, and phrases."
+msgstr ""
+
+#: app/templates/products.hbs+div.div.p:11
+msgid "€55 including free delivery to Italy"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:23
+msgid "Five squishy character cubes"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h4:24
+msgid "Colourful cubes that interact with our apps in magical ways"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:26
+msgid "Box and stand"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h4:27
+msgid ""
+"The box creates a playing surface for your child to place the cubes, and the "
+"stand holds your tablet or smartphone"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:31
+msgid "Free apps"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h4:32
+msgid ""
+"Our first app, designed with help from leading experts, is free to download, "
+"with a second free app on the way. And everything is included: there are no "
+"in-app purchases."
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:37
+msgid "Learn 5 languages"
+msgstr ""
+
+#.  translation: Use the Lingumi Starter Kit to teach your child English, develop their Italian, or to learn new words and phrases in 3 other languages! 
+#: app/templates/products.hbs+div.div.div.h4:38
+msgid ""
+"Use the Lingumi Starter Kit to develop your child's English skills, and to "
+"learn new words and phrases in 4 other languages!"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:47
+msgid "Technical information"
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h4:48
+msgid ""
+"The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS "
+"8.4 and above, or Android devices running 2.3 or above. The app is currently "
+"not visible to the public on the app store, but you will be emailed a link "
+"to download it privately."
+msgstr ""
+
+#: app/templates/products.hbs+div.div.div.h3:49
+msgid "Price & Shipping"
+msgstr ""
+
+#.  translation: The kit costs €55 including delivery. To read more about our availability and shipping in your country, visit our {{#link-to 'international'}}International page{{/link-to}}. 
+#: app/templates/products.hbs+div.div.div.h4:50
+msgid ""
+"The kit costs £35 + delivery, which varies by country. To read more about "
+"our availability in your country, visit our {{#link-to 'international'}}"
+"International page{{/link-to}}."
+msgstr ""

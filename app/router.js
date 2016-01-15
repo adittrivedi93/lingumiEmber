@@ -29,6 +29,8 @@ Router.map(function() {
   this.route('international');
   this.route('about');
   this.route('reg-complete');
+  this.route('story');
+  this.route('apps');
 });
 
 export default Router;

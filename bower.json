@@ -15,7 +15,8 @@
     "pikaday": "~1.4.0",
     "moment": ">= 2.8.0",
     "moment-timezone": ">= 0.1.0",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "blob-polyfill": "~1.0.20150320"
   },
   "devDependencies": {
     "bootstrap": "~3.3.6"

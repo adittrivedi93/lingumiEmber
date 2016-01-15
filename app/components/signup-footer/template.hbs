@@ -1,0 +1,23 @@
+<div class="signup_footer">
+	<h4><strong>Buy the Learning Cubes:</strong></h4>
+	<p>Buy the cubes today for a special early release price of £35.</p>
+	{{#link-to 'checkout' class="btn btn-cyan"}}Buy{{/link-to}}
+	<button class="footer_close btn btn-white">Close</button>
+</div>
+
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+    var footer = $('.signup_footer');
+    var top = 1000;
+    if ($(window).scrollTop() >= top) {
+        footer.addClass('navbar-fixed-bottom');
+    } 
+    	else {
+        footer.removeClass('navbar-fixed-bottom');
+    }
+	});
+	$('.footer_close').click(function() { 
+	    $('.signup_footer').toggle();
+	});
+</script>
