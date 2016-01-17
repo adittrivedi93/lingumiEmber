@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       },
       all: {
         src: ['translations/**/*.po'],
-        dest: 'app/translations'
+        dest: 'app/public/translations'
       }
     },
   });
