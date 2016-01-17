@@ -46,6 +46,7 @@
     "ember-simple-auth": "1.0.1",
     "ember-truth-helpers": "1.2.0",
     "emberx-select": "2.0.2",
+    "grunt-po2json": "^0.3.0",
     "parse": "^1.6.13"
   }
 }
