@@ -14,28 +14,28 @@ msgstr ""
 
 #: app/templates/contact.hbs+div.div.h2:3
 msgid "Contact Lingumi"
-msgstr "xxxContact Lingumixxx"
+msgstr "Ƈǿƞŧȧƈŧ Ŀīƞɠŭḿī"
 
 #: app/templates/contact.hbs+div.div.h2:5
 msgid "Email us"
-msgstr "xxxEmail usxxx"
+msgstr "Ḗḿȧīŀ ŭş"
 
 #: app/templates/contact.hbs+div.div.h4:6
 msgid ""
 "We're here to answer your questions. <br/>Click <a href=\"mailto: "
 "hello@lingumi.com\">here to email us</a>"
 msgstr ""
-"xxxWe're here to answer your questions. <br/>Click <a href=\"mailto: "
-"hello@lingumi.com\">here to email us</a>xxx"
+"Ẇḗ'řḗ ħḗřḗ ŧǿ ȧƞşẇḗř ẏǿŭř ɋŭḗşŧīǿƞş. <br/>Ƈŀīƈķ <a href=\"mailto: "
+"hello@lingumi.com\">ħḗřḗ ŧǿ ḗḿȧīŀ ŭş</a>"
 
 #: app/templates/contact.hbs+div.div.h4:7
 msgid "Or reach out directly: <strong>hello@lingumi.com</strong>"
-msgstr "xxxOr reach out directly: <strong>hello@lingumi.com</strong>xxx"
+msgstr "Ǿř řḗȧƈħ ǿŭŧ ḓīřḗƈŧŀẏ: <strong>hello@lingumi.com</strong>"
 
 #: app/templates/contact.hbs+div.div.p:8
 msgid ""
 "You can also get in touch with a team member {{#link-to 'about'}}on the "
 "about page.{{/link-to}}"
 msgstr ""
-"xxxYou can also get in touch with a team member {{#link-to 'about'}}on the "
-"about page.{{/link-to}}xxx"
+"Ẏǿŭ ƈȧƞ ȧŀşǿ ɠḗŧ īƞ ŧǿŭƈħ ẇīŧħ ȧ ŧḗȧḿ ḿḗḿƀḗř {{#ŀīƞķ-ŧǿ 'ȧƀǿŭŧ'}}ǿƞ ŧħḗ "
+"ȧƀǿŭŧ ƥȧɠḗ.{{/link-to}}"

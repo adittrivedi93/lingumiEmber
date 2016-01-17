@@ -14,7 +14,7 @@ msgstr ""
 
 #: app/templates/slt.hbs+div.div.div.h2:4
 msgid "Lingumi for special needs"
-msgstr "xxxLingumi for special needsxxx"
+msgstr "Ŀīƞɠŭḿī ƒǿř şƥḗƈīȧŀ ƞḗḗḓş"
 
 #: app/templates/slt.hbs+div.div.div.h4:5
 msgid ""
@@ -24,23 +24,23 @@ msgid ""
 "contain no electronics or small pieces, are colourful, and optimised for "
 "<strong>tactile, visual, multisensory learning.</strong>"
 msgstr ""
-"xxxWe've worked with speech therapists and disability organisations to make "
-"the Lingumi learning experience available to every child. The {{#link-to "
-"'products'}}Starter Kit{{/link-to}} uses squishy, child-safe cubes that "
-"contain no electronics or small pieces, are colourful, and optimised for "
-"<strong>tactile, visual, multisensory learning.</strong>xxx"
+"Ẇḗ'ṽḗ ẇǿřķḗḓ ẇīŧħ şƥḗḗƈħ ŧħḗřȧƥīşŧş ȧƞḓ ḓīşȧƀīŀīŧẏ ǿřɠȧƞīşȧŧīǿƞş ŧǿ ḿȧķḗ ŧħḗ "
+"Ŀīƞɠŭḿī ŀḗȧřƞīƞɠ ḗẋƥḗřīḗƞƈḗ ȧṽȧīŀȧƀŀḗ ŧǿ ḗṽḗřẏ ƈħīŀḓ. Ŧħḗ {{#ŀīƞķ-ŧǿ "
+"'ƥřǿḓŭƈŧş'}}Şŧȧřŧḗř Ķīŧ{{/link-to}} ŭşḗş şɋŭīşħẏ, ƈħīŀḓ-şȧƒḗ ƈŭƀḗş ŧħȧŧ "
+"ƈǿƞŧȧīƞ ƞǿ ḗŀḗƈŧřǿƞīƈş ǿř şḿȧŀŀ ƥīḗƈḗş, ȧřḗ ƈǿŀǿŭřƒŭŀ, ȧƞḓ ǿƥŧīḿīşḗḓ ƒǿř "
+"<strong>ŧȧƈŧīŀḗ, ṽīşŭȧŀ, ḿŭŀŧīşḗƞşǿřẏ ŀḗȧřƞīƞɠ.</strong>"
 
 #: app/templates/slt.hbs+div.div.div.h4:8
 msgid "{{!--"
-msgstr "xxx{{!--xxx"
+msgstr "{{!--"
 
 #: app/templates/slt.hbs+div.div.div.h4:9
 msgid "Quote from SLT"
-msgstr "xxxQuote from SLTxxx"
+msgstr "Ɋŭǿŧḗ ƒřǿḿ ŞĿŦ"
 
 #: app/templates/slt.hbs+div.div.div.div.h2:13
 msgid "Speech delay"
-msgstr "xxxSpeech delayxxx"
+msgstr "Şƥḗḗƈħ ḓḗŀȧẏ"
 
 #: app/templates/slt.hbs+div.div.div.div.h4:14
 msgid ""
@@ -49,14 +49,14 @@ msgid ""
 "associated difficulties, we noticed unprompted repetiton of words after just "
 "two play sessions. {{#link-to 'products'}}Try it at home.{{/link-to}}"
 msgstr ""
-"xxxThe interactive nature of the kit helps children with speech language "
-"problems to gain confidence. In testing with children with speech delay and "
-"associated difficulties, we noticed unprompted repetiton of words after just "
-"two play sessions. {{#link-to 'products'}}Try it at home.{{/link-to}}xxx"
+"Ŧħḗ īƞŧḗřȧƈŧīṽḗ ƞȧŧŭřḗ ǿƒ ŧħḗ ķīŧ ħḗŀƥş ƈħīŀḓřḗƞ ẇīŧħ şƥḗḗƈħ ŀȧƞɠŭȧɠḗ "
+"ƥřǿƀŀḗḿş ŧǿ ɠȧīƞ ƈǿƞƒīḓḗƞƈḗ. Īƞ ŧḗşŧīƞɠ ẇīŧħ ƈħīŀḓřḗƞ ẇīŧħ şƥḗḗƈħ ḓḗŀȧẏ ȧƞḓ "
+"ȧşşǿƈīȧŧḗḓ ḓīƒƒīƈŭŀŧīḗş, ẇḗ ƞǿŧīƈḗḓ ŭƞƥřǿḿƥŧḗḓ řḗƥḗŧīŧǿƞ ǿƒ ẇǿřḓş ȧƒŧḗř ĵŭşŧ "
+"ŧẇǿ ƥŀȧẏ şḗşşīǿƞş. {{#ŀīƞķ-ŧǿ 'ƥřǿḓŭƈŧş'}}Ŧřẏ īŧ ȧŧ ħǿḿḗ.{{/link-to}}"
 
 #: app/templates/slt.hbs+div.div.div.div.h2:17
 msgid "Down's Syndrome"
-msgstr "xxxDown's Syndromexxx"
+msgstr "Ḓǿẇƞ'ş Şẏƞḓřǿḿḗ"
 
 #: app/templates/slt.hbs+div.div.div.div.h4:18
 msgid ""
@@ -66,15 +66,15 @@ msgid ""
 "test and improve the kit for special needs.{{#link-to 'products'}}Try it at "
 "home.{{/link-to}}"
 msgstr ""
-"xxxThe Lingumi Starter Kit takes the child away from the screen, turning the "
-"learning experience into a highly visual, but interactive one. We've been "
-"working with Down's Syndrome charities and families with children with DS to "
-"test and improve the kit for special needs.{{#link-to 'products'}}Try it at "
-"home.{{/link-to}}xxx"
+"Ŧħḗ Ŀīƞɠŭḿī Şŧȧřŧḗř Ķīŧ ŧȧķḗş ŧħḗ ƈħīŀḓ ȧẇȧẏ ƒřǿḿ ŧħḗ şƈřḗḗƞ, ŧŭřƞīƞɠ ŧħḗ "
+"ŀḗȧřƞīƞɠ ḗẋƥḗřīḗƞƈḗ īƞŧǿ ȧ ħīɠħŀẏ ṽīşŭȧŀ, ƀŭŧ īƞŧḗřȧƈŧīṽḗ ǿƞḗ. Ẇḗ'ṽḗ ƀḗḗƞ "
+"ẇǿřķīƞɠ ẇīŧħ Ḓǿẇƞ'ş Şẏƞḓřǿḿḗ ƈħȧřīŧīḗş ȧƞḓ ƒȧḿīŀīḗş ẇīŧħ ƈħīŀḓřḗƞ ẇīŧħ ḒŞ ŧǿ "
+"ŧḗşŧ ȧƞḓ īḿƥřǿṽḗ ŧħḗ ķīŧ ƒǿř şƥḗƈīȧŀ ƞḗḗḓş.{{#ŀīƞķ-ŧǿ 'ƥřǿḓŭƈŧş'}}Ŧřẏ īŧ ȧŧ "
+"ħǿḿḗ.{{/link-to}}"
 
 #: app/templates/slt.hbs+div.div.div.div.h2:21
 msgid "Bilingual children"
-msgstr "xxxBilingual childrenxxx"
+msgstr "Ɓīŀīƞɠŭȧŀ ƈħīŀḓřḗƞ"
 
 #: app/templates/slt.hbs+div.div.div.div.h4:22
 msgid ""
@@ -83,7 +83,7 @@ msgid ""
 "first or second language. Read their {{#link-to 'stories'}}stories{{/link-"
 "to}} or{{#link-to 'products'}}try it at home.{{/link-to}}"
 msgstr ""
-"xxxWe work with bilingual families in London to ensure that Lingumi provides "
-"a positive learning experience, and gives their child confidence in their "
-"first or second language. Read their {{#link-to 'stories'}}stories{{/link-"
-"to}} or{{#link-to 'products'}}try it at home.{{/link-to}}xxx"
+"Ẇḗ ẇǿřķ ẇīŧħ ƀīŀīƞɠŭȧŀ ƒȧḿīŀīḗş īƞ Ŀǿƞḓǿƞ ŧǿ ḗƞşŭřḗ ŧħȧŧ Ŀīƞɠŭḿī ƥřǿṽīḓḗş ȧ "
+"ƥǿşīŧīṽḗ ŀḗȧřƞīƞɠ ḗẋƥḗřīḗƞƈḗ, ȧƞḓ ɠīṽḗş ŧħḗīř ƈħīŀḓ ƈǿƞƒīḓḗƞƈḗ īƞ ŧħḗīř "
+"ƒīřşŧ ǿř şḗƈǿƞḓ ŀȧƞɠŭȧɠḗ. Řḗȧḓ ŧħḗīř {{#ŀīƞķ-ŧǿ 'şŧǿřīḗş'}}şŧǿřīḗş{{/link-"
+"to}} ǿř{{#ŀīƞķ-ŧǿ 'ƥřǿḓŭƈŧş'}}ŧřẏ īŧ ȧŧ ħǿḿḗ.{{/link-to}}"

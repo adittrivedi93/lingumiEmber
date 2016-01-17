@@ -17,7 +17,8 @@
     "moment-timezone": ">= 0.1.0",
     "bootstrap": "~3.3.5",
     "blob-polyfill": "~1.0.20150320",
-    "jed": "~1.1.0"
+    "jed": "~1.1.0",
+    "lodash": "~4.0.0"
   },
   "devDependencies": {
     "bootstrap": "~3.3.6"

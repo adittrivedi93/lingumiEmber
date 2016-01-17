@@ -14,24 +14,24 @@ msgstr ""
 
 #: app/templates/checkout.hbs+div.div.div.div.div:5
 msgid "1"
-msgstr "xxx1xxx"
+msgstr "1"
 
 #: app/templates/checkout.hbs+div.div.div.div.h4:6
 msgid "Start checkout"
-msgstr "xxxStart checkoutxxx"
+msgstr "Şŧȧřŧ ƈħḗƈķǿŭŧ"
 
 #: app/templates/checkout.hbs+div.div.div.div.div:9
 msgid "2"
-msgstr "xxx2xxx"
+msgstr "2"
 
 #: app/templates/checkout.hbs+div.div.div.div.h4:10
 msgid "Payment"
-msgstr "xxxPaymentxxx"
+msgstr "Ƥȧẏḿḗƞŧ"
 
 #: app/templates/checkout.hbs+div.div.div.div.div:13
 msgid "3"
-msgstr "xxx3xxx"
+msgstr "3"
 
 #: app/templates/checkout.hbs+div.div.div.div.h4:14
 msgid "Confirmation"
-msgstr "xxxConfirmationxxx"
+msgstr "Ƈǿƞƒīřḿȧŧīǿƞ"

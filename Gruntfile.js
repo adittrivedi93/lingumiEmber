@@ -7,11 +7,12 @@ module.exports = function(grunt) {
     po2json: {
       options: {
         format: 'jed',
+        pretty: true,
         singleFile: true
       },
       all: {
         src: ['translations/pseudo/*.po'],
-        dest: 'app/public/translations'
+        dest: 'public/translations'
       }
     },
   });

@@ -14,7 +14,7 @@ msgstr ""
 
 #: app/templates/faq.hbs+div.div.h2:3
 msgid "Do you have to have the starter kit to get the benefits?"
-msgstr "xxxDo you have to have the starter kit to get the benefits?xxx"
+msgstr "Ḓǿ ẏǿŭ ħȧṽḗ ŧǿ ħȧṽḗ ŧħḗ şŧȧřŧḗř ķīŧ ŧǿ ɠḗŧ ŧħḗ ƀḗƞḗƒīŧş?"
 
 #: app/templates/faq.hbs+div.div.h4:4
 msgid ""
@@ -24,15 +24,15 @@ msgid ""
 "However, you can still {{#link-to 'registerAccount'}}signup for free{{/link-"
 "to}} without a kit."
 msgstr ""
-"xxxThe starter kit has been designed from academic research to be the best "
-"way to introduce a child to a language in their early years. We would "
-"recommend buying a kit to start learning with your child - and the fun is "
-"guaranteed. However, you can still {{#link-to 'registerAccount'}}signup for "
-"free{{/link-to}} without a kit.xxx"
+"Ŧħḗ şŧȧřŧḗř ķīŧ ħȧş ƀḗḗƞ ḓḗşīɠƞḗḓ ƒřǿḿ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ ŧǿ ƀḗ ŧħḗ ƀḗşŧ ẇȧẏ "
+"ŧǿ īƞŧřǿḓŭƈḗ ȧ ƈħīŀḓ ŧǿ ȧ ŀȧƞɠŭȧɠḗ īƞ ŧħḗīř ḗȧřŀẏ ẏḗȧřş. Ẇḗ ẇǿŭŀḓ řḗƈǿḿḿḗƞḓ "
+"ƀŭẏīƞɠ ȧ ķīŧ ŧǿ şŧȧřŧ ŀḗȧřƞīƞɠ ẇīŧħ ẏǿŭř ƈħīŀḓ - ȧƞḓ ŧħḗ ƒŭƞ īş ɠŭȧřȧƞŧḗḗḓ. "
+"Ħǿẇḗṽḗř, ẏǿŭ ƈȧƞ şŧīŀŀ {{#ŀīƞķ-ŧǿ 'řḗɠīşŧḗřȦƈƈǿŭƞŧ'}}şīɠƞŭƥ ƒǿř ƒřḗḗ{{/link-"
+"to}} ẇīŧħǿŭŧ ȧ ķīŧ."
 
 #: app/templates/faq.hbs+div.div.h2:5
 msgid "Do you deliver to my country?"
-msgstr "xxxDo you deliver to my country?xxx"
+msgstr "Ḓǿ ẏǿŭ ḓḗŀīṽḗř ŧǿ ḿẏ ƈǿŭƞŧřẏ?"
 
 #: app/templates/faq.hbs+div.div.h4:6
 msgid ""
@@ -40,14 +40,14 @@ msgid ""
 "{{/link-to}} for more details on where we send, and how to get your Lingumi "
 "Starter Kit"
 msgstr ""
-"xxxWe might do. Check out our {{#link-to 'international'}}international page"
-"{{/link-to}} for more details on where we send, and how to get your Lingumi "
-"Starter Kitxxx"
+"Ẇḗ ḿīɠħŧ ḓǿ. Ƈħḗƈķ ǿŭŧ ǿŭř {{#ŀīƞķ-ŧǿ 'īƞŧḗřƞȧŧīǿƞȧŀ'}}īƞŧḗřƞȧŧīǿƞȧŀ ƥȧɠḗ"
+"{{/link-to}} ƒǿř ḿǿřḗ ḓḗŧȧīŀş ǿƞ ẇħḗřḗ ẇḗ şḗƞḓ, ȧƞḓ ħǿẇ ŧǿ ɠḗŧ ẏǿŭř Ŀīƞɠŭḿī "
+"Şŧȧřŧḗř Ķīŧ"
 
 #: app/templates/faq.hbs+div.div.h3:8
 msgid ""
 "Haven't found an answer to your question? {{#link-to 'contact'}}Ask us"
 "!{{/link-to}}"
 msgstr ""
-"xxxHaven't found an answer to your question? {{#link-to 'contact'}}Ask us"
-"!{{/link-to}}xxx"
+"Ħȧṽḗƞ'ŧ ƒǿŭƞḓ ȧƞ ȧƞşẇḗř ŧǿ ẏǿŭř ɋŭḗşŧīǿƞ? {{#ŀīƞķ-ŧǿ 'ƈǿƞŧȧƈŧ'}}Ȧşķ ŭş"
+"!{{/link-to}}"

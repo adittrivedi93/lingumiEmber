@@ -14,15 +14,15 @@ msgstr ""
 
 #: app/templates/about.hbs+div.div.h2:3
 msgid "About Us"
-msgstr "xxxAbout Usxxx"
+msgstr "Ȧƀǿŭŧ Ŭş"
 
 #: app/templates/about.hbs+div.div.h3:4
 msgid ""
 "We founded Lingumi because we want to make it easier, cheaper, and more fun "
 "to teach your child a language at the best age for learning."
 msgstr ""
-"xxxWe founded Lingumi because we want to make it easier, cheaper, and more "
-"fun to teach your child a language at the best age for learning.xxx"
+"Ẇḗ ƒǿŭƞḓḗḓ Ŀīƞɠŭḿī ƀḗƈȧŭşḗ ẇḗ ẇȧƞŧ ŧǿ ḿȧķḗ īŧ ḗȧşīḗř, ƈħḗȧƥḗř, ȧƞḓ ḿǿřḗ ƒŭƞ "
+"ŧǿ ŧḗȧƈħ ẏǿŭř ƈħīŀḓ ȧ ŀȧƞɠŭȧɠḗ ȧŧ ŧħḗ ƀḗşŧ ȧɠḗ ƒǿř ŀḗȧřƞīƞɠ."
 
 #: app/templates/about.hbs+div.div.h4:5
 msgid ""
@@ -30,75 +30,73 @@ msgid ""
 "advisory academics, who love designing effective, fun, playful learning "
 "products."
 msgstr ""
-"xxxWe're a team of teachers, learners, computer scientists, designers, and "
-"advisory academics, who love designing effective, fun, playful learning "
-"products.xxx"
+"Ẇḗ'řḗ ȧ ŧḗȧḿ ǿƒ ŧḗȧƈħḗřş, ŀḗȧřƞḗřş, ƈǿḿƥŭŧḗř şƈīḗƞŧīşŧş, ḓḗşīɠƞḗřş, ȧƞḓ "
+"ȧḓṽīşǿřẏ ȧƈȧḓḗḿīƈş, ẇħǿ ŀǿṽḗ ḓḗşīɠƞīƞɠ ḗƒƒḗƈŧīṽḗ, ƒŭƞ, ƥŀȧẏƒŭŀ ŀḗȧřƞīƞɠ "
+"ƥřǿḓŭƈŧş."
 
 #: app/templates/about.hbs+div.div.h4:6
 msgid "You can read more about our story {{#link-to 'story'}}here.{{/link-to}}"
-msgstr ""
-"xxxYou can read more about our story {{#link-to 'story'}}here.{{/link-to}}xxx"
+msgstr "Ẏǿŭ ƈȧƞ řḗȧḓ ḿǿřḗ ȧƀǿŭŧ ǿŭř şŧǿřẏ {{#ŀīƞķ-ŧǿ 'şŧǿřẏ'}}ħḗřḗ.{{/link-to}}"
 
 #: app/templates/about.hbs+div.div.div.h2:8
 msgid "Meet the team"
-msgstr "xxxMeet the teamxxx"
+msgstr "Ḿḗḗŧ ŧħḗ ŧḗȧḿ"
 
 #: app/templates/about.hbs+div.div.div.div.div.h3:12
 msgid "Toby Mather"
-msgstr "xxxToby Matherxxx"
+msgstr "Ŧǿƀẏ Ḿȧŧħḗř"
 
 #: app/templates/about.hbs+div.div.div.div.div.h4:13
 msgctxt "app/templates/about.hbs div.div.div.div.div.h4:13"
 msgid "Co-founder"
-msgstr "xxxCo-founderxxx"
+msgstr "Ƈǿ-ƒǿŭƞḓḗř"
 
 #: app/templates/about.hbs+div.div.div.div.div.p:14
 msgid ""
 "Former English teacher and Russian & Italian graduate from Oxford University."
 msgstr ""
-"xxxFormer English teacher and Russian & Italian graduate from Oxford "
-"University.xxx"
+"Ƒǿřḿḗř Ḗƞɠŀīşħ ŧḗȧƈħḗř ȧƞḓ Řŭşşīȧƞ & Īŧȧŀīȧƞ ɠřȧḓŭȧŧḗ ƒřǿḿ Ǿẋƒǿřḓ Ŭƞīṽḗřşīŧẏ."
 
 #: app/templates/about.hbs+div.div.div.div.div.h3:18
 msgid "Adit Trivedi"
-msgstr "xxxAdit Trivedixxx"
+msgstr "Ȧḓīŧ Ŧřīṽḗḓī"
 
 #: app/templates/about.hbs+div.div.div.div.div.h4:19
 msgctxt "app/templates/about.hbs div.div.div.div.div.h4:19"
 msgid "Co-founder"
-msgstr "xxxCo-founderxxx"
+msgstr "Ƈǿ-ƒǿŭƞḓḗř"
 
 #: app/templates/about.hbs+div.div.div.div.div.p:20
 msgid ""
 "Web & app developer and Computer Science graduate from University College "
 "London"
 msgstr ""
-"xxxWeb & app developer and Computer Science graduate from University College "
-"Londonxxx"
+"Ẇḗƀ & ȧƥƥ ḓḗṽḗŀǿƥḗř ȧƞḓ Ƈǿḿƥŭŧḗř Şƈīḗƞƈḗ ɠřȧḓŭȧŧḗ ƒřǿḿ Ŭƞīṽḗřşīŧẏ Ƈǿŀŀḗɠḗ "
+"Ŀǿƞḓǿƞ"
 
 #: app/templates/about.hbs+div.div.div.div.div.h3:27
 msgid "Carol Woodman"
-msgstr "xxxCarol Woodmanxxx"
+msgstr "Ƈȧřǿŀ Ẇǿǿḓḿȧƞ"
 
 #: app/templates/about.hbs+div.div.div.div.div.h4:28
 msgid "Designer"
-msgstr "xxxDesignerxxx"
+msgstr "Ḓḗşīɠƞḗř"
 
 #: app/templates/about.hbs+div.div.div.div.div.p:29
 msgid ""
 "Award winning children's illustrator and leading designer on work for the "
 "BBC."
 msgstr ""
-"xxxAward winning children's illustrator and leading designer on work for the "
-"BBC.xxx"
+"Ȧẇȧřḓ ẇīƞƞīƞɠ ƈħīŀḓřḗƞ'ş īŀŀŭşŧřȧŧǿř ȧƞḓ ŀḗȧḓīƞɠ ḓḗşīɠƞḗř ǿƞ ẇǿřķ ƒǿř ŧħḗ "
+"ƁƁƇ."
 
 #: app/templates/about.hbs+div.div.div.div.div.h3:33
 msgid "William O'Grady"
-msgstr "xxxWilliam O'Gradyxxx"
+msgstr "Ẇīŀŀīȧḿ Ǿ'Ɠřȧḓẏ"
 
 #: app/templates/about.hbs+div.div.div.div.div.h4:34
 msgid "Academic Advisor"
-msgstr "xxxAcademic Advisorxxx"
+msgstr "Ȧƈȧḓḗḿīƈ Ȧḓṽīşǿř"
 
 #: app/templates/about.hbs+div.div.div.div.div.p:35
 msgid ""
@@ -106,6 +104,6 @@ msgid ""
 "Language', Professor O'Grady advises on the academic research that underpins "
 "the Lingumi method."
 msgstr ""
-"xxxProfessor of child language acquisition and author of 'How Children Learn "
-"Language', Professor O'Grady advises on the academic research that underpins "
-"the Lingumi method.xxx"
+"Ƥřǿƒḗşşǿř ǿƒ ƈħīŀḓ ŀȧƞɠŭȧɠḗ ȧƈɋŭīşīŧīǿƞ ȧƞḓ ȧŭŧħǿř ǿƒ 'Ħǿẇ Ƈħīŀḓřḗƞ Ŀḗȧřƞ "
+"Ŀȧƞɠŭȧɠḗ', Ƥřǿƒḗşşǿř Ǿ'Ɠřȧḓẏ ȧḓṽīşḗş ǿƞ ŧħḗ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ ŧħȧŧ ŭƞḓḗřƥīƞş "
+"ŧħḗ Ŀīƞɠŭḿī ḿḗŧħǿḓ."

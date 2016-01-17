@@ -14,92 +14,92 @@ msgstr ""
 
 #: app/templates/international.hbs+div.div.div.h2:28
 msgid "Countries we send to:"
-msgstr "xxxCountries we send to:xxx"
+msgstr "Ƈǿŭƞŧřīḗş ẇḗ şḗƞḓ ŧǿ:"
 
 #: app/templates/international.hbs+div.div.div.div.p:30
 msgid "United Kingdom"
-msgstr "xxxUnited Kingdomxxx"
+msgstr "Ŭƞīŧḗḓ Ķīƞɠḓǿḿ"
 
 #: app/templates/international.hbs+div.div.div.div.p:31
 msgid "Northern Ireland"
-msgstr "xxxNorthern Irelandxxx"
+msgstr "Ƞǿřŧħḗřƞ Īřḗŀȧƞḓ"
 
 #: app/templates/international.hbs+div.div.div.div.p:32
 msgid "France"
-msgstr "xxxFrancexxx"
+msgstr "Ƒřȧƞƈḗ"
 
 #: app/templates/international.hbs+div.div.div.div.p:33
 msgid "Italy"
-msgstr "xxxItalyxxx"
+msgstr "Īŧȧŀẏ"
 
 #: app/templates/international.hbs+div.div.div.div.p:36
 msgid "Germany"
-msgstr "xxxGermanyxxx"
+msgstr "Ɠḗřḿȧƞẏ"
 
 #: app/templates/international.hbs+div.div.div.div.p:37
 msgid "Sweden"
-msgstr "xxxSwedenxxx"
+msgstr "Şẇḗḓḗƞ"
 
 #: app/templates/international.hbs+div.div.div.div.p:38
 msgid "Austria"
-msgstr "xxxAustriaxxx"
+msgstr "Ȧŭşŧřīȧ"
 
 #: app/templates/international.hbs+div.div.div.div.p:39
 msgid "Netherlands"
-msgstr "xxxNetherlandsxxx"
+msgstr "Ƞḗŧħḗřŀȧƞḓş"
 
 #: app/templates/international.hbs+div.div.div.div.p:42
 msgid "Spain"
-msgstr "xxxSpainxxx"
+msgstr "Şƥȧīƞ"
 
 #: app/templates/international.hbs+div.div.div.div.p:43
 msgid "Finland"
-msgstr "xxxFinlandxxx"
+msgstr "Ƒīƞŀȧƞḓ"
 
 #: app/templates/international.hbs+div.div.div.div.p:44
 msgid "Portugal"
-msgstr "xxxPortugalxxx"
+msgstr "Ƥǿřŧŭɠȧŀ"
 
 #: app/templates/international.hbs+div.div.div.div.p:45
 msgid "Belgium"
-msgstr "xxxBelgiumxxx"
+msgstr "Ɓḗŀɠīŭḿ"
 
 #: app/templates/international.hbs+div.div.div.div:47
 msgid ""
 "{{#link-to 'checkout' class=\"btn btn-magenta\"}}Buy{{/link-to}} {{#link-to "
 "'products' class=\"btn btn-cyan\"}}More info{{/link-to}}"
 msgstr ""
-"xxx{{#link-to 'checkout' class=\"btn btn-magenta\"}}Buy{{/link-to}} {{#link-"
-"to 'products' class=\"btn btn-cyan\"}}More info{{/link-to}}xxx"
+"{{#ŀīƞķ-ŧǿ 'ƈħḗƈķǿŭŧ' ƈŀȧşş=\"ƀŧƞ ƀŧƞ-ḿȧɠḗƞŧȧ\"}}Ɓŭẏ{{/link-to}} {{#ŀīƞķ-ŧǿ "
+"'ƥřǿḓŭƈŧş' ƈŀȧşş=\"ƀŧƞ ƀŧƞ-ƈẏȧƞ\"}}Ḿǿřḗ īƞƒǿ{{/link-to}}"
 
 #: app/templates/international.hbs+div.div.div.h2:54
 msgid "Shipping info"
-msgstr "xxxShipping infoxxx"
+msgstr "Şħīƥƥīƞɠ īƞƒǿ"
 
 #: app/templates/international.hbs+div.div.div.h4:55
 msgid ""
 "We ship the Learning Cubes using Royal Mail Signed & Tracked service to the "
 "countries listed above."
 msgstr ""
-"xxxWe ship the Learning Cubes using Royal Mail Signed & Tracked service to "
-"the countries listed above.xxx"
+"Ẇḗ şħīƥ ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş ŭşīƞɠ Řǿẏȧŀ Ḿȧīŀ Şīɠƞḗḓ & Ŧřȧƈķḗḓ şḗřṽīƈḗ ŧǿ ŧħḗ "
+"ƈǿŭƞŧřīḗş ŀīşŧḗḓ ȧƀǿṽḗ."
 
 #: app/templates/international.hbs+div.div.div.h4:56
 msgid ""
 "Typical delivery time in the UK is 2-3 working days. Within Europe is 5-10 "
 "business days."
 msgstr ""
-"xxxTypical delivery time in the UK is 2-3 working days. Within Europe is 5-"
-"10 business days.xxx"
+"Ŧẏƥīƈȧŀ ḓḗŀīṽḗřẏ ŧīḿḗ īƞ ŧħḗ ŬĶ īş 2-3 ẇǿřķīƞɠ ḓȧẏş. Ẇīŧħīƞ Ḗŭřǿƥḗ īş 5-10 "
+"ƀŭşīƞḗşş ḓȧẏş."
 
 #: app/templates/international.hbs+div.div.div.h4:60
 msgid "Want Lingumi in your country?"
-msgstr "xxxWant Lingumi in your country?xxx"
+msgstr "Ẇȧƞŧ Ŀīƞɠŭḿī īƞ ẏǿŭř ƈǿŭƞŧřẏ?"
 
 #: app/templates/international.hbs+div.div.div.p:61
 msgid ""
 "We're arriving in more countries all the time. To get your country top of "
 "the list, click to tweet below, or email us with your country."
 msgstr ""
-"xxxWe're arriving in more countries all the time. To get your country top of "
-"the list, click to tweet below, or email us with your country.xxx"
+"Ẇḗ'řḗ ȧřřīṽīƞɠ īƞ ḿǿřḗ ƈǿŭƞŧřīḗş ȧŀŀ ŧħḗ ŧīḿḗ. Ŧǿ ɠḗŧ ẏǿŭř ƈǿŭƞŧřẏ ŧǿƥ ǿƒ "
+"ŧħḗ ŀīşŧ, ƈŀīƈķ ŧǿ ŧẇḗḗŧ ƀḗŀǿẇ, ǿř ḗḿȧīŀ ŭş ẇīŧħ ẏǿŭř ƈǿŭƞŧřẏ."

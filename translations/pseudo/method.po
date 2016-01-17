@@ -14,46 +14,45 @@ msgstr ""
 
 #: app/templates/method.hbs+div.div.h2:3
 msgid "The Lingumi Method"
-msgstr "xxxThe Lingumi Methodxxx"
+msgstr "Ŧħḗ Ŀīƞɠŭḿī Ḿḗŧħǿḓ"
 
 #: app/templates/method.hbs+div.div.div.div.div.div.p:10
 msgid "1"
-msgstr "xxx1xxx"
+msgstr "1"
 
 #: app/templates/method.hbs+div.div.div.div.div.h4:11
 msgid "<strong>New sounds</strong> introduced through play"
-msgstr "xxx<strong>New sounds</strong> introduced through playxxx"
+msgstr "<strong>Ƞḗẇ şǿŭƞḓş</strong> īƞŧřǿḓŭƈḗḓ ŧħřǿŭɠħ ƥŀȧẏ"
 
 #: app/templates/method.hbs+div.div.div.div.div.div.p:14
 msgid "2"
-msgstr "xxx2xxx"
+msgstr "2"
 
 #: app/templates/method.hbs+div.div.div.div.div.h4:15
 msgid "<strong>First words</strong> learned through play and repetition"
-msgstr "xxx<strong>First words</strong> learned through play and repetitionxxx"
+msgstr "<strong>Ƒīřşŧ ẇǿřḓş</strong> ŀḗȧřƞḗḓ ŧħřǿŭɠħ ƥŀȧẏ ȧƞḓ řḗƥḗŧīŧīǿƞ"
 
 #: app/templates/method.hbs+div.div.div.div.div.div.p:18
 msgid "3"
-msgstr "xxx3xxx"
+msgstr "3"
 
 #: app/templates/method.hbs+div.div.div.div.div.h4:19
 msgid ""
 "<strong>Contextual language</strong> absorbed through question games and "
 "puzzles"
 msgstr ""
-"xxx<strong>Contextual language</strong> absorbed through question games and "
-"puzzlesxxx"
+"<strong>Ƈǿƞŧḗẋŧŭȧŀ ŀȧƞɠŭȧɠḗ</strong> ȧƀşǿřƀḗḓ ŧħřǿŭɠħ ɋŭḗşŧīǿƞ ɠȧḿḗş ȧƞḓ "
+"ƥŭzzŀḗş"
 
 #: app/templates/method.hbs+div.div.div.div.div.div.p:22
 msgid "4"
-msgstr "xxx4xxx"
+msgstr "4"
 
 #: app/templates/method.hbs+div.div.div.div.div.h4:23
 msgid ""
 "<strong>Short phrases</strong> learned and practised by answering questions"
 msgstr ""
-"xxx<strong>Short phrases</strong> learned and practised by answering "
-"questionsxxx"
+"<strong>Şħǿřŧ ƥħřȧşḗş</strong> ŀḗȧřƞḗḓ ȧƞḓ ƥřȧƈŧīşḗḓ ƀẏ ȧƞşẇḗřīƞɠ ɋŭḗşŧīǿƞş"
 
 #: app/templates/method.hbs+div.div.div.h4:28
 msgid ""
@@ -65,21 +64,21 @@ msgid ""
 "playful environment.<br/>The Lingumi Method has been created to stimulate "
 "neurological development through multi-sensory engagement."
 msgstr ""
-"xxxThe Lingumi Method has been developed with early years experts and "
-"academics to empower parents and children to learn and practise a language "
-"together. By combining <strong>physical play</strong> with amazing <strong>"
-"digital apps</strong>, the method uses a mixture of physical actions, audio, "
-"video, and puzzle-solving to develop children's skills in a multi-sensory "
-"and playful environment.<br/>The Lingumi Method has been created to "
-"stimulate neurological development through multi-sensory engagement.xxx"
+"Ŧħḗ Ŀīƞɠŭḿī Ḿḗŧħǿḓ ħȧş ƀḗḗƞ ḓḗṽḗŀǿƥḗḓ ẇīŧħ ḗȧřŀẏ ẏḗȧřş ḗẋƥḗřŧş ȧƞḓ ȧƈȧḓḗḿīƈş "
+"ŧǿ ḗḿƥǿẇḗř ƥȧřḗƞŧş ȧƞḓ ƈħīŀḓřḗƞ ŧǿ ŀḗȧřƞ ȧƞḓ ƥřȧƈŧīşḗ ȧ ŀȧƞɠŭȧɠḗ ŧǿɠḗŧħḗř. "
+"Ɓẏ ƈǿḿƀīƞīƞɠ <strong>ƥħẏşīƈȧŀ ƥŀȧẏ</strong> ẇīŧħ ȧḿȧzīƞɠ <strong>ḓīɠīŧȧŀ "
+"ȧƥƥş</strong>, ŧħḗ ḿḗŧħǿḓ ŭşḗş ȧ ḿīẋŧŭřḗ ǿƒ ƥħẏşīƈȧŀ ȧƈŧīǿƞş, ȧŭḓīǿ, ṽīḓḗǿ, "
+"ȧƞḓ ƥŭzzŀḗ-şǿŀṽīƞɠ ŧǿ ḓḗṽḗŀǿƥ ƈħīŀḓřḗƞ'ş şķīŀŀş īƞ ȧ ḿŭŀŧī-şḗƞşǿřẏ ȧƞḓ "
+"ƥŀȧẏƒŭŀ ḗƞṽīřǿƞḿḗƞŧ.<br/>Ŧħḗ Ŀīƞɠŭḿī Ḿḗŧħǿḓ ħȧş ƀḗḗƞ ƈřḗȧŧḗḓ ŧǿ şŧīḿŭŀȧŧḗ "
+"ƞḗŭřǿŀǿɠīƈȧŀ ḓḗṽḗŀǿƥḿḗƞŧ ŧħřǿŭɠħ ḿŭŀŧī-şḗƞşǿřẏ ḗƞɠȧɠḗḿḗƞŧ."
 
 #: app/templates/method.hbs+div.div.h2:33
 msgid "The Learner's Journey"
-msgstr "xxxThe Learner's Journeyxxx"
+msgstr "Ŧħḗ Ŀḗȧřƞḗř'ş Ĵǿŭřƞḗẏ"
 
 #: app/templates/method.hbs+div.div.div.div.h3:36
 msgid "1: Build"
-msgstr "xxx1: Buildxxx"
+msgstr "1: Ɓŭīŀḓ"
 
 #: app/templates/method.hbs+div.div.div.div.h4:40
 msgid ""
@@ -88,14 +87,14 @@ msgid ""
 "academics at the University of Oxford that replicates the words a child "
 "learns first in their native language."
 msgstr ""
-"xxx<strong>Build basic vocabulary</strong> using the Lingumi Starter Kit and "
-"First Words app, which teaches over 60 new words, in a structure devised by "
-"academics at the University of Oxford that replicates the words a child "
-"learns first in their native language.xxx"
+"<strong>Ɓŭīŀḓ ƀȧşīƈ ṽǿƈȧƀŭŀȧřẏ</strong> ŭşīƞɠ ŧħḗ Ŀīƞɠŭḿī Şŧȧřŧḗř Ķīŧ ȧƞḓ "
+"Ƒīřşŧ Ẇǿřḓş ȧƥƥ, ẇħīƈħ ŧḗȧƈħḗş ǿṽḗř 60 ƞḗẇ ẇǿřḓş, īƞ ȧ şŧřŭƈŧŭřḗ ḓḗṽīşḗḓ ƀẏ "
+"ȧƈȧḓḗḿīƈş ȧŧ ŧħḗ Ŭƞīṽḗřşīŧẏ ǿƒ Ǿẋƒǿřḓ ŧħȧŧ řḗƥŀīƈȧŧḗş ŧħḗ ẇǿřḓş ȧ ƈħīŀḓ "
+"ŀḗȧřƞş ƒīřşŧ īƞ ŧħḗīř ƞȧŧīṽḗ ŀȧƞɠŭȧɠḗ."
 
 #: app/templates/method.hbs+div.div.div.div.h3:46
 msgid "2: Expand"
-msgstr "xxx2: Expandxxx"
+msgstr "2: Ḗẋƥȧƞḓ"
 
 #: app/templates/method.hbs+div.div.div.h4:49
 msgid ""
@@ -103,13 +102,13 @@ msgid ""
 "practise their first language, with question games that build contextual "
 "language through guesswork and play."
 msgstr ""
-"xxx<strong>Expand your child's knowledge</strong> of the new language, or "
-"practise their first language, with question games that build contextual "
-"language through guesswork and play.xxx"
+"<strong>Ḗẋƥȧƞḓ ẏǿŭř ƈħīŀḓ'ş ķƞǿẇŀḗḓɠḗ</strong> ǿƒ ŧħḗ ƞḗẇ ŀȧƞɠŭȧɠḗ, ǿř "
+"ƥřȧƈŧīşḗ ŧħḗīř ƒīřşŧ ŀȧƞɠŭȧɠḗ, ẇīŧħ ɋŭḗşŧīǿƞ ɠȧḿḗş ŧħȧŧ ƀŭīŀḓ ƈǿƞŧḗẋŧŭȧŀ "
+"ŀȧƞɠŭȧɠḗ ŧħřǿŭɠħ ɠŭḗşşẇǿřķ ȧƞḓ ƥŀȧẏ."
 
 #: app/templates/method.hbs+div.div.div.div.h3:54
 msgid "3: Speak"
-msgstr "xxx3: Speakxxx"
+msgstr "3: Şƥḗȧķ"
 
 #: app/templates/method.hbs+div.div.div.div.h4:58
 msgid ""
@@ -117,13 +116,13 @@ msgid ""
 "using Lingumi Speak apps which adapt to what your child has learned, and "
 "guide you as parent through the process."
 msgstr ""
-"xxx<strong>Practise speaking</strong> the new language you've learned "
-"together, using Lingumi Speak apps which adapt to what your child has "
-"learned, and guide you as parent through the process.xxx"
+"<strong>Ƥřȧƈŧīşḗ şƥḗȧķīƞɠ</strong> ŧħḗ ƞḗẇ ŀȧƞɠŭȧɠḗ ẏǿŭ'ṽḗ ŀḗȧřƞḗḓ ŧǿɠḗŧħḗř, "
+"ŭşīƞɠ Ŀīƞɠŭḿī Şƥḗȧķ ȧƥƥş ẇħīƈħ ȧḓȧƥŧ ŧǿ ẇħȧŧ ẏǿŭř ƈħīŀḓ ħȧş ŀḗȧřƞḗḓ, ȧƞḓ "
+"ɠŭīḓḗ ẏǿŭ ȧş ƥȧřḗƞŧ ŧħřǿŭɠħ ŧħḗ ƥřǿƈḗşş."
 
 #: app/templates/method.hbs+div.div.div.div.h3:64
 msgid "4: Strengthen"
-msgstr "xxx4: Strengthenxxx"
+msgstr "4: Şŧřḗƞɠŧħḗƞ"
 
 #: app/templates/method.hbs+div.div.div.div.h4:68
 msgid ""
@@ -131,13 +130,13 @@ msgid ""
 "intelligent, personalised video and games. Learning through play, tailored "
 "to your child."
 msgstr ""
-"xxx<strong>Activate and embed</strong> the language your child has learned "
-"with intelligent, personalised video and games. Learning through play, "
-"tailored to your child.xxx"
+"<strong>Ȧƈŧīṽȧŧḗ ȧƞḓ ḗḿƀḗḓ</strong> ŧħḗ ŀȧƞɠŭȧɠḗ ẏǿŭř ƈħīŀḓ ħȧş ŀḗȧřƞḗḓ ẇīŧħ "
+"īƞŧḗŀŀīɠḗƞŧ, ƥḗřşǿƞȧŀīşḗḓ ṽīḓḗǿ ȧƞḓ ɠȧḿḗş. Ŀḗȧřƞīƞɠ ŧħřǿŭɠħ ƥŀȧẏ, ŧȧīŀǿřḗḓ "
+"ŧǿ ẏǿŭř ƈħīŀḓ."
 
 #: app/templates/method.hbs+div.div.h2:74
 msgid "The Research"
-msgstr "xxxThe Researchxxx"
+msgstr "Ŧħḗ Řḗşḗȧřƈħ"
 
 #: app/templates/method.hbs+div.div.h4:75
 msgid ""
@@ -147,11 +146,11 @@ msgid ""
 "and how their brain works.<br/>You can read more about the academic research "
 "into our method in our whitepaper, but here are the key principles:"
 msgstr ""
-"xxxThe Lingumi Method is built on research by the world's top academics in "
-"infant language acquisition, psycho- and neurolinguistics. In short, the "
-"research we use combines decades of study into how children learn languages, "
-"and how their brain works.<br/>You can read more about the academic research "
-"into our method in our whitepaper, but here are the key principles:xxx"
+"Ŧħḗ Ŀīƞɠŭḿī Ḿḗŧħǿḓ īş ƀŭīŀŧ ǿƞ řḗşḗȧřƈħ ƀẏ ŧħḗ ẇǿřŀḓ'ş ŧǿƥ ȧƈȧḓḗḿīƈş īƞ "
+"īƞƒȧƞŧ ŀȧƞɠŭȧɠḗ ȧƈɋŭīşīŧīǿƞ, ƥşẏƈħǿ- ȧƞḓ ƞḗŭřǿŀīƞɠŭīşŧīƈş. Īƞ şħǿřŧ, ŧħḗ "
+"řḗşḗȧřƈħ ẇḗ ŭşḗ ƈǿḿƀīƞḗş ḓḗƈȧḓḗş ǿƒ şŧŭḓẏ īƞŧǿ ħǿẇ ƈħīŀḓřḗƞ ŀḗȧřƞ ŀȧƞɠŭȧɠḗş, "
+"ȧƞḓ ħǿẇ ŧħḗīř ƀřȧīƞ ẇǿřķş.<br/>Ẏǿŭ ƈȧƞ řḗȧḓ ḿǿřḗ ȧƀǿŭŧ ŧħḗ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ "
+"īƞŧǿ ǿŭř ḿḗŧħǿḓ īƞ ǿŭř ẇħīŧḗƥȧƥḗř, ƀŭŧ ħḗřḗ ȧřḗ ŧħḗ ķḗẏ ƥřīƞƈīƥŀḗş:"
 
 #: app/templates/method.hbs+div.div.h4:76
 msgid ""
@@ -159,9 +158,9 @@ msgid ""
 "with reactions to their actions. We've build this into our games, creating "
 "reactions in our apps to physical actions with our cubes."
 msgstr ""
-"xxx<strong>Action-reaction: </strong>Children learn best when they're "
-"rewarded with reactions to their actions. We've build this into our games, "
-"creating reactions in our apps to physical actions with our cubes.xxx"
+"<strong>Ȧƈŧīǿƞ-řḗȧƈŧīǿƞ: </strong>Ƈħīŀḓřḗƞ ŀḗȧřƞ ƀḗşŧ ẇħḗƞ ŧħḗẏ'řḗ řḗẇȧřḓḗḓ "
+"ẇīŧħ řḗȧƈŧīǿƞş ŧǿ ŧħḗīř ȧƈŧīǿƞş. Ẇḗ'ṽḗ ƀŭīŀḓ ŧħīş īƞŧǿ ǿŭř ɠȧḿḗş, ƈřḗȧŧīƞɠ "
+"řḗȧƈŧīǿƞş īƞ ǿŭř ȧƥƥş ŧǿ ƥħẏşīƈȧŀ ȧƈŧīǿƞş ẇīŧħ ǿŭř ƈŭƀḗş."
 
 #: app/templates/method.hbs+div.div.h4:77
 msgid ""
@@ -170,10 +169,10 @@ msgid ""
 "outcomes are improved. Our games are designed to be played in pairs or small "
 "groups."
 msgstr ""
-"xxx<strong>Shared learning: </strong>When a parent or carer takes part in "
-"the learning, repeating and helping the child to play and learn, the "
-"learning outcomes are improved. Our games are designed to be played in pairs "
-"or small groups.xxx"
+"<strong>Şħȧřḗḓ ŀḗȧřƞīƞɠ: </strong>Ẇħḗƞ ȧ ƥȧřḗƞŧ ǿř ƈȧřḗř ŧȧķḗş ƥȧřŧ īƞ ŧħḗ "
+"ŀḗȧřƞīƞɠ, řḗƥḗȧŧīƞɠ ȧƞḓ ħḗŀƥīƞɠ ŧħḗ ƈħīŀḓ ŧǿ ƥŀȧẏ ȧƞḓ ŀḗȧřƞ, ŧħḗ ŀḗȧřƞīƞɠ "
+"ǿŭŧƈǿḿḗş ȧřḗ īḿƥřǿṽḗḓ. Ǿŭř ɠȧḿḗş ȧřḗ ḓḗşīɠƞḗḓ ŧǿ ƀḗ ƥŀȧẏḗḓ īƞ ƥȧīřş ǿř şḿȧŀŀ "
+"ɠřǿŭƥş."
 
 #: app/templates/method.hbs+div.div.h4:78
 msgid ""
@@ -181,10 +180,10 @@ msgid ""
 "learn through experimentation and free-play, but are always encouraged "
 "positively towards learning and discovering."
 msgstr ""
-"xxx<strong>Positive reinforcement: </strong>Using the Lingumi method, "
-"children learn through experimentation and free-play, but are always "
-"encouraged positively towards learning and discovering.xxx"
+"<strong>Ƥǿşīŧīṽḗ řḗīƞƒǿřƈḗḿḗƞŧ: </strong>Ŭşīƞɠ ŧħḗ Ŀīƞɠŭḿī ḿḗŧħǿḓ, ƈħīŀḓřḗƞ "
+"ŀḗȧřƞ ŧħřǿŭɠħ ḗẋƥḗřīḿḗƞŧȧŧīǿƞ ȧƞḓ ƒřḗḗ-ƥŀȧẏ, ƀŭŧ ȧřḗ ȧŀẇȧẏş ḗƞƈǿŭřȧɠḗḓ "
+"ƥǿşīŧīṽḗŀẏ ŧǿẇȧřḓş ŀḗȧřƞīƞɠ ȧƞḓ ḓīşƈǿṽḗřīƞɠ."
 
 #: app/templates/method.hbs+div.div.p:81
 msgid "Buy the Learning Cubes to start learning:"
-msgstr "xxxBuy the Learning Cubes to start learning:xxx"
+msgstr "Ɓŭẏ ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş ŧǿ şŧȧřŧ ŀḗȧřƞīƞɠ:"

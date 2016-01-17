@@ -14,47 +14,47 @@ msgstr ""
 
 #: app/templates/products.hbs+div.div.h2:4
 msgid "The Learning Cubes:"
-msgstr "xxxThe Learning Cubes:xxx"
+msgstr "Ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş:"
 
 #: app/templates/products.hbs+div.div.h2:9
 msgid "The most fun way to learn a language:"
-msgstr "xxxThe most fun way to learn a language:xxx"
+msgstr "Ŧħḗ ḿǿşŧ ƒŭƞ ẇȧẏ ŧǿ ŀḗȧřƞ ȧ ŀȧƞɠŭȧɠḗ:"
 
 #: app/templates/products.hbs+div.div.h4:10
 msgid ""
 "Soft, squishy, BPA-free cubes that interact with a tablet or smartphone to "
 "teach sounds, words, and phrases."
 msgstr ""
-"xxxSoft, squishy, BPA-free cubes that interact with a tablet or smartphone "
-"to teach sounds, words, and phrases.xxx"
+"Şǿƒŧ, şɋŭīşħẏ, ƁƤȦ-ƒřḗḗ ƈŭƀḗş ŧħȧŧ īƞŧḗřȧƈŧ ẇīŧħ ȧ ŧȧƀŀḗŧ ǿř şḿȧřŧƥħǿƞḗ ŧǿ "
+"ŧḗȧƈħ şǿŭƞḓş, ẇǿřḓş, ȧƞḓ ƥħřȧşḗş."
 
 #: app/templates/products.hbs+div.div.p:11
 msgid "€55 including free delivery to Italy"
-msgstr "xxx€55 including free delivery to Italyxxx"
+msgstr "€55 īƞƈŀŭḓīƞɠ ƒřḗḗ ḓḗŀīṽḗřẏ ŧǿ Īŧȧŀẏ"
 
 #: app/templates/products.hbs+div.div.div.h3:23
 msgid "Five squishy character cubes"
-msgstr "xxxFive squishy character cubesxxx"
+msgstr "Ƒīṽḗ şɋŭīşħẏ ƈħȧřȧƈŧḗř ƈŭƀḗş"
 
 #: app/templates/products.hbs+div.div.div.h4:24
 msgid "Colourful cubes that interact with our apps in magical ways"
-msgstr "xxxColourful cubes that interact with our apps in magical waysxxx"
+msgstr "Ƈǿŀǿŭřƒŭŀ ƈŭƀḗş ŧħȧŧ īƞŧḗřȧƈŧ ẇīŧħ ǿŭř ȧƥƥş īƞ ḿȧɠīƈȧŀ ẇȧẏş"
 
 #: app/templates/products.hbs+div.div.div.h3:26
 msgid "Box and stand"
-msgstr "xxxBox and standxxx"
+msgstr "Ɓǿẋ ȧƞḓ şŧȧƞḓ"
 
 #: app/templates/products.hbs+div.div.div.h4:27
 msgid ""
 "The box creates a playing surface for your child to place the cubes, and the "
 "stand holds your tablet or smartphone"
 msgstr ""
-"xxxThe box creates a playing surface for your child to place the cubes, and "
-"the stand holds your tablet or smartphonexxx"
+"Ŧħḗ ƀǿẋ ƈřḗȧŧḗş ȧ ƥŀȧẏīƞɠ şŭřƒȧƈḗ ƒǿř ẏǿŭř ƈħīŀḓ ŧǿ ƥŀȧƈḗ ŧħḗ ƈŭƀḗş, ȧƞḓ ŧħḗ "
+"şŧȧƞḓ ħǿŀḓş ẏǿŭř ŧȧƀŀḗŧ ǿř şḿȧřŧƥħǿƞḗ"
 
 #: app/templates/products.hbs+div.div.div.h3:31
 msgid "Free apps"
-msgstr "xxxFree appsxxx"
+msgstr "Ƒřḗḗ ȧƥƥş"
 
 #: app/templates/products.hbs+div.div.div.h4:32
 msgid ""
@@ -62,13 +62,13 @@ msgid ""
 "with a second free app on the way. And everything is included: there are no "
 "in-app purchases."
 msgstr ""
-"xxxOur first app, designed with help from leading experts, is free to "
-"download, with a second free app on the way. And everything is included: "
-"there are no in-app purchases.xxx"
+"Ǿŭř ƒīřşŧ ȧƥƥ, ḓḗşīɠƞḗḓ ẇīŧħ ħḗŀƥ ƒřǿḿ ŀḗȧḓīƞɠ ḗẋƥḗřŧş, īş ƒřḗḗ ŧǿ ḓǿẇƞŀǿȧḓ, "
+"ẇīŧħ ȧ şḗƈǿƞḓ ƒřḗḗ ȧƥƥ ǿƞ ŧħḗ ẇȧẏ. Ȧƞḓ ḗṽḗřẏŧħīƞɠ īş īƞƈŀŭḓḗḓ: ŧħḗřḗ ȧřḗ ƞǿ "
+"īƞ-ȧƥƥ ƥŭřƈħȧşḗş."
 
 #: app/templates/products.hbs+div.div.div.h3:37
 msgid "Learn 5 languages"
-msgstr "xxxLearn 5 languagesxxx"
+msgstr "Ŀḗȧřƞ 5 ŀȧƞɠŭȧɠḗş"
 
 #.  translation: Use the Lingumi Starter Kit to teach your child English, develop their Italian, or to learn new words and phrases in 3 other languages! 
 #: app/templates/products.hbs+div.div.div.h4:38
@@ -76,12 +76,12 @@ msgid ""
 "Use the Lingumi Starter Kit to develop your child's English skills, and to "
 "learn new words and phrases in 4 other languages!"
 msgstr ""
-"xxxUse the Lingumi Starter Kit to develop your child's English skills, and "
-"to learn new words and phrases in 4 other languages!xxx"
+"Ŭşḗ ŧħḗ Ŀīƞɠŭḿī Şŧȧřŧḗř Ķīŧ ŧǿ ḓḗṽḗŀǿƥ ẏǿŭř ƈħīŀḓ'ş Ḗƞɠŀīşħ şķīŀŀş, ȧƞḓ ŧǿ "
+"ŀḗȧřƞ ƞḗẇ ẇǿřḓş ȧƞḓ ƥħřȧşḗş īƞ 4 ǿŧħḗř ŀȧƞɠŭȧɠḗş!"
 
 #: app/templates/products.hbs+div.div.div.h3:47
 msgid "Technical information"
-msgstr "xxxTechnical informationxxx"
+msgstr "Ŧḗƈħƞīƈȧŀ īƞƒǿřḿȧŧīǿƞ"
 
 #: app/templates/products.hbs+div.div.div.h4:48
 msgid ""
@@ -90,14 +90,14 @@ msgid ""
 "not visible to the public on the app store, but you will be emailed a link "
 "to download it privately."
 msgstr ""
-"xxxThe kit is compatible with Apple iOS devices (iPad or iPhone) running iOS "
-"8.4 and above, or Android devices running 2.3 or above. The app is currently "
-"not visible to the public on the app store, but you will be emailed a link "
-"to download it privately.xxx"
+"Ŧħḗ ķīŧ īş ƈǿḿƥȧŧīƀŀḗ ẇīŧħ Ȧƥƥŀḗ īǾŞ ḓḗṽīƈḗş (īƤȧḓ ǿř īƤħǿƞḗ) řŭƞƞīƞɠ īǾŞ "
+"8.4 ȧƞḓ ȧƀǿṽḗ, ǿř Ȧƞḓřǿīḓ ḓḗṽīƈḗş řŭƞƞīƞɠ 2.3 ǿř ȧƀǿṽḗ. Ŧħḗ ȧƥƥ īş ƈŭřřḗƞŧŀẏ "
+"ƞǿŧ ṽīşīƀŀḗ ŧǿ ŧħḗ ƥŭƀŀīƈ ǿƞ ŧħḗ ȧƥƥ şŧǿřḗ, ƀŭŧ ẏǿŭ ẇīŀŀ ƀḗ ḗḿȧīŀḗḓ ȧ ŀīƞķ "
+"ŧǿ ḓǿẇƞŀǿȧḓ īŧ ƥřīṽȧŧḗŀẏ."
 
 #: app/templates/products.hbs+div.div.div.h3:49
 msgid "Price & Shipping"
-msgstr "xxxPrice & Shippingxxx"
+msgstr "Ƥřīƈḗ & Şħīƥƥīƞɠ"
 
 #.  translation: The kit costs €55 including delivery. To read more about our availability and shipping in your country, visit our {{#link-to 'international'}}International page{{/link-to}}. 
 #: app/templates/products.hbs+div.div.div.h4:50
@@ -106,6 +106,6 @@ msgid ""
 "our availability in your country, visit our {{#link-to 'international'}}"
 "International page{{/link-to}}."
 msgstr ""
-"xxxThe kit costs £35 + delivery, which varies by country. To read more about "
-"our availability in your country, visit our {{#link-to 'international'}}"
-"International page{{/link-to}}.xxx"
+"Ŧħḗ ķīŧ ƈǿşŧş £35 + ḓḗŀīṽḗřẏ, ẇħīƈħ ṽȧřīḗş ƀẏ ƈǿŭƞŧřẏ. Ŧǿ řḗȧḓ ḿǿřḗ ȧƀǿŭŧ "
+"ǿŭř ȧṽȧīŀȧƀīŀīŧẏ īƞ ẏǿŭř ƈǿŭƞŧřẏ, ṽīşīŧ ǿŭř {{#ŀīƞķ-ŧǿ 'īƞŧḗřƞȧŧīǿƞȧŀ'}}"
+"Īƞŧḗřƞȧŧīǿƞȧŀ ƥȧɠḗ{{/link-to}}."

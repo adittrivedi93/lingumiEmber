@@ -14,8 +14,8 @@ msgstr ""
 
 #: app/templates/profile.hbs+div.div:2
 msgid "{{#parent-profile}}{{/parent-profile}}"
-msgstr "xxx{{#parent-profile}}{{/parent-profile}}xxx"
+msgstr "{{#ƥȧřḗƞŧ-ƥřǿƒīŀḗ}}{{/parent-profile}}"
 
 #: app/templates/profile.hbs+div.div:5
 msgid "{{#child-profile}}{{/child-profile}}"
-msgstr "xxx{{#child-profile}}{{/child-profile}}xxx"
+msgstr "{{#ƈħīŀḓ-ƥřǿƒīŀḗ}}{{/child-profile}}"

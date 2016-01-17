@@ -14,8 +14,8 @@ msgstr ""
 
 #: app/templates/application.hbs+div.div:1
 msgid "{{#main-nav}}{{/main-nav}}"
-msgstr "xxx{{#main-nav}}{{/main-nav}}xxx"
+msgstr "{{#ḿȧīƞ-ƞȧṽ}}{{/main-nav}}"
 
 #: app/templates/application.hbs+div.div:6
 msgid "{{outlet}}"
-msgstr "xxx{{outlet}}xxx"
+msgstr "{{ǿŭŧŀḗŧ}}"

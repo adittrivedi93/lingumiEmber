@@ -14,7 +14,7 @@ msgstr ""
 
 #: app/templates/benefits.hbs+div.div.div.h2:5
 msgid "What are the benefits of Lingumi?"
-msgstr "xxxWhat are the benefits of Lingumi?xxx"
+msgstr "Ẇħȧŧ ȧřḗ ŧħḗ ƀḗƞḗƒīŧş ǿƒ Ŀīƞɠŭḿī?"
 
 #: app/templates/benefits.hbs+div.div.div.h3:6
 msgid ""
@@ -23,165 +23,165 @@ msgid ""
 "'method'}}here.{{/link-to}} Lingumi is also structured to help with "
 "cognitive and social skills at specific ages."
 msgstr ""
-"xxxLingumi has been designed from the ground up from academic research into "
-"how children learn language. You can read more about that {{#link-to "
-"'method'}}here.{{/link-to}} Lingumi is also structured to help with "
-"cognitive and social skills at specific ages.xxx"
+"Ŀīƞɠŭḿī ħȧş ƀḗḗƞ ḓḗşīɠƞḗḓ ƒřǿḿ ŧħḗ ɠřǿŭƞḓ ŭƥ ƒřǿḿ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ īƞŧǿ ħǿẇ "
+"ƈħīŀḓřḗƞ ŀḗȧřƞ ŀȧƞɠŭȧɠḗ. Ẏǿŭ ƈȧƞ řḗȧḓ ḿǿřḗ ȧƀǿŭŧ ŧħȧŧ {{#ŀīƞķ-ŧǿ "
+"'ḿḗŧħǿḓ'}}ħḗřḗ.{{/link-to}} Ŀīƞɠŭḿī īş ȧŀşǿ şŧřŭƈŧŭřḗḓ ŧǿ ħḗŀƥ ẇīŧħ "
+"ƈǿɠƞīŧīṽḗ ȧƞḓ şǿƈīȧŀ şķīŀŀş ȧŧ şƥḗƈīƒīƈ ȧɠḗş."
 
 #: app/templates/benefits.hbs+div.div.div.div.div.h3:10
 msgid "2-3 +"
-msgstr "xxx2-3 +xxx"
+msgstr "2-3 +"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:12
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:12"
 msgid "Learn"
-msgstr "xxxLearnxxx"
+msgstr "Ŀḗȧřƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:13
 msgid "motor skills"
-msgstr "xxxmotor skillsxxx"
+msgstr "ḿǿŧǿř şķīŀŀş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:14
 msgid "new sounds"
-msgstr "xxxnew soundsxxx"
+msgstr "ƞḗẇ şǿŭƞḓş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:15
 msgid "co-ordination"
-msgstr "xxxco-ordinationxxx"
+msgstr "ƈǿ-ǿřḓīƞȧŧīǿƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:16
 msgid "early words"
-msgstr "xxxearly wordsxxx"
+msgstr "ḗȧřŀẏ ẇǿřḓş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:17
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:17"
 msgid "Think"
-msgstr "xxxThinkxxx"
+msgstr "Ŧħīƞķ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:18
 msgid "communication skills"
-msgstr "xxxcommunication skillsxxx"
+msgstr "ƈǿḿḿŭƞīƈȧŧīǿƞ şķīŀŀş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:19
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:19"
 msgid "Create"
-msgstr "xxxCreatexxx"
+msgstr "Ƈřḗȧŧḗ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:20
 msgid "explore & play"
-msgstr "xxxexplore & playxxx"
+msgstr "ḗẋƥŀǿřḗ & ƥŀȧẏ"
 
 #: app/templates/benefits.hbs+div.div.div.div.div.h3:24
 msgid "3-4 +"
-msgstr "xxx3-4 +xxx"
+msgstr "3-4 +"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:26
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:26"
 msgid "Learn"
-msgstr "xxxLearnxxx"
+msgstr "Ŀḗȧřƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:27
 msgid "new words"
-msgstr "xxxnew wordsxxx"
+msgstr "ƞḗẇ ẇǿřḓş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:28
 msgid "short phrases"
-msgstr "xxxshort phrasesxxx"
+msgstr "şħǿřŧ ƥħřȧşḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:29
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:29"
 msgid "Think"
-msgstr "xxxThinkxxx"
+msgstr "Ŧħīƞķ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:30
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:30"
 msgid "solve puzzles"
-msgstr "xxxsolve puzzlesxxx"
+msgstr "şǿŀṽḗ ƥŭzzŀḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:31
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:31"
 msgid "build phrases"
-msgstr "xxxbuild phrasesxxx"
+msgstr "ƀŭīŀḓ ƥħřȧşḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:32
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:32"
 msgid "co-ordinated attention"
-msgstr "xxxco-ordinated attentionxxx"
+msgstr "ƈǿ-ǿřḓīƞȧŧḗḓ ȧŧŧḗƞŧīǿƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:33
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:33"
 msgid "Create"
-msgstr "xxxCreatexxx"
+msgstr "Ƈřḗȧŧḗ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:34
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:34"
 msgid "develop cognitive pathways"
-msgstr "xxxdevelop cognitive pathwaysxxx"
+msgstr "ḓḗṽḗŀǿƥ ƈǿɠƞīŧīṽḗ ƥȧŧħẇȧẏş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:35
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:35"
 msgid "ask & answer questions"
-msgstr "xxxask & answer questionsxxx"
+msgstr "ȧşķ & ȧƞşẇḗř ɋŭḗşŧīǿƞş"
 
 #: app/templates/benefits.hbs+div.div.div.div.div.h3:39
 msgid "4-5 +"
-msgstr "xxx4-5 +xxx"
+msgstr "4-5 +"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:41
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:41"
 msgid "Learn"
-msgstr "xxxLearnxxx"
+msgstr "Ŀḗȧřƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:42
 msgid "words & phrases in new languages"
-msgstr "xxxwords & phrases in new languagesxxx"
+msgstr "ẇǿřḓş & ƥħřȧşḗş īƞ ƞḗẇ ŀȧƞɠŭȧɠḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:43
 msgid "cultural awareness"
-msgstr "xxxcultural awarenessxxx"
+msgstr "ƈŭŀŧŭřȧŀ ȧẇȧřḗƞḗşş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:44
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:44"
 msgid "Think"
-msgstr "xxxThinkxxx"
+msgstr "Ŧħīƞķ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:45
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:45"
 msgid "solve puzzles"
-msgstr "xxxsolve puzzlesxxx"
+msgstr "şǿŀṽḗ ƥŭzzŀḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:46
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:46"
 msgid "build phrases"
-msgstr "xxxbuild phrasesxxx"
+msgstr "ƀŭīŀḓ ƥħřȧşḗş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:47
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:47"
 msgid "co-ordinated attention"
-msgstr "xxxco-ordinated attentionxxx"
+msgstr "ƈǿ-ǿřḓīƞȧŧḗḓ ȧŧŧḗƞŧīǿƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h3:48
 msgctxt "app/templates/benefits.hbs div.div.div.div.h3:48"
 msgid "Create"
-msgstr "xxxCreatexxx"
+msgstr "Ƈřḗȧŧḗ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:49
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:49"
 msgid "develop cognitive pathways"
-msgstr "xxxdevelop cognitive pathwaysxxx"
+msgstr "ḓḗṽḗŀǿƥ ƈǿɠƞīŧīṽḗ ƥȧŧħẇȧẏş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:50
 msgctxt "app/templates/benefits.hbs div.div.div.div.h4:50"
 msgid "ask & answer questions"
-msgstr "xxxask & answer questionsxxx"
+msgstr "ȧşķ & ȧƞşẇḗř ɋŭḗşŧīǿƞş"
 
 #: app/templates/benefits.hbs+div.div.div.div.h4:51
 msgid "group play & imagination"
-msgstr "xxxgroup play & imaginationxxx"
+msgstr "ɠřǿŭƥ ƥŀȧẏ & īḿȧɠīƞȧŧīǿƞ"
 
 #: app/templates/benefits.hbs+div.div.div.div.h2:54
 msgid "Buy your set of Learning Cubes today:"
-msgstr "xxxBuy your set of Learning Cubes today:xxx"
+msgstr "Ɓŭẏ ẏǿŭř şḗŧ ǿƒ Ŀḗȧřƞīƞɠ Ƈŭƀḗş ŧǿḓȧẏ:"
 
 #: app/templates/benefits.hbs+div.div.div.h3:60
 msgid ""
@@ -189,10 +189,10 @@ msgid ""
 "compared to all other species... the fact a toddler can put words together "
 "into real sentences – it's extraordinary.'"
 msgstr ""
-"xxx'Our ability to acquire, understand and communicate language is unique "
-"compared to all other species... the fact a toddler can put words together "
-"into real sentences – it's extraordinary.'xxx"
+"'Ǿŭř ȧƀīŀīŧẏ ŧǿ ȧƈɋŭīřḗ, ŭƞḓḗřşŧȧƞḓ ȧƞḓ ƈǿḿḿŭƞīƈȧŧḗ ŀȧƞɠŭȧɠḗ īş ŭƞīɋŭḗ "
+"ƈǿḿƥȧřḗḓ ŧǿ ȧŀŀ ǿŧħḗř şƥḗƈīḗş... ŧħḗ ƒȧƈŧ ȧ ŧǿḓḓŀḗř ƈȧƞ ƥŭŧ ẇǿřḓş ŧǿɠḗŧħḗř "
+"īƞŧǿ řḗȧŀ şḗƞŧḗƞƈḗş – īŧ'ş ḗẋŧřȧǿřḓīƞȧřẏ.'"
 
 #: app/templates/benefits.hbs+div.div.div.h4:61
 msgid "Professor Kim Plunkett, University of Oxford"
-msgstr "xxxProfessor Kim Plunkett, University of Oxfordxxx"
+msgstr "Ƥřǿƒḗşşǿř Ķīḿ Ƥŀŭƞķḗŧŧ, Ŭƞīṽḗřşīŧẏ ǿƒ Ǿẋƒǿřḓ"

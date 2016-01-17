@@ -14,7 +14,7 @@ msgstr ""
 
 #: app/templates/educators.hbs+div.div.div.h2:4
 msgid "Lingumi for nurseries, schools, and educators"
-msgstr "xxxLingumi for nurseries, schools, and educatorsxxx"
+msgstr "Ŀīƞɠŭḿī ƒǿř ƞŭřşḗřīḗş, şƈħǿǿŀş, ȧƞḓ ḗḓŭƈȧŧǿřş"
 
 #: app/templates/educators.hbs+div.div.div.h4:5
 msgid ""
@@ -22,22 +22,22 @@ msgid ""
 "children to a second language, or to help children with speech language "
 "difficulties."
 msgstr ""
-"xxxWe work with a select group of nurseries who use Starter Kits to "
-"introduce children to a second language, or to help children with speech "
-"language difficulties.xxx"
+"Ẇḗ ẇǿřķ ẇīŧħ ȧ şḗŀḗƈŧ ɠřǿŭƥ ǿƒ ƞŭřşḗřīḗş ẇħǿ ŭşḗ Şŧȧřŧḗř Ķīŧş ŧǿ īƞŧřǿḓŭƈḗ "
+"ƈħīŀḓřḗƞ ŧǿ ȧ şḗƈǿƞḓ ŀȧƞɠŭȧɠḗ, ǿř ŧǿ ħḗŀƥ ƈħīŀḓřḗƞ ẇīŧħ şƥḗḗƈħ ŀȧƞɠŭȧɠḗ "
+"ḓīƒƒīƈŭŀŧīḗş."
 
 #: app/templates/educators.hbs+div.div.div.h3:6
 msgid ""
 "To join our beta group of nurseries and educators, please get in touch by "
 "emailing <strong>hello@lingumi.com</strong>"
 msgstr ""
-"xxxTo join our beta group of nurseries and educators, please get in touch by "
-"emailing <strong>hello@lingumi.com</strong>xxx"
+"Ŧǿ ĵǿīƞ ǿŭř ƀḗŧȧ ɠřǿŭƥ ǿƒ ƞŭřşḗřīḗş ȧƞḓ ḗḓŭƈȧŧǿřş, ƥŀḗȧşḗ ɠḗŧ īƞ ŧǿŭƈħ ƀẏ "
+"ḗḿȧīŀīƞɠ <strong>hello@lingumi.com</strong>"
 
 #: app/templates/educators.hbs+div.div.div.h4:9
 msgid "{{!--"
-msgstr "xxx{{!--xxx"
+msgstr "{{!--"
 
 #: app/templates/educators.hbs+div.div.div.h4:10
 msgid "Quote from Little Linguists"
-msgstr "xxxQuote from Little Linguistsxxx"
+msgstr "Ɋŭǿŧḗ ƒřǿḿ Ŀīŧŧŀḗ Ŀīƞɠŭīşŧş"
