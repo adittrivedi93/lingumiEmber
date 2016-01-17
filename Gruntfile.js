@@ -1,3 +1,7 @@
+/*
+ * This code takes the pseudo-translations and coalesces them into an easy JSON
+ * for the i18n library to read
+ */
 module.exports = function(grunt) {
   grunt.initConfig({
     po2json: {
@@ -6,7 +10,7 @@ module.exports = function(grunt) {
         singleFile: true
       },
       all: {
-        src: ['translations/**/*.po'],
+        src: ['translations/pseudo/*.po'],
         dest: 'app/public/translations'
       }
     },
