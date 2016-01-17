@@ -1,17 +1,17 @@
-<h2>Parent profiles</h2>
+<h2>{{_ "Parent profiles" }}</h2>
 <form {{action 'submitParentProfile' on='submit'}}>
 	<div class="form-group">
-		<label>First Name:</label> 
+		<label>{{_ "First Name:" }}</label> 
 		{{input value = firstName type="text" placeholder="First Name"}}
 	</div>
 
 	<div class="form-group">
-		<label>Last Name:</label>
+		<label>{{_ "Last Name:" }}</label>
 		{{input value = lastName type="text" placeholder="Last Name"}}
 	</div>
 
 	<div class="form-group">
-	<label>Nationality:</label>
+	<label>{{_ "Nationality:" }}</label>
 	<select onchange={{action (mut nationalityIndex) value="target.value"}}>
 	  {{#each nationalities as |nationalityChoice index|}}
 	    <option value={{ index }} selected={{eq nationalityIndex index}}>{{nationalityChoice.name}}</option>
@@ -20,7 +20,7 @@
 	</div>
 
 	<div class="form-group">
-	<label>Gender:</label>
+	<label>{{_ "Gender:" }}</label>
 	<select onchange={{action (mut genderIndex) value="target.value"}}>
 	  {{#each genders as |genderChoice index|}}
 	    <option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
@@ -31,6 +31,6 @@
 </form>
 
 <div class="profile_output" id="parent_output">
-	<p>Name: {{firstName}} {{lastName}}</p>
-	<p>Nationality: {{nationality.name}}</p>
+	<p>{{_ "Name:" }} {{firstName}} {{lastName}}</p>
+	<p>{{_ "Nationality:" }} {{nationality.name}}</p>
 </div>

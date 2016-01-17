@@ -12,26 +12,26 @@ $(document).ready(function(){
 </script>
 
 <div id="add_child">
-	<button type="submit" class="add_child_now btn btn-cyan">Add Child</button>
+	<button type="submit" class="add_child_now btn btn-cyan">{{_ "Add Child" }}</button>
 </div>
 
 <div id="child_added">
 
-	<h2>Child profile</h2>
+	<h2>{{_ "Child profile" }}</h2>
 	<form {{action 'submitChildProfile' on='submit'}}>
 
 		<div class="form-group">
-			<label>First Name:</label>
+			<label>{{_ "First Name:" }}</label>
 			{{input value = childFirstName type="text" placeholder="First Name"}}
 		</div>
 
 		<div class="form-group">
-			<label>Last Name:</label>
+			<label>{{_ "Last Name:" }}</label>
 			{{input value = childLastName type="text" placeholder="Last Name"}} 
 		</div>
 
 		<div class="form-group">
-			<label>Gender:</label>
+			<label>{{_ "Gender:" }}</label>
 			<select onchange={{action (mut genderIndex) value="target.value"}}>
 		  		{{#each genders as |genderChoice index|}}
 		    		<option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
@@ -40,16 +40,16 @@ $(document).ready(function(){
 		</div>
 
 		<div class="form-group">
-			<label>Date of Birth:</label>
+			<label>{{_ "Date of Birth:" }}</label>
 			{{pikaday-input value = dob yearRange="1980,currentYear" placeholder="Date of Birth"}}
 		</div>
 
-		<button type="submit" class="btn btn-magenta">Save</button>
+		<button type="submit" class="btn btn-magenta">{{_ "Save" }}</button>
 	</form>
 	<div class="profile_output" id="child_output">
-		<p>Name:{{childFirstName}} {{childLastName}}</p>
-		<p>Gender: {{gender.name}}</p>
-		<p>Birthday: {{dateOfBirth}}</p>
+		<p>{{_ "Name: " }}{{childFirstName}} {{childLastName}}</p>
+		<p>{{_ "Gender: " }}{{gender.name}}</p>
+		<p>{{_ "Birthday: "}}{{dateOfBirth}}</p>
 	</div>
 </div>
 

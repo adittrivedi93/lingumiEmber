@@ -1,18 +1,18 @@
 <div class="row" id="checkout">
 	<div class="col-md-6">
-		<h2>Please enter email to start checkout:</h2>
+		<h2>{{_ "Please enter email to start checkout:" }}</h2>
 		{{input value = checkoutEmail type="text" placeholder="Enter email to begin" class="checkout-form-input"}}
-		<button {{action 'submitCheckout'}} data-celery="568f7c99b8d6041100a23f36" data-celery-version="v2" data-celery-prefill-email={{checkoutEmail}} class="btn btn-magenta" type="submit" data-celery-autoadd>Checkout</button>
+		<button {{action 'submitCheckout'}} data-celery="568f7c99b8d6041100a23f36" data-celery-version="v2" data-celery-prefill-email={{checkoutEmail}} class="btn btn-magenta" type="submit" data-celery-autoadd>{{_ "Checkout "}}</button>
 
 		<script async type="text/javascript" src="https://www.trycelery.com/js/celery.js"></script>
 		<div class="checkout_link">
-			<a href="https://shop.trycelery.com/page/3f9c979c-f1a9-4c87-a6b9-71e72bcc44cf">Checkout button not working? Click here.</a>
+			<a href="https://shop.trycelery.com/page/3f9c979c-f1a9-4c87-a6b9-71e72bcc44cf">{{_ "Checkout button not working? Click here." }}</a>
 		</div>
 
 	</div>
 	<div class="col-md-6" id="starter_kit">
 		<img src="assets/starter_kit.png">
-		<h4 style="margin-top:5%"><strike>£49.99 </strike><strong>£39.99</strong> early-bird price (including free delivery)</h4>
+		<h4 style="margin-top:5%"><strike>{{_ "£49.99 </strike><strong>£39.99</strong> early-bird price (including free delivery)" }}</h4>
 	</div>
 	
 </div>
