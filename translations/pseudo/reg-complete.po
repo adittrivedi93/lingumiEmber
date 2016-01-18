@@ -1,0 +1,59 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/reg-complete.hbs+div.div.h4:12
+msgid "Thanks for registering!"
+msgstr "Ŧħȧƞķş ƒǿř řḗɠīşŧḗřīƞɠ!"
+
+#: app/templates/reg-complete.hbs+div.div.h2:13
+msgid "Your next steps:"
+msgstr "Ẏǿŭř ƞḗẋŧ şŧḗƥş:"
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:16
+msgid "1"
+msgstr "1"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:18
+msgid "Order the starter kit."
+msgstr "Ǿřḓḗř ŧħḗ şŧȧřŧḗř ķīŧ."
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:23
+msgid "2"
+msgstr "2"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:25
+msgid "Join our communities."
+msgstr "Ĵǿīƞ ǿŭř ƈǿḿḿŭƞīŧīḗş."
+
+#: app/templates/reg-complete.hbs+div.div.div.div:27
+msgid "Follow @LingumiLabs on Twitter"
+msgstr "Ƒǿŀŀǿẇ @ĿīƞɠŭḿīĿȧƀş ǿƞ Ŧẇīŧŧḗř"
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:32
+msgid "3"
+msgstr "3"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:34
+msgid "Refer friends for free stuff."
+msgstr "Řḗƒḗř ƒřīḗƞḓş ƒǿř ƒřḗḗ şŧŭƒƒ."
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:35
+msgid ""
+"We'll send you a personal referral code to share to friends, in return for "
+"free goodies. {{#link-to 'contact'}}Contact us{{/link-to}} for more "
+"information on referral bonuses."
+msgstr ""
+"Ẇḗ'ŀŀ şḗƞḓ ẏǿŭ ȧ ƥḗřşǿƞȧŀ řḗƒḗřřȧŀ ƈǿḓḗ ŧǿ şħȧřḗ ŧǿ ƒřīḗƞḓş, īƞ řḗŧŭřƞ ƒǿř "
+"ƒřḗḗ ɠǿǿḓīḗş. {{#ŀīƞķ-ŧǿ 'ƈǿƞŧȧƈŧ'}}Ƈǿƞŧȧƈŧ ŭş{{/link-to}} ƒǿř ḿǿřḗ "
+"īƞƒǿřḿȧŧīǿƞ ǿƞ řḗƒḗřřȧŀ ƀǿƞŭşḗş."

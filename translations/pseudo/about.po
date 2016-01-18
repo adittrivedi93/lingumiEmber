@@ -1,0 +1,109 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/about.hbs+div.div.h2:3
+msgid "About Us"
+msgstr "Ȧƀǿŭŧ Ŭş"
+
+#: app/templates/about.hbs+div.div.h3:4
+msgid ""
+"We founded Lingumi because we want to make it easier, cheaper, and more fun "
+"to teach your child a language at the best age for learning."
+msgstr ""
+"Ẇḗ ƒǿŭƞḓḗḓ Ŀīƞɠŭḿī ƀḗƈȧŭşḗ ẇḗ ẇȧƞŧ ŧǿ ḿȧķḗ īŧ ḗȧşīḗř, ƈħḗȧƥḗř, ȧƞḓ ḿǿřḗ ƒŭƞ "
+"ŧǿ ŧḗȧƈħ ẏǿŭř ƈħīŀḓ ȧ ŀȧƞɠŭȧɠḗ ȧŧ ŧħḗ ƀḗşŧ ȧɠḗ ƒǿř ŀḗȧřƞīƞɠ."
+
+#: app/templates/about.hbs+div.div.h4:5
+msgid ""
+"We're a team of teachers, learners, computer scientists, designers, and "
+"advisory academics, who love designing effective, fun, playful learning "
+"products."
+msgstr ""
+"Ẇḗ'řḗ ȧ ŧḗȧḿ ǿƒ ŧḗȧƈħḗřş, ŀḗȧřƞḗřş, ƈǿḿƥŭŧḗř şƈīḗƞŧīşŧş, ḓḗşīɠƞḗřş, ȧƞḓ "
+"ȧḓṽīşǿřẏ ȧƈȧḓḗḿīƈş, ẇħǿ ŀǿṽḗ ḓḗşīɠƞīƞɠ ḗƒƒḗƈŧīṽḗ, ƒŭƞ, ƥŀȧẏƒŭŀ ŀḗȧřƞīƞɠ "
+"ƥřǿḓŭƈŧş."
+
+#: app/templates/about.hbs+div.div.h4:6
+msgid "You can read more about our story {{#link-to 'story'}}here.{{/link-to}}"
+msgstr "Ẏǿŭ ƈȧƞ řḗȧḓ ḿǿřḗ ȧƀǿŭŧ ǿŭř şŧǿřẏ {{#ŀīƞķ-ŧǿ 'şŧǿřẏ'}}ħḗřḗ.{{/link-to}}"
+
+#: app/templates/about.hbs+div.div.div.h2:8
+msgid "Meet the team"
+msgstr "Ḿḗḗŧ ŧħḗ ŧḗȧḿ"
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:12
+msgid "Toby Mather"
+msgstr "Ŧǿƀẏ Ḿȧŧħḗř"
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:13
+msgctxt "app/templates/about.hbs div.div.div.div.div.h4:13"
+msgid "Co-founder"
+msgstr "Ƈǿ-ƒǿŭƞḓḗř"
+
+#: app/templates/about.hbs+div.div.div.div.div.p:14
+msgid ""
+"Former English teacher and Russian & Italian graduate from Oxford University."
+msgstr ""
+"Ƒǿřḿḗř Ḗƞɠŀīşħ ŧḗȧƈħḗř ȧƞḓ Řŭşşīȧƞ & Īŧȧŀīȧƞ ɠřȧḓŭȧŧḗ ƒřǿḿ Ǿẋƒǿřḓ Ŭƞīṽḗřşīŧẏ."
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:18
+msgid "Adit Trivedi"
+msgstr "Ȧḓīŧ Ŧřīṽḗḓī"
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:19
+msgctxt "app/templates/about.hbs div.div.div.div.div.h4:19"
+msgid "Co-founder"
+msgstr "Ƈǿ-ƒǿŭƞḓḗř"
+
+#: app/templates/about.hbs+div.div.div.div.div.p:20
+msgid ""
+"Web & app developer and Computer Science graduate from University College "
+"London"
+msgstr ""
+"Ẇḗƀ & ȧƥƥ ḓḗṽḗŀǿƥḗř ȧƞḓ Ƈǿḿƥŭŧḗř Şƈīḗƞƈḗ ɠřȧḓŭȧŧḗ ƒřǿḿ Ŭƞīṽḗřşīŧẏ Ƈǿŀŀḗɠḗ "
+"Ŀǿƞḓǿƞ"
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:27
+msgid "Carol Woodman"
+msgstr "Ƈȧřǿŀ Ẇǿǿḓḿȧƞ"
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:28
+msgid "Designer"
+msgstr "Ḓḗşīɠƞḗř"
+
+#: app/templates/about.hbs+div.div.div.div.div.p:29
+msgid ""
+"Award winning children's illustrator and leading designer on work for the "
+"BBC."
+msgstr ""
+"Ȧẇȧřḓ ẇīƞƞīƞɠ ƈħīŀḓřḗƞ'ş īŀŀŭşŧřȧŧǿř ȧƞḓ ŀḗȧḓīƞɠ ḓḗşīɠƞḗř ǿƞ ẇǿřķ ƒǿř ŧħḗ "
+"ƁƁƇ."
+
+#: app/templates/about.hbs+div.div.div.div.div.h3:33
+msgid "William O'Grady"
+msgstr "Ẇīŀŀīȧḿ Ǿ'Ɠřȧḓẏ"
+
+#: app/templates/about.hbs+div.div.div.div.div.h4:34
+msgid "Academic Advisor"
+msgstr "Ȧƈȧḓḗḿīƈ Ȧḓṽīşǿř"
+
+#: app/templates/about.hbs+div.div.div.div.div.p:35
+msgid ""
+"Professor of child language acquisition and author of 'How Children Learn "
+"Language', Professor O'Grady advises on the academic research that underpins "
+"the Lingumi method."
+msgstr ""
+"Ƥřǿƒḗşşǿř ǿƒ ƈħīŀḓ ŀȧƞɠŭȧɠḗ ȧƈɋŭīşīŧīǿƞ ȧƞḓ ȧŭŧħǿř ǿƒ 'Ħǿẇ Ƈħīŀḓřḗƞ Ŀḗȧřƞ "
+"Ŀȧƞɠŭȧɠḗ', Ƥřǿƒḗşşǿř Ǿ'Ɠřȧḓẏ ȧḓṽīşḗş ǿƞ ŧħḗ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ ŧħȧŧ ŭƞḓḗřƥīƞş "
+"ŧħḗ Ŀīƞɠŭḿī ḿḗŧħǿḓ."

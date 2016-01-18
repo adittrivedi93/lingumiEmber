@@ -21,6 +21,8 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
   app.import('vendor/gmaps.js');
+  app.import('bower_components/jed/jed.js');
+  app.import('bower_components/lodash/lodash.js');
   
   return app.toTree();
 };
