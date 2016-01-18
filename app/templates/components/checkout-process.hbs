@@ -2,7 +2,7 @@
 	<div class="col-md-6">
 		<h2>Please enter email to start checkout:</h2>
 		{{input value = checkoutEmail type="text" placeholder="Enter email to begin" class="checkout-form-input"}}
-		<button {{action 'submitCheckout'}} data-celery="568f7c99b8d6041100a23f36" data-celery-version="v2" data-celery-prefill-email={{checkoutEmail}} class="btn btn-magenta" type="submit">Checkout</button>
+		<button {{action 'submitCheckout'}} data-celery="568f7c99b8d6041100a23f36" data-celery-version="v2" data-celery-prefill-email={{checkoutEmail}} class="btn btn-magenta" type="submit" data-celery-autoadd>Checkout</button>
 
 		<script async type="text/javascript" src="https://www.trycelery.com/js/celery.js"></script>
 		<div class="checkout_link">
@@ -12,6 +12,7 @@
 	</div>
 	<div class="col-md-6" id="starter_kit">
 		<img src="assets/starter_kit.png">
+		<h4 style="margin-top:5%"><strike>£49.99 </strike><strong>£39.99</strong> early-bird price (including free delivery)</h4>
 	</div>
 	
 </div>
