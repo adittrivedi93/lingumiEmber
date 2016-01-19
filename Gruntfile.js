@@ -10,12 +10,19 @@ module.exports = function(grunt) {
         pretty: true,
         singleFile: true
       },
-      all: {
+      pseudo: {
         src: ['translations/pseudo/*.po'],
         dest: 'public/translations'
+      },
+      it: {
+        src: ['translations/it/*.po'],
+        dest: 'public/it'
       }
     },
   });
   grunt.loadNpmTasks('grunt-po2json');
-  grunt.registerTask('default', ['po2json']);
+  grunt.registerTask('default', [
+    'po2json:pseudo',
+    'po2json:it',
+    ]);
 };

@@ -9,7 +9,7 @@ export function initialize(application) {
   var localeTranslationMapping = {
     'en-US': '/translations.json', // this is a pseudo-translation I have generated for testing purposes
     'en-GB': '/translations.json',
-    'it': ''
+    'it': '/it.json'
   };
 
   /*
