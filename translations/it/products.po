@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-18 22:39+0100\n"
+"PO-Revision-Date: 2016-01-18 22:48+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+
+#: app/templates/products.hbs+div.div.h2:4
+msgid "The Learning Cubes:"
+msgstr "I Cubi di apprendimento:"
+
+#: app/templates/products.hbs+div.div.h2:9
+msgid "The most fun way to learn a language:"
+msgstr "Il modo più divertente di imparare una ingua:"
+
+#: app/templates/products.hbs+div.div.h4:10
+msgid ""
+"Soft, squishy, BPA-free cubes that interact with a tablet or smartphone to "
+"teach sounds, words, and phrases."
+msgstr ""
+"Morbidi, soffici da stringere e privi di BPA, i cubi interagiscono con "
+"tablet o smartphone per insegnare suoni, parole e frasi."
+
+#: app/templates/products.hbs+div.div.p:11
+msgid "€55 including free delivery to Italy"
+msgstr "55€ inclusa spedizione gratuita per l'Italia"
+
+#: app/templates/products.hbs+div.div.div.h3:23
+msgid "Five squishy character cubes"
+msgstr "Cinque morbidi personaggi a forma di cubo"
+
+#: app/templates/products.hbs+div.div.div.h4:24
+msgid "Colourful cubes that interact with our apps in magical ways"
+msgstr "Cubi colorati che interagiscono magicamente con la nostra app"
+
+#: app/templates/products.hbs+div.div.div.h3:26
+msgid "Box and stand"
+msgstr "Scatola e supporto"
+
+#: app/templates/products.hbs+div.div.div.h4:27
+msgid ""
+"The box creates a playing surface for your child to place the cubes, and the "
+"stand holds your tablet or smartphone"
+msgstr ""
+"La scatola diventa una superficie di gioco dove il tuo bambino può mettere i "
+"cubi e il supporto regge tablet o smartphone"
+
+#: app/templates/products.hbs+div.div.div.h3:31
+msgid "Free apps"
+msgstr "App gratuite"
+
+#: app/templates/products.hbs+div.div.div.h4:32
+msgid ""
+"Our first app, designed with help from leading experts, is free to download, "
+"with a second free app on the way. And everything is included: there are no "
+"in-app purchases."
+msgstr ""
+"La nostra prima app, progettata con l'aiuto di esperti, è scaricabile "
+"gratuitamente, e una seconda app è in arrivo. Ed è tutto incluso: non ci "
+"sono acquisti in app."
+
+#: app/templates/products.hbs+div.div.div.h3:37
+msgid "Learn 5 languages"
+msgstr "Impara 5 lingue"
+
+#. translation: Use the Lingumi Starter Kit to teach your child English, develop their Italian, or to learn new words and phrases in 3 other languages!
+#: app/templates/products.hbs+div.div.div.h4:38
+msgid ""
+"Use the Lingumi Starter Kit to develop your child's English skills, and to "
+"learn new words and phrases in 4 other languages!"
+msgstr ""
+"Usa lo starter kit Lingumi per insegnare l'inglese ai tuoi bambini, "
+"migliorare il loro italiano o imparare nuove parole e frasi in altre 3 "
+"lingue!"
+
+#: app/templates/products.hbs+div.div.div.h3:47
+msgid "Technical information"
+msgstr "Informazioni tecniche"
+
+#: app/templates/products.hbs+div.div.div.h4:48
+msgid ""
+"The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS "
+"8.4 and above, or Android devices running 2.3 or above. The app is currently "
+"not visible to the public on the app store, but you will be emailed a link "
+"to download it privately."
+msgstr ""
+"Il kit è compatibile con dispositivi Apple iOS (iPad o iPhone) con iOS 8.4 e "
+"versioni successive o dispositivi Android 2.3 o versioni successive. L'app è "
+"attualmente non visibile al pubblico sull'app store, ma riceverai un'e-mail "
+"con un link per scaricarla privatamente."
+
+#: app/templates/products.hbs+div.div.div.h3:49
+msgid "Price & Shipping"
+msgstr "Prezzo e spedizione"
+
+#. translation: The kit costs €55 including delivery. To read more about our availability and shipping in your country, visit our {{#link-to 'international'}}International page{{/link-to}}.
+#: app/templates/products.hbs+div.div.div.h4:50
+msgid ""
+"The kit costs £35 + delivery, which varies by country. To read more about "
+"our availability in your country, visit our {{#link-to 'international'}}"
+"International page{{/link-to}}."
+msgstr ""
+"Il kit costa 55€ inclusa spedizione. Per avere maggiori informazioni sulla "
+"disponibilità e la spedizione nel tuo Paese, visita la nostra {{#link-to "
+"'international'}}pagina internazionale{{/link-to}}."

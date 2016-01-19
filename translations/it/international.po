@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-18 21:54+0100\n"
+"PO-Revision-Date: 2016-01-18 22:04+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+
+#: app/templates/international.hbs+div.div.div.h2:28
+msgid "Countries we send to:"
+msgstr "Paesi dove spediamo:"
+
+#: app/templates/international.hbs+div.div.div.div.p:30
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+#: app/templates/international.hbs+div.div.div.div.p:31
+msgid "Northern Ireland"
+msgstr "Irlanda del Nord"
+
+#: app/templates/international.hbs+div.div.div.div.p:32
+msgid "France"
+msgstr "Francia"
+
+#: app/templates/international.hbs+div.div.div.div.p:33
+msgid "Italy"
+msgstr "Italia"
+
+#: app/templates/international.hbs+div.div.div.div.p:36
+msgid "Germany"
+msgstr "Germania"
+
+#: app/templates/international.hbs+div.div.div.div.p:37
+msgid "Sweden"
+msgstr "Svezia"
+
+#: app/templates/international.hbs+div.div.div.div.p:38
+msgid "Austria"
+msgstr "Austria"
+
+#: app/templates/international.hbs+div.div.div.div.p:39
+msgid "Netherlands"
+msgstr "Paesi Bassi"
+
+#: app/templates/international.hbs+div.div.div.div.p:42
+msgid "Spain"
+msgstr "Spagna"
+
+#: app/templates/international.hbs+div.div.div.div.p:43
+msgid "Finland"
+msgstr "Finlandia"
+
+#: app/templates/international.hbs+div.div.div.div.p:44
+msgid "Portugal"
+msgstr "Portogallo"
+
+#: app/templates/international.hbs+div.div.div.div.p:45
+msgid "Belgium"
+msgstr "Belgio"
+
+#: app/templates/international.hbs+div.div.div.div:47
+msgid ""
+"{{#link-to 'checkout' class=\"btn btn-magenta\"}}Buy{{/link-to}} {{#link-to "
+"'products' class=\"btn btn-cyan\"}}More info{{/link-to}}"
+msgstr ""
+"{{#link-to 'checkout' class=\"btn btn-magenta\"}}Compra{{/link-to}} {{#link-"
+"to 'products' class=\"btn btn-cyan\"}}Maggiori informazioni{{/link-to}}"
+
+#: app/templates/international.hbs+div.div.div.h2:54
+msgid "Shipping info"
+msgstr "Informazioni di spedizione"
+
+#: app/templates/international.hbs+div.div.div.h4:55
+msgid ""
+"We ship the Learning Cubes using Royal Mail Signed & Tracked service to the "
+"countries listed above."
+msgstr ""
+"Spediamo i Cubi di apprendimento usando il servizio Royal Mail Signed & "
+"Tracked nei Paesi elencati sopra."
+
+#: app/templates/international.hbs+div.div.div.h4:56
+msgid ""
+"Typical delivery time in the UK is 2-3 working days. Within Europe is 5-10 "
+"business days."
+msgstr ""
+"I tempi di consegna tipici in Inghilterra sono di 2-3 giorni lavorativi. In "
+"Europa sono di 5-10 giorni lavorativi."
+
+#: app/templates/international.hbs+div.div.div.h4:60
+msgid "Want Lingumi in your country?"
+msgstr "Vuoi Lingumi nel tuo Paese?"
+
+#: app/templates/international.hbs+div.div.div.p:61
+msgid ""
+"We're arriving in more countries all the time. To get your country top of "
+"the list, click to tweet below, or email us with your country."
+msgstr ""
+"Siamo sempre in più Paesi. Per far arrivare il tuo Paese in cima all'elenco "
+"fai clic di seguito per inviare un tweet o un'e-mail con il tuo Paese."
