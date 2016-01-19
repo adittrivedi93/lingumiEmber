@@ -2,23 +2,32 @@ import Ember from 'ember';
 // import i18n from 'i18n';
 
 export default Ember.Component.extend({
+	locale: null,
+	selectedLocale: 'English',
+	locale: ["English", "Italian"],
 
-  actions: {
-    setLocale: function() {
-      var self   = this;
-      var cookie = this.get('cookie');
+
+	actions: {
+
+		setLocale(locale) {
+			this.set('locale', locale);
+			console.log("locale set:" + locale);
+
+		}
+
  
-      cookie.setCookie('it', 'language')
-        .then(function() {
-          console.log("set");
-        });
-    }
-  }
+		// setLocale: function() {
+  //     		var self   = this;
+  //     		var cookie = this.get('cookie');
+ 
+	 //      cookie.setCookie('my-key', 'my-value')
+	 //        .then(function() {
+	 //          self.transitionToRoute('home');
+	 //        });
+  //   }
+		
+	}
 });
 
-  // actions: {
-  //   setLocale() {
-  //     this.set('i18n.locale', this.$('select').val());
-  //   }
-  // }
+
 

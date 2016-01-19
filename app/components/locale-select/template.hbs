@@ -1,7 +1,9 @@
 <div>
-	<select {{action 'setLocale' on='change'}}>
-		<option id="english" value="english">English</option>
-	    <option id="italian" value="italian">Italian</option>
 
+	<select onchange={{action "setLocale" value="target.value"}}>
+  		{{#each locale as |localeSelected|}}
+    <option value={{localeSelected}} selected={{eq locale localeSelected}}>{{localeSelected}}</option>
+  		{{/each}}
 	</select>
+
 </div>
