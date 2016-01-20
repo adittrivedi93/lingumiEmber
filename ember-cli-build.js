@@ -23,6 +23,7 @@ module.exports = function(defaults) {
   app.import('vendor/gmaps.js');
   app.import('bower_components/jed/jed.js');
   app.import('bower_components/lodash/lodash.js');
+  app.import('bower_components/js-cookie/src/js.cookie.js');
   
   return app.toTree();
 };

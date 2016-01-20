@@ -9,14 +9,16 @@ export function initialize(application) {
   var localeTranslationMapping = {
     'en-US': '/translations.json', // this is a pseudo-translation I have generated for testing purposes
     'en-GB': '/translations.json',
-    'it': '/it.json'
+    'it': '/it.json',
+    'Italian': '/it.json'
   };
 
   /*
    * Initialise your i18n library (in this case Jed) with your translations for
    * the current locale
    */
-  var language = window.navigator.userLanguage || window.navigator.language;
+  var language = Cookies.get('locale') || window.navigator.userLanguage || window.navigator.language;
+  console.log(language);
   var translationUrl = localeTranslationMapping[language];
   if (translationUrl !== undefined) {
     Ember.$.getJSON(translationUrl, function(translations) {
@@ -42,5 +44,5 @@ export function initialize(application) {
 
 export default {
   name: 'i18n',
-  initialize
+  initialize,
 };
