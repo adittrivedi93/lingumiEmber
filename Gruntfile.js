@@ -10,6 +10,10 @@ module.exports = function(grunt) {
         pretty: true,
         singleFile: true
       },
+      en: {
+        src: ['translations/templates/*.po'],
+        dest: 'public/en'
+      },
       pseudo: {
         src: ['translations/pseudo/*.po'],
         dest: 'public/translations'
@@ -24,5 +28,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'po2json:pseudo',
     'po2json:it',
+    'po2json:en',
     ]);
 };

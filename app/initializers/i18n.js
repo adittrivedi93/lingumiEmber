@@ -24,7 +24,7 @@ export function initialize(application) {
     Ember.$.getJSON(translationUrl, function(translations) {
       var localeData = _.reduce(_.values(translations), function(a, b) {
         
-        return _.merge(a,b);
+        return _.merge(a, b);
       }, {});
 
       //fix up the JSON for Jed
