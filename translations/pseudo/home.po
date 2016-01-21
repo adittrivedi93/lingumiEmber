@@ -1,0 +1,172 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-14 22:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#.  translation: The interactive way to learn English for kids 
+#: app/templates/home.hbs+div.div.div.div.h2:18
+msgid ""
+"<strong>Teach your child a language</strong> at the best age for learning"
+msgstr ""
+"<strong>Ŧḗȧƈħ ẏǿŭř ƈħīŀḓ ȧ ŀȧƞɠŭȧɠḗ</strong> ȧŧ ŧħḗ ƀḗşŧ ȧɠḗ ƒǿř ŀḗȧřƞīƞɠ"
+
+#.  translation: A fun, interactive way for kids to learn English 
+#: app/templates/home.hbs+div.div.div.h2:38
+msgid ""
+"A <strong>fun, interactive method</strong> for early years language learning."
+msgstr ""
+"Ȧ <strong>ƒŭƞ, īƞŧḗřȧƈŧīṽḗ ḿḗŧħǿḓ</strong> ƒǿř ḗȧřŀẏ ẏḗȧřş ŀȧƞɠŭȧɠḗ ŀḗȧřƞīƞɠ."
+
+#: app/templates/home.hbs+div.div.div.h4:42
+msgid ""
+"Our scientifically structured method starts with the <strong>Learning "
+"Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone "
+"to teach sounds, words and phrases to children, <strong>through "
+"play.</strong>"
+msgstr ""
+"Ǿŭř şƈīḗƞŧīƒīƈȧŀŀẏ şŧřŭƈŧŭřḗḓ ḿḗŧħǿḓ şŧȧřŧş ẇīŧħ ŧħḗ <strong>Ŀḗȧřƞīƞɠ "
+"Ƈŭƀḗş:</strong> şǿƒŧ, şȧƒḗ ƈŭƀḗş ŧħȧŧ īƞŧḗřȧƈŧ ẇīŧħ ȧ ŧȧƀŀḗŧ ǿř şḿȧřŧƥħǿƞḗ "
+"ŧǿ ŧḗȧƈħ şǿŭƞḓş, ẇǿřḓş ȧƞḓ ƥħřȧşḗş ŧǿ ƈħīŀḓřḗƞ, <strong>ŧħřǿŭɠħ "
+"ƥŀȧẏ.</strong>"
+
+#.  translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy. 
+#: app/templates/home.hbs+div.div.div.p:45
+msgid ""
+"Learn over 100 words and phrases from our free apps, with no in-app "
+"purchases. The kit costs £35 inc. delivery to UK."
+msgstr ""
+"Ŀḗȧřƞ ǿṽḗř 100 ẇǿřḓş ȧƞḓ ƥħřȧşḗş ƒřǿḿ ǿŭř ƒřḗḗ ȧƥƥş, ẇīŧħ ƞǿ īƞ-ȧƥƥ "
+"ƥŭřƈħȧşḗş. Ŧħḗ ķīŧ ƈǿşŧş £35 īƞƈ. ḓḗŀīṽḗřẏ ŧǿ ŬĶ."
+
+#: app/templates/home.hbs+div.div.div:50
+msgid ""
+"{{!-- {{#link-to 'products' class=\"btn btn-navbar btn-cyan\"}}The Cubes"
+"{{/link-to}} --}} {{#scroll-to href='#story' label='story' offset=-60 class="
+"\"btn btn-magenta\"}} The Story {{/scroll-to}}"
+msgstr ""
+"{{!-- {{#ŀīƞķ-ŧǿ 'ƥřǿḓŭƈŧş' ƈŀȧşş=\"ƀŧƞ ƀŧƞ-ƞȧṽƀȧř ƀŧƞ-ƈẏȧƞ\"}}Ŧħḗ Ƈŭƀḗş"
+"{{/link-to}} --}} {{#şƈřǿŀŀ-ŧǿ ħřḗƒ='#şŧǿřẏ' ŀȧƀḗŀ='şŧǿřẏ' ǿƒƒşḗŧ=-60 ƈŀȧşş="
+"\"ƀŧƞ ƀŧƞ-ḿȧɠḗƞŧȧ\"}} Ŧħḗ Şŧǿřẏ {{/scroll-to}}"
+
+#: app/templates/home.hbs+div.div.h2:60
+msgid "The Story"
+msgstr "Ŧħḗ Şŧǿřẏ"
+
+#: app/templates/home.hbs+div.div.div.div.p:67
+msgid ""
+"<span class=\"p_starter\">What is it? </span> A method developed from "
+"extensive academic research that combines <strong>tactile physical "
+"interaction</strong> with digital apps to help children learn a language, by "
+"replicating the way they naturally acquire language from birth."
+msgstr ""
+"<span class=\"p_starter\">Ẇħȧŧ īş īŧ? </span> Ȧ ḿḗŧħǿḓ ḓḗṽḗŀǿƥḗḓ ƒřǿḿ "
+"ḗẋŧḗƞşīṽḗ ȧƈȧḓḗḿīƈ řḗşḗȧřƈħ ŧħȧŧ ƈǿḿƀīƞḗş <strong>ŧȧƈŧīŀḗ ƥħẏşīƈȧŀ "
+"īƞŧḗřȧƈŧīǿƞ</strong> ẇīŧħ ḓīɠīŧȧŀ ȧƥƥş ŧǿ ħḗŀƥ ƈħīŀḓřḗƞ ŀḗȧřƞ ȧ ŀȧƞɠŭȧɠḗ, ƀẏ "
+"řḗƥŀīƈȧŧīƞɠ ŧħḗ ẇȧẏ ŧħḗẏ ƞȧŧŭřȧŀŀẏ ȧƈɋŭīřḗ ŀȧƞɠŭȧɠḗ ƒřǿḿ ƀīřŧħ."
+
+#: app/templates/home.hbs+div.div.div.div.p:78
+msgid ""
+"<span class=\"p_starter\">How does it work? </span>We create interactive "
+"games and activities which children and parents play together. Children play "
+"learn their first sounds in a <strong>native accent</strong>, then words, "
+"then phrases. The first step is the Learning Cubes: read about them here."
+msgstr ""
+"<span class=\"p_starter\">Ħǿẇ ḓǿḗş īŧ ẇǿřķ? </span>Ẇḗ ƈřḗȧŧḗ īƞŧḗřȧƈŧīṽḗ "
+"ɠȧḿḗş ȧƞḓ ȧƈŧīṽīŧīḗş ẇħīƈħ ƈħīŀḓřḗƞ ȧƞḓ ƥȧřḗƞŧş ƥŀȧẏ ŧǿɠḗŧħḗř. Ƈħīŀḓřḗƞ ƥŀȧẏ "
+"ŀḗȧřƞ ŧħḗīř ƒīřşŧ şǿŭƞḓş īƞ ȧ <strong>ƞȧŧīṽḗ ȧƈƈḗƞŧ</strong>, ŧħḗƞ ẇǿřḓş, "
+"ŧħḗƞ ƥħřȧşḗş. Ŧħḗ ƒīřşŧ şŧḗƥ īş ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş: řḗȧḓ ȧƀǿŭŧ ŧħḗḿ ħḗřḗ."
+
+#: app/templates/home.hbs+div.div.div.div.p:87
+msgid ""
+"<span class=\"p_starter\">Why early years? </span>2 year olds are <strong>"
+"the world's best learners.</strong> Due to their brain plasticity, increased "
+"synaptic density, and other neurological factors, infants under the age of 6 "
+"absorb languages quickly and easily."
+msgstr ""
+"<span class=\"p_starter\">Ẇħẏ ḗȧřŀẏ ẏḗȧřş? </span>2 ẏḗȧř ǿŀḓş ȧřḗ <strong>"
+"ŧħḗ ẇǿřŀḓ'ş ƀḗşŧ ŀḗȧřƞḗřş.</strong> Ḓŭḗ ŧǿ ŧħḗīř ƀřȧīƞ ƥŀȧşŧīƈīŧẏ, īƞƈřḗȧşḗḓ "
+"şẏƞȧƥŧīƈ ḓḗƞşīŧẏ, ȧƞḓ ǿŧħḗř ƞḗŭřǿŀǿɠīƈȧŀ ƒȧƈŧǿřş, īƞƒȧƞŧş ŭƞḓḗř ŧħḗ ȧɠḗ ǿƒ 6 "
+"ȧƀşǿřƀ ŀȧƞɠŭȧɠḗş ɋŭīƈķŀẏ ȧƞḓ ḗȧşīŀẏ."
+
+#: app/templates/home.hbs+div.div.div.div.p:96
+msgid ""
+"<span class=\"p_starter\">Who are we? </span>We are: 1 English teacher, 1 "
+"computer scientist, 1 children's illustrator, + several brilliant academics "
+"who advise us. We're based in London, UK. Read more about the team {{#link-"
+"to 'about' class=\"underline\"}}here.{{/link-to}}"
+msgstr ""
+"<span class=\"p_starter\">Ẇħǿ ȧřḗ ẇḗ? </span>Ẇḗ ȧřḗ: 1 Ḗƞɠŀīşħ ŧḗȧƈħḗř, 1 "
+"ƈǿḿƥŭŧḗř şƈīḗƞŧīşŧ, 1 ƈħīŀḓřḗƞ'ş īŀŀŭşŧřȧŧǿř, + şḗṽḗřȧŀ ƀřīŀŀīȧƞŧ ȧƈȧḓḗḿīƈş "
+"ẇħǿ ȧḓṽīşḗ ŭş. Ẇḗ'řḗ ƀȧşḗḓ īƞ Ŀǿƞḓǿƞ, ŬĶ. Řḗȧḓ ḿǿřḗ ȧƀǿŭŧ ŧħḗ ŧḗȧḿ {{#ŀīƞķ-"
+"ŧǿ 'ȧƀǿŭŧ' ƈŀȧşş=\"ŭƞḓḗřŀīƞḗ\"}}ħḗřḗ.{{/link-to}}"
+
+#: app/templates/home.hbs+div.div:102
+msgid ""
+"{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class=\""
+"btn btn-magenta\"}} What our users think {{/scroll-to}}"
+msgstr ""
+"{{#şƈřǿŀŀ-ŧǿ ħřḗƒ='#ŧḗşŧīḿǿƞīȧŀş' ŀȧƀḗŀ='ŧḗşŧīḿǿƞīȧŀş' ǿƒƒşḗŧ=-60 ƈŀȧşş=\""
+"ƀŧƞ ƀŧƞ-ḿȧɠḗƞŧȧ\"}} Ẇħȧŧ ǿŭř ŭşḗřş ŧħīƞķ {{/scroll-to}}"
+
+#: app/templates/home.hbs+div.div.div.h4:114
+msgid ""
+"\"It gives her so much confidence - she goes into her own little world\""
+msgstr ""
+"\"Īŧ ɠīṽḗş ħḗř şǿ ḿŭƈħ ƈǿƞƒīḓḗƞƈḗ - şħḗ ɠǿḗş īƞŧǿ ħḗř ǿẇƞ ŀīŧŧŀḗ ẇǿřŀḓ\""
+
+#: app/templates/home.hbs+div.div.div.p:115
+msgid "- Tasha & Olivia, London"
+msgstr "- Ŧȧşħȧ & Ǿŀīṽīȧ, Ŀǿƞḓǿƞ"
+
+#: app/templates/home.hbs+div.div.div.h2:122
+msgid "Physical"
+msgstr "Ƥħẏşīƈȧŀ"
+
+#: app/templates/home.hbs+div.div.div.h4:123
+msgid ""
+"With the Learning Cubes, kids don't need to tap or swipe the screen - "
+"<strong>ever</strong>. <br/>Interacting with the cubes powers the game."
+msgstr ""
+"Ẇīŧħ ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş, ķīḓş ḓǿƞ'ŧ ƞḗḗḓ ŧǿ ŧȧƥ ǿř şẇīƥḗ ŧħḗ şƈřḗḗƞ - "
+"<strong>ḗṽḗř</strong>. <br/>Īƞŧḗřȧƈŧīƞɠ ẇīŧħ ŧħḗ ƈŭƀḗş ƥǿẇḗřş ŧħḗ ɠȧḿḗ."
+
+#: app/templates/home.hbs+div.div.div.h2:127
+msgid "Shared"
+msgstr "Şħȧřḗḓ"
+
+#: app/templates/home.hbs+div.div.div.h4:128
+msgid ""
+"Children are proven to learn best when interacting with another person. With "
+"Lingumi, parent and child play and learn together. We'll teach you how best "
+"to play and learn together."
+msgstr ""
+"Ƈħīŀḓřḗƞ ȧřḗ ƥřǿṽḗƞ ŧǿ ŀḗȧřƞ ƀḗşŧ ẇħḗƞ īƞŧḗřȧƈŧīƞɠ ẇīŧħ ȧƞǿŧħḗř ƥḗřşǿƞ. Ẇīŧħ "
+"Ŀīƞɠŭḿī, ƥȧřḗƞŧ ȧƞḓ ƈħīŀḓ ƥŀȧẏ ȧƞḓ ŀḗȧřƞ ŧǿɠḗŧħḗř. Ẇḗ'ŀŀ ŧḗȧƈħ ẏǿŭ ħǿẇ ƀḗşŧ "
+"ŧǿ ƥŀȧẏ ȧƞḓ ŀḗȧřƞ ŧǿɠḗŧħḗř."
+
+#: app/templates/home.hbs+div.div.div.h2:132
+msgid "Playful"
+msgstr "Ƥŀȧẏƒŭŀ"
+
+#: app/templates/home.hbs+div.div.div.h4:133
+msgid ""
+"For early learners, we've replaced tapping and swiping with touching and "
+"holding: the Learning Cubes combine apps with physical play that boosts "
+"learning, and reduces screen addiction."
+msgstr ""
+"Ƒǿř ḗȧřŀẏ ŀḗȧřƞḗřş, ẇḗ'ṽḗ řḗƥŀȧƈḗḓ ŧȧƥƥīƞɠ ȧƞḓ şẇīƥīƞɠ ẇīŧħ ŧǿŭƈħīƞɠ ȧƞḓ "
+"ħǿŀḓīƞɠ: ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş ƈǿḿƀīƞḗ ȧƥƥş ẇīŧħ ƥħẏşīƈȧŀ ƥŀȧẏ ŧħȧŧ ƀǿǿşŧş "
+"ŀḗȧřƞīƞɠ, ȧƞḓ řḗḓŭƈḗş şƈřḗḗƞ ȧḓḓīƈŧīǿƞ."
+
+#: app/templates/home.hbs+div.div.div.h4:142
+msgid "Buy the Learning Cubes"
+msgstr "Ɓŭẏ ŧħḗ Ŀḗȧřƞīƞɠ Ƈŭƀḗş"

@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:32+0000\n"
+"PO-Revision-Date: 2016-01-21 19:32+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: app/templates/reg-complete.hbs+div.div.h4:12
+msgid "Thanks for registering!"
+msgstr "Thanks for registering!"
+
+#: app/templates/reg-complete.hbs+div.div.h2:13
+msgid "Your next steps:"
+msgstr "Your next steps:"
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:16
+msgid "1"
+msgstr "1"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:18
+msgid "Order the starter kit."
+msgstr "Order the starter kit."
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:23
+msgid "2"
+msgstr "2"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:25
+msgid "Join our communities."
+msgstr "Join our communities."
+
+#: app/templates/reg-complete.hbs+div.div.div.div:27
+msgid "Follow @LingumiLabs on Twitter"
+msgstr "Follow @LingumiLabs on Twitter"
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:32
+msgid "3"
+msgstr "3"
+
+#: app/templates/reg-complete.hbs+div.div.div.h2:34
+msgid "Refer friends for free stuff."
+msgstr "Refer friends for free stuff."
+
+#: app/templates/reg-complete.hbs+div.div.div.h4:35
+msgid ""
+"We'll send you a personal referral code to share to friends, in return for "
+"free goodies. {{#link-to 'contact'}}Contact us{{/link-to}} for more "
+"information on referral bonuses."
+msgstr ""
+"We'll send you a personal referral code to share to friends, in return for "
+"free goodies. {{#link-to 'contact'}}Contact us{{/link-to}} for more "
+"information on referral bonuses."

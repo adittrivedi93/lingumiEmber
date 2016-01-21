@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:30+0000\n"
+"PO-Revision-Date: 2016-01-21 19:30+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: app/templates/method.hbs+div.div.h2:3
+msgid "The Lingumi Method"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.div.p:10
+msgid "1"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.h4:11
+msgid "<strong>New sounds</strong> introduced through play"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.div.p:14
+msgid "2"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.h4:15
+msgid "<strong>First words</strong> learned through play and repetition"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.div.p:18
+msgid "3"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.h4:19
+msgid ""
+"<strong>Contextual language</strong> absorbed through question games and "
+"puzzles"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.div.p:22
+msgid "4"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.div.h4:23
+msgid ""
+"<strong>Short phrases</strong> learned and practised by answering questions"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.h4:28
+msgid ""
+"The Lingumi Method has been developed with early years experts and academics "
+"to empower parents and children to learn and practise a language together. "
+"By combining <strong>physical play</strong> with amazing <strong>digital "
+"apps</strong>, the method uses a mixture of physical actions, audio, video, "
+"and puzzle-solving to develop children's skills in a multi-sensory and "
+"playful environment.<br/>The Lingumi Method has been created to stimulate "
+"neurological development through multi-sensory engagement."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h2:33
+msgid "The Learner's Journey"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h3:36
+msgid "1: Build"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h4:40
+msgid ""
+"<strong>Build basic vocabulary</strong> using the Lingumi Starter Kit and "
+"First Words app, which teaches over 60 new words, in a structure devised by "
+"academics at the University of Oxford that replicates the words a child "
+"learns first in their native language."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h3:46
+msgid "2: Expand"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.h4:49
+msgid ""
+"<strong>Expand your child's knowledge</strong> of the new language, or "
+"practise their first language, with question games that build contextual "
+"language through guesswork and play."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h3:54
+msgid "3: Speak"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h4:58
+msgid ""
+"<strong>Practise speaking</strong> the new language you've learned together, "
+"using Lingumi Speak apps which adapt to what your child has learned, and "
+"guide you as parent through the process."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h3:64
+msgid "4: Strengthen"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.div.div.h4:68
+msgid ""
+"<strong>Activate and embed</strong> the language your child has learned with "
+"intelligent, personalised video and games. Learning through play, tailored "
+"to your child."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h2:74
+msgid "The Research"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h4:75
+msgid ""
+"The Lingumi Method is built on research by the world's top academics in "
+"infant language acquisition, psycho- and neurolinguistics. In short, the "
+"research we use combines decades of study into how children learn languages, "
+"and how their brain works.<br/>You can read more about the academic research "
+"into our method in our whitepaper, but here are the key principles:"
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h4:76
+msgid ""
+"<strong>Action-reaction: </strong>Children learn best when they're rewarded "
+"with reactions to their actions. We've build this into our games, creating "
+"reactions in our apps to physical actions with our cubes."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h4:77
+msgid ""
+"<strong>Shared learning: </strong>When a parent or carer takes part in the "
+"learning, repeating and helping the child to play and learn, the learning "
+"outcomes are improved. Our games are designed to be played in pairs or small "
+"groups."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.h4:78
+msgid ""
+"<strong>Positive reinforcement: </strong>Using the Lingumi method, children "
+"learn through experimentation and free-play, but are always encouraged "
+"positively towards learning and discovering."
+msgstr ""
+
+#: app/templates/method.hbs+div.div.p:81
+msgid "Buy the Learning Cubes to start learning:"
+msgstr ""

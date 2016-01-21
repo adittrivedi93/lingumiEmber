@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:32+0000\n"
+"PO-Revision-Date: 2016-01-21 19:33+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: app/templates/slt.hbs+div.div.div.h2:4
+msgid "Lingumi for special needs"
+msgstr "Lingumi for special needs"
+
+#: app/templates/slt.hbs+div.div.div.h4:5
+msgid ""
+"We've worked with speech therapists and disability organisations to make the "
+"Lingumi learning experience available to every child. The {{#link-to "
+"'products'}}Starter Kit{{/link-to}} uses squishy, child-safe cubes that "
+"contain no electronics or small pieces, are colourful, and optimised for "
+"<strong>tactile, visual, multisensory learning.</strong>"
+msgstr ""
+"We've worked with speech therapists and disability organisations to make the "
+"Lingumi learning experience available to every child. The {{#link-to "
+"'products'}}Starter Kit{{/link-to}} uses squishy, child-safe cubes that "
+"contain no electronics or small pieces, are colourful, and optimised for "
+"<strong>tactile, visual, multisensory learning.</strong>"
+
+#: app/templates/slt.hbs+div.div.div.h4:8
+msgid "{{!--"
+msgstr "{{!--"
+
+#: app/templates/slt.hbs+div.div.div.h4:9
+msgid "Quote from SLT"
+msgstr "Quote from SLT"
+
+#: app/templates/slt.hbs+div.div.div.div.h2:13
+msgid "Speech delay"
+msgstr "Speech delay"
+
+#: app/templates/slt.hbs+div.div.div.div.h4:14
+msgid ""
+"The interactive nature of the kit helps children with speech language "
+"problems to gain confidence. In testing with children with speech delay and "
+"associated difficulties, we noticed unprompted repetiton of words after just "
+"two play sessions. {{#link-to 'products'}}Try it at home.{{/link-to}}"
+msgstr ""
+"The interactive nature of the kit helps children with speech language "
+"problems to gain confidence. In testing with children with speech delay and "
+"associated difficulties, we noticed unprompted repetiton of words after just "
+"two play sessions. {{#link-to 'products'}}Try it at home.{{/link-to}}"
+
+#: app/templates/slt.hbs+div.div.div.div.h2:17
+msgid "Down's Syndrome"
+msgstr "Down's Syndrome"
+
+#: app/templates/slt.hbs+div.div.div.div.h4:18
+msgid ""
+"The Lingumi Starter Kit takes the child away from the screen, turning the "
+"learning experience into a highly visual, but interactive one. We've been "
+"working with Down's Syndrome charities and families with children with DS to "
+"test and improve the kit for special needs.{{#link-to 'products'}}Try it at "
+"home.{{/link-to}}"
+msgstr ""
+"The Lingumi Starter Kit takes the child away from the screen, turning the "
+"learning experience into a highly visual, but interactive one. We've been "
+"working with Down's Syndrome charities and families with children with DS to "
+"test and improve the kit for special needs.{{#link-to 'products'}}Try it at "
+"home.{{/link-to}}"
+
+#: app/templates/slt.hbs+div.div.div.div.h2:21
+msgid "Bilingual children"
+msgstr "Bilingual children"
+
+#: app/templates/slt.hbs+div.div.div.div.h4:22
+msgid ""
+"We work with bilingual families in London to ensure that Lingumi provides a "
+"positive learning experience, and gives their child confidence in their "
+"first or second language. Read their {{#link-to 'stories'}}stories{{/link-"
+"to}} or{{#link-to 'products'}}try it at home.{{/link-to}}"
+msgstr ""
+"We work with bilingual families in London to ensure that Lingumi provides a "
+"positive learning experience, and gives their child confidence in their "
+"first or second language. Read their {{#link-to 'stories'}}stories{{/link-"
+"to}} or{{#link-to 'products'}}try it at home.{{/link-to}}"

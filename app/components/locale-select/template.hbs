@@ -1,0 +1,16 @@
+<div id="language">
+	<select onchange={{action "setLocale" value="target.value"}} id="language_select">
+  		{{#each locales as |localeSelected|}}
+
+    <option value={{localeSelected}} selected={{eq locale localeSelected}}>{{localeSelected}}</option>
+  		{{/each}}
+	</select>
+
+
+<!-- 	<select onchange={{action (mut genderIndex) value="target.value"}}>
+  		{{#each genders as |genderChoice index|}}
+    		<option value={{ index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option>
+  		{{/each}}
+	</select>
+ -->
+</div>

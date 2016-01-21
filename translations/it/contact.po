@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-18 16:12+0100\n"
+"PO-Revision-Date: 2016-01-18 16:13+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+
+#: app/templates/contact.hbs+div.div.h2:3
+msgid "Contact Lingumi"
+msgstr "Contatta Lingumi"
+
+#: app/templates/contact.hbs+div.div.h2:5
+msgid "Email us"
+msgstr "Inviaci un'e-mail"
+
+#: app/templates/contact.hbs+div.div.h4:6
+msgid ""
+"We're here to answer your questions. <br/>Click <a href=\"mailto: "
+"hello@lingumi.com\">here to email us</a>"
+msgstr ""
+"Siamo qui per rispondere alle tue domande. <br/>Fai clic <a href="
+"\"mailto: hello@lingumi.com\">qui per inviarci un'e-mail</a>"
+
+#: app/templates/contact.hbs+div.div.h4:7
+msgid "Or reach out directly: <strong>hello@lingumi.com</strong>"
+msgstr ""
+"O mettiti direttamente in contatto: <strong>hello@lingumi.com</strong>"
+
+#: app/templates/contact.hbs+div.div.p:8
+msgid ""
+"You can also get in touch with a team member {{#link-to 'about'}}on the "
+"about page.{{/link-to}}"
+msgstr ""
+"Puoi anche metterti in contatto con un membro dello staff {{#link-to "
+"'about'}}alla pagina Informazioni.{{/link-to}}"
