@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         singleFile: true
       },
       en: {
-        src: ['translations/templates/*.po'],
+        src: ['translations/en_GB/*.po'],
         dest: 'public/en'
       },
       pseudo: {
