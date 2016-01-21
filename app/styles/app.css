@@ -18,3 +18,15 @@
 @import 'order-conf.css';
 @import 'animate.css';
 @import 'the_apps.css';
+
+#language_select {
+	margin: 0.2% 1%;
+	float:right;
+	font-size: 2em;
+	padding: 10px;
+}
+@media (max-width: 770px) {
+	#language_select {
+		float: none;
+	}
+}

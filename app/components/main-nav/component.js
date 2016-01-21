@@ -7,7 +7,6 @@ export default Ember.Component.extend(Ember.TargetActionSupport,{
 
 	didInsertElement(){
 		//Here we will check whether the user is logged in
-		console.log("reached");
 		this.triggerAction({
 			action: 'checkUserStatus',
 			target: this

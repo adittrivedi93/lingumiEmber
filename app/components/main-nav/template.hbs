@@ -8,15 +8,15 @@
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	                <i class="fa fa-bars" style="background color: white"></i>
 	        </button>
+
 		</div>
 
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right nav-pills">
-				<li>{{#locale-select}}{{/locale-select}}</li>
+				<li></li>
 				<li>{{#link-to 'home' class="btn btn-navbar btn-cyan"}}Home{{/link-to}}</li>
 				<li>{{#link-to 'products' class="btn btn-navbar btn-magenta"}}Products{{/link-to}}</li>
 				<li>{{#link-to 'method' class="btn btn-navbar btn-green"}}Method{{/link-to}}</li>	
-
 
 				<li class="dropdown">
 					<a class="dropdown-toggle btn btn-navbar btn-red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {{action 'selectedMore' on='click'}}>More<span class="caret"></span></a>
@@ -42,5 +42,6 @@
 				<li>{{#link-to 'checkout' class="btn btn-cyan"}}<strong>BUY</strong>{{/link-to}}</li>
 			</ul>
 		</div>
+		{{#locale-select}}{{/locale-select}}
 	</nav>
 </div>
