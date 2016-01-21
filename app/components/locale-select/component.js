@@ -1,48 +1,21 @@
 import Ember from 'ember';
-// import i18n from 'i18n';
 
 export default Ember.Component.extend({
-	store: Ember.inject.service(),
+
 	locale: null,
-	// selectedLocale: 'English',
-	locale: ["English", "Italian"],
+	locales: Ember.String.w('en-US Italian'),
+	language: Cookies.get('language'),
 
 	actions: {
 
-		// setLocale(locale) {
-		// 	this.set('locale', locale);
-		// 	console.log("locale set:" + locale);
-		// 	this.set('locale', this.get('locale'));
-		// 	// var self = this;
-		// 	// var cookie = this.get('cookie');
-		// 	// this.cookie.set('language', 'selectedLocale');
-		// 	// console.log(this.cookie);
-		// },
-		setLocale: function(locale) {
-			if (Cookies.get('locale') === true) {
-				console.log("found cookie");
-			}
-			else {
-				console.log("Haven't found cookie");
-			};
+		setLocale(locale) {
 			this.set('locale', locale);
-			Cookies.set('locale', locale);
-			window.location.reload(true);
+			console.log("locale set:" + locale);
+			console.log("localeSelected:" + localeSelected);
+			Cookies.set('language', locale, { expires: 7 });
 
+			// window.location.reload(true);
 		}
-	}
-});
-
-		// testAction: function() {
-  //     		var self   = this;
-  //     		var cookie = this.get('cookie');
- 
-  //     		cookie.setCookie('language', 'selectedLocale')
-  //       		.then(function() {
-  //         		self.transitionToRoute('success');
-  //       	});
-  //   	}
-
 
  
 		// setLocale: function() {
@@ -55,5 +28,8 @@ export default Ember.Component.extend({
 	 //        });
   //   }
 		
+	}
+});
+
 
 
