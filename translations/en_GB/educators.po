@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:28+0000\n"
+"PO-Revision-Date: 2016-01-21 19:28+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: app/templates/educators.hbs+div.div.div.h2:4
+msgid "Lingumi for nurseries, schools, and educators"
+msgstr "Lingumi for nurseries, schools, and educators"
+
+#: app/templates/educators.hbs+div.div.div.h4:5
+msgid ""
+"We work with a select group of nurseries who use Starter Kits to introduce "
+"children to a second language, or to help children with speech language "
+"difficulties."
+msgstr ""
+"We work with a select group of nurseries who use Starter Kits to introduce "
+"children to a second language, or to help children with speech language "
+"difficulties."
+
+#: app/templates/educators.hbs+div.div.div.h3:6
+msgid ""
+"To join our beta group of nurseries and educators, please get in touch by "
+"emailing <strong>hello@lingumi.com</strong>"
+msgstr ""
+"To join our beta group of nurseries and educators, please get in touch by "
+"emailing <strong>hello@lingumi.com</strong>"
+
+#: app/templates/educators.hbs+div.div.div.h4:9
+msgid "{{!--"
+msgstr "{{!--"
+
+#: app/templates/educators.hbs+div.div.div.h4:10
+msgid "Quote from Little Linguists"
+msgstr "Quote from Little Linguists"

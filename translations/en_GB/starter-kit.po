@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:33+0000\n"
+"PO-Revision-Date: 2016-01-21 19:33+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#: app/templates/starter-kit.hbs+div.h2:2
+msgid "Get the starter kit:"
+msgstr "Get the starter kit:"
+
+#: app/templates/starter-kit.hbs+div.div.div.h3:7
+msgid "Five squishy character cubes"
+msgstr "Five squishy character cubes"
+
+#: app/templates/starter-kit.hbs+div.div.div.h4:8
+msgid "Colourful cubes that interact with our apps in magical ways"
+msgstr "Colourful cubes that interact with our apps in magical ways"
+
+#: app/templates/starter-kit.hbs+div.div.div.h3:10
+msgid "Box and stand"
+msgstr "Box and stand"
+
+#: app/templates/starter-kit.hbs+div.div.div.h4:11
+msgid ""
+"The box creates a playing surface for your child to place the cubes, and the "
+"stand holds your tablet or smartphone"
+msgstr ""
+"The box creates a playing surface for your child to place the cubes, and the "
+"stand holds your tablet or smartphone"
+
+#: app/templates/starter-kit.hbs+div.div.div.h3:15
+msgid "Free apps"
+msgstr "Free apps"
+
+#: app/templates/starter-kit.hbs+div.div.div.h4:16
+msgid ""
+"Our first app, designed with help from leading experts, is free to download, "
+"with a second free app on the way"
+msgstr ""
+"Our first app, designed with help from leading experts, is free to download, "
+"with a second free app on the way"
+
+#: app/templates/starter-kit.hbs+div.div.div.h3:21
+msgid "Learn 5 languages"
+msgstr "Learn 5 languages"
+
+#. translation: Use the Lingumi Starter Kit to teach your child English, improve their Italian speaking and sounds, and to learn new words and phrases in 3 other languages!
+#: app/templates/starter-kit.hbs+div.div.div.h4:22
+msgid ""
+"Use the Lingumi Starter Kit to develop your child's English skills, and to "
+"learn new words and phrases in 4 other languages!"
+msgstr ""
+"Use the Lingumi Starter Kit to develop your child's English skills, and to "
+"learn new words and phrases in 4 other languages!"
+
+#: app/templates/starter-kit.hbs+div.div.div.h3:31
+msgid "Technical information"
+msgstr "Technical information"
+
+#: app/templates/starter-kit.hbs+div.div.div.h4:32
+msgid ""
+"The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS "
+"8.4 and above, or Android devices running 2.3 or above."
+msgstr ""
+"The kit is compatible with Apple iOS devices (iPad or iPhone) running iOS "
+"8.4 and above, or Android devices running 2.3 or above."

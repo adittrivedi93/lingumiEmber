@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-21 19:20+0000\n"
+"PO-Revision-Date: 2016-01-21 19:20+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+
+#. translation: The interactive way to learn English for kids
+#: app/templates/home.hbs+div.div.div.div.h2:18
+msgid ""
+"<strong>Teach your child a language</strong> at the best age for learning"
+msgstr ""
+"<strong>Teach your child a language</strong> at the best age for learning"
+
+#. translation: A fun, interactive way for kids to learn English
+#: app/templates/home.hbs+div.div.div.h2:38
+msgid ""
+"A <strong>fun, interactive method</strong> for early years language learning."
+msgstr ""
+"A <strong>fun, interactive method</strong> for early years language learning."
+
+#: app/templates/home.hbs+div.div.div.h4:42
+msgid ""
+"Our scientifically structured method starts with the <strong>Learning Cubes:"
+"</strong> soft, safe cubes that interact with a tablet or smartphone to "
+"teach sounds, words and phrases to children, <strong>through play.</strong>"
+msgstr ""
+"Our scientifically structured method starts with the <strong>Learning Cubes:"
+"</strong> soft, safe cubes that interact with a tablet or smartphone to "
+"teach sounds, words and phrases to children, <strong>through play.</strong>"
+
+#. translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy.
+#: app/templates/home.hbs+div.div.div.p:45
+msgid ""
+"Learn over 100 words and phrases from our free apps, with no in-app "
+"purchases. The kit costs £35 inc. delivery to UK."
+msgstr ""
+"Learn over 100 words and phrases from our free apps, with no in-app "
+"purchases. The kit costs £35 inc. delivery to UK."
+
+#: app/templates/home.hbs+div.div.div:50
+msgid ""
+"{{!-- {{#link-to 'products' class=\"btn btn-navbar btn-cyan\"}}The Cubes{{/"
+"link-to}} --}} {{#scroll-to href='#story' label='story' offset=-60 class="
+"\"btn btn-magenta\"}} The Story {{/scroll-to}}"
+msgstr ""
+"{{!-- {{#link-to 'products' class=\"btn btn-navbar btn-cyan\"}}The Cubes{{/"
+"link-to}} --}} {{#scroll-to href='#story' label='story' offset=-60 class="
+"\"btn btn-magenta\"}} The Story {{/scroll-to}}"
+
+#: app/templates/home.hbs+div.div.h2:60
+msgid "The Story"
+msgstr "The Story"
+
+#: app/templates/home.hbs+div.div.div.div.p:67
+msgid ""
+"<span class=\"p_starter\">What is it? </span> A method developed from "
+"extensive academic research that combines <strong>tactile physical "
+"interaction</strong> with digital apps to help children learn a language, by "
+"replicating the way they naturally acquire language from birth."
+msgstr ""
+"<span class=\"p_starter\">What is it? </span> A method developed from "
+"extensive academic research that combines <strong>tactile physical "
+"interaction</strong> with digital apps to help children learn a language, by "
+"replicating the way they naturally acquire language from birth."
+
+#: app/templates/home.hbs+div.div.div.div.p:78
+msgid ""
+"<span class=\"p_starter\">How does it work? </span>We create interactive "
+"games and activities which children and parents play together. Children play "
+"learn their first sounds in a <strong>native accent</strong>, then words, "
+"then phrases. The first step is the Learning Cubes: read about them here."
+msgstr ""
+"<span class=\"p_starter\">How does it work? </span>We create interactive "
+"games and activities which children and parents play together. Children play "
+"learn their first sounds in a <strong>native accent</strong>, then words, "
+"then phrases. The first step is the Learning Cubes: read about them here."
+
+#: app/templates/home.hbs+div.div.div.div.p:87
+msgid ""
+"<span class=\"p_starter\">Why early years? </span>2 year olds are "
+"<strong>the world's best learners.</strong> Due to their brain plasticity, "
+"increased synaptic density, and other neurological factors, infants under "
+"the age of 6 absorb languages quickly and easily."
+msgstr ""
+"<span class=\"p_starter\">Why early years? </span>2 year olds are "
+"<strong>the world's best learners.</strong> Due to their brain plasticity, "
+"increased synaptic density, and other neurological factors, infants under "
+"the age of 6 absorb languages quickly and easily."
+
+#: app/templates/home.hbs+div.div.div.div.p:96
+msgid ""
+"<span class=\"p_starter\">Who are we? </span>We are: 1 English teacher, 1 "
+"computer scientist, 1 children's illustrator, + several brilliant academics "
+"who advise us. We're based in London, UK. Read more about the team {{#link-"
+"to 'about' class=\"underline\"}}here.{{/link-to}}"
+msgstr ""
+"<span class=\"p_starter\">Who are we? </span>We are: 1 English teacher, 1 "
+"computer scientist, 1 children's illustrator, + several brilliant academics "
+"who advise us. We're based in London, UK. Read more about the team {{#link-"
+"to 'about' class=\"underline\"}}here.{{/link-to}}"
+
+#: app/templates/home.hbs+div.div:102
+msgid ""
+"{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="
+"\"btn btn-magenta\"}} What our users think {{/scroll-to}}"
+msgstr ""
+"{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="
+"\"btn btn-magenta\"}} What our users think {{/scroll-to}}"
+
+#: app/templates/home.hbs+div.div.div.h4:114
+msgid ""
+"\"It gives her so much confidence - she goes into her own little world\""
+msgstr ""
+"\"It gives her so much confidence - she goes into her own little world\""
+
+#: app/templates/home.hbs+div.div.div.p:115
+msgid "- Tasha & Olivia, London"
+msgstr "- Tasha & Olivia, London"
+
+#: app/templates/home.hbs+div.div.div.h2:122
+msgid "Physical"
+msgstr "Physical"
+
+#: app/templates/home.hbs+div.div.div.h4:123
+msgid ""
+"With the Learning Cubes, kids don't need to tap or swipe the screen - "
+"<strong>ever</strong>. <br/>Interacting with the cubes powers the game."
+msgstr ""
+"With the Learning Cubes, kids don't need to tap or swipe the screen - "
+"<strong>ever</strong>. <br/>Interacting with the cubes powers the game."
+
+#: app/templates/home.hbs+div.div.div.h2:127
+msgid "Shared"
+msgstr "Shared"
+
+#: app/templates/home.hbs+div.div.div.h4:128
+msgid ""
+"Children are proven to learn best when interacting with another person. With "
+"Lingumi, parent and child play and learn together. We'll teach you how best "
+"to play and learn together."
+msgstr ""
+"Children are proven to learn best when interacting with another person. With "
+"Lingumi, parent and child play and learn together. We'll teach you how best "
+"to play and learn together."
+
+#: app/templates/home.hbs+div.div.div.h2:132
+msgid "Playful"
+msgstr "Playful"
+
+#: app/templates/home.hbs+div.div.div.h4:133
+msgid ""
+"For early learners, we've replaced tapping and swiping with touching and "
+"holding: the Learning Cubes combine apps with physical play that boosts "
+"learning, and reduces screen addiction."
+msgstr ""
+"For early learners, we've replaced tapping and swiping with touching and "
+"holding: the Learning Cubes combine apps with physical play that boosts "
+"learning, and reduces screen addiction."
+
+#: app/templates/home.hbs+div.div.div.h4:142
+msgid "Buy the Learning Cubes"
+msgstr "Buy the Learning Cubes"
