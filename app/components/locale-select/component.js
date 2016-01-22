@@ -28,6 +28,7 @@ export default Ember.Component.extend({
 
 		setLocale(language) {
 			this.set('locale', language);
+			console.log("locale set");
 			Cookies.set('language', language, { expires: 7 });
 			localStorage.setItem("languageChosen", language);
 			window.location.reload(true);
