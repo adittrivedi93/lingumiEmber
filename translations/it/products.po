@@ -19,7 +19,7 @@ msgstr "I Cubi di apprendimento:"
 
 #: app/templates/products.hbs+div.div.h2:9
 msgid "The most fun way to learn a language:"
-msgstr "Il modo più divertente di imparare una ingua:"
+msgstr "Il modo più divertente di imparare una lingua:"
 
 #: app/templates/products.hbs+div.div.h4:10
 msgid ""
@@ -30,8 +30,8 @@ msgstr ""
 "tablet o smartphone per insegnare suoni, parole e frasi."
 
 #: app/templates/products.hbs+div.div.p:11
-msgid "€55 including free delivery to Italy"
-msgstr "55€ inclusa spedizione gratuita per l'Italia"
+msgid "<strike>£49.99</strike> £34.99 pre-release price (including free delivery)"
+msgstr "50€ inclusa spedizione gratuita per l'Italia"
 
 #: app/templates/products.hbs+div.div.div.h3:23
 msgid "Five squishy character cubes"
@@ -104,9 +104,7 @@ msgstr "Prezzo e spedizione"
 #. translation: The kit costs €55 including delivery. To read more about our availability and shipping in your country, visit our {{#link-to 'international'}}International page{{/link-to}}.
 #: app/templates/products.hbs+div.div.div.h4:50
 msgid ""
-"The kit costs £35 + delivery, which varies by country. To read more about "
-"our availability in your country, visit our {{#link-to 'international'}}"
-"International page{{/link-to}}."
+"price"
 msgstr ""
 "Il kit costa 55€ inclusa spedizione. Per avere maggiori informazioni sulla "
 "disponibilità e la spedizione nel tuo Paese, visita la nostra {{#link-to "

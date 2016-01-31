@@ -7,8 +7,8 @@ export function initialize(application) {
    * Store a mapping from locale codes to translation file Urls
    */
   var localeTranslationMapping = {
-    'en-US': '/translations.json', // this is a pseudo-translation I have generated for testing purposes
-    'en-GB': '/translations.json',
+    'en-US': '/en.json', // this is a pseudo-translation I have generated for testing purposes
+    'en-GB': '/en.json',
     'English': '/en.json',
     'Italian': '/it.json',
     'it': '/it.json'
@@ -28,10 +28,14 @@ export function initialize(application) {
       }, {});
 
       //fix up the JSON for Jed
+      // this is for the JSON compiler - po 2 JSON
+      // creates an object for every PO file, creates a super object, this code below
+      // merges those objects together, and then concatenates that into JSON
       var messages = localeData.locale_data.messages;
       for (var property in messages) {
         if (messages.hasOwnProperty(property) && 
             messages[property] instanceof Array) {
+          messages[property].shift();
           messages[property] = [messages[property].join()];
         }
       }

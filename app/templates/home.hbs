@@ -16,13 +16,11 @@
 			<div class="col-xs-6">
 				<h2>
 				<!-- translation: The interactive way to learn English for kids -->
-
-                    {{t "<strong>Teach your child a language</strong><br/> through physical play"}}
-
+                    {{t "home.strapline"}}
 				</h2>
 
 				{{#scroll-to href='#explainers' label='explainers' offset=-60 class="btn btn-cyan"}}
-					{{t "What is it?"}}
+					{{t "home.btn.what"}}
 				{{/scroll-to}}
 			</div>
 			<div id="age_label" class="col-xs-3">
@@ -38,37 +36,39 @@
 			<div id="top_kit_exp">
 				<h2>
 					<!-- translation: A fun, interactive way for kids to learn English -->
-					{{t "A <strong>fun, interactive method</strong> for early years language learning."}}
+					{{t "home.product.header"}}
 				</h2>
 				<h4>
-					{{t "Our scientifically structured method starts with the <strong>Learning Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone to teach sounds, words and phrases to children, <strong>through play.</strong>"}}
+					{{t "home.product.description"}}
 				</h4>
 				<h4>
 				<!-- translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy. -->
-					{{t "Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs £35 inc. delivery to UK."}}
+					{{t "home.product.detail"}}
 				</h4>
 
 			</div>
 		<div class="action">
-			{{#link-to 'products' class="btn btn-navbar btn-white"}}The Cubes{{/link-to}}
+			{{#link-to 'products' class="btn btn-navbar btn-white"}}
+				{{t "home.product.btn.cubes"}}
+			{{/link-to}}
 			{{#scroll-to href='#story' label='story' offset=-60 class="btn btn-magenta"}}
-					{{t "The Story"}}
+				{{t "home.product.btn.story"}}
 			{{/scroll-to}}
 		</div>
 	</div>
 
 
 	<div id="story">
-		<h2>{{t "The Story"}}</h2>
+		<h2>
+			{{t "home.story.header"}}
+		</h2>
 
 		<div class="row story_row very_well_padded">
 			<div class="col-sm-3">
 				<img src="assets/story_image_1.png">
 			</div>
 			<div class="col-sm-9">
-				<p>
-					<span class="p_starter">What is it?</span> A method developed from extensive academic research that combines <strong>tactile physical interaction</strong> with digital apps to help children learn a language, by replicating the way they naturally acquire language from birth.
-				</p>
+				<p>{{t "home.story.subsection.what"}}</p>
 			</div>
 		</div>
 
@@ -77,7 +77,7 @@
 				<img src="assets/story_image_2.png">
 			</div>
 			<div class="col-sm-9">
-				<p><span class="p_starter">How does it work? </span>We create interactive games and activities which children and parents play together. Children play learn their first sounds in a <strong>native accent</strong>, then words, then phrases. The first step is the Learning Cubes: read about them {{#link-to 'products'}}here.{{/link-to}}</p>
+				<p>{{t "home.story.subsection.how"}}</p>
 			</div>
 		</div>
 
@@ -86,7 +86,7 @@
 				<img src="assets/story_image_3.png">
 			</div>
 			<div class="col-sm-9">
-				<p><span class="p_starter">Why early years? </span>2 year olds are <strong>the world's best learners.</strong> Due to their brain plasticity, increased synaptic density, and other neurological factors, infants under the age of 6 absorb languages quickly and easily.</p>
+				<p>{{t "home.story.subsection.why"}}</p>
 			</div>
 		</div>
 
@@ -95,7 +95,7 @@
 				<img src="assets/story_image_4.png">
 			</div>
 			<div class="col-sm-9">
-				<p><span class="p_starter">Who are we? </span>We are: 1 English teacher, 1 computer scientist, 1 children's illustrator, + several brilliant academics who advise us. We're based in London, UK. Read more about the team {{#link-to 'about' class="underline"}}here.{{/link-to}}</p>
+				<p>{{t "home.story.subsection.who"}}</p>
 			</div>
 		</div>
 	</div>
@@ -103,7 +103,7 @@
 
 	<div class="centered">
 		{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="btn btn-magenta"}}
-					What our users think
+					{{t "home.story.btn.testimonials"}}
 		{{/scroll-to}}
 	</div>
 
@@ -113,29 +113,29 @@
 			<img src="assets/stories/tasha_olivia.png">
 		</div>
 		<div class="col-sm-9">
-			<h4>"It gives her so much confidence - she goes into her own little world"</h4>
-			<p> - Tasha & Olivia, London</p>
+			<h4>{{t "home.testimonials.text"}}</h4>
+			<p>{{t "home.testimonials.attribution"}}</p>
 		</div>
-		{{#link-to 'story' class="float_right btn btn-cyan"}}See the stories{{/link-to}}
+		{{#link-to 'story' class="float_right btn btn-cyan"}}{{t "home.testimonials.btn.story"}}{{/link-to}}
 	</div>
 
 	<div class="row" id="benefits">
 		<div class="col-md-4">
 			<img src="assets/story_image_1.png">
-			<h2>Physical</h2>
-			<h4>With the Learning Cubes, kids don't need to tap or swipe the screen - <strong>ever</strong>. <br/>Interacting with the cubes powers the game.</h4>
+			<h2>{{t "home.benefits.physical.header"}}</h2>
+			<h4>{{t "home.benefits.physical.text"}}</h4>
 		</div>
 
 		<div class="col-md-4">
 			<img src="assets/story_image_2.png">
-			<h2>Shared</h2>
-			<h4>Children are proven to learn best when interacting with another person. With Lingumi, parent and child play and learn together. We'll support you all the way.</h4>
+			<h2>{{t "home.benefits.shared.header"}}</h2>
+			<h4>{{t "home.benefits.shared.text"}}</h4>
 		</div>
 
 		<div class="col-md-4">
 			<img src="assets/playful_icon.png">
-			<h2>Playful</h2>
-			<h4>For early learners, we've replaced tapping and swiping with touching and holding: the Learning Cubes combine apps with physical play that boosts learning, and reduces screen addiction.</h4>
+			<h2>{{t "home.benefits.playful.header"}}</h2>
+			<h4>{{t "home.benefits.playful.text"}}</h4>
 		</div>
 	</div>
 
@@ -144,8 +144,8 @@
 	<div class="quite_padded" id="signup_bottom">
 
 		 <div class="landing_buy">
-		 <h4>Buy the Learning Cubes</h4>
-		 	{{#link-to 'checkout' class="btn btn-navbar btn-magenta"}}Buy{{/link-to}}
+		 <h4>{{t "home.buy.header"}}</h4>
+		 	{{#link-to 'checkout' class="btn btn-navbar btn-magenta"}}{{t "home.buy.btn.buy"}}{{/link-to}}
 		 </div>
 	</div>
 	{{#signup-footer}}{{/signup-footer}}

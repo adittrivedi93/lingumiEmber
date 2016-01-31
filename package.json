@@ -49,6 +49,8 @@
     "emberx-select": "2.0.2",
     "grunt": "^0.4.5",
     "grunt-po2json": "^0.3.0",
+    "grunt-xgettext": "^0.3.5",
+    "handlebars-xgettext": "^1.4.2",
     "parse": "^1.6.13"
   }
 }

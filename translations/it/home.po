@@ -13,23 +13,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: it_IT\n"
 
+
 #. translation: The interactive way to learn English for kids
-#: app/templates/home.hbs+div.div.div.div.h2:18
-msgid ""
-"<strong>Teach your child a language</strong> at the best age for learning"
+msgid "home.strapline"
 msgstr "Il modo interattivo di imparare l'inglese per bambini"
 
-#. translation: A fun, interactive way for kids to learn English
-#: app/templates/home.hbs+div.div.div.h2:38
-msgid ""
-"A <strong>fun, interactive method</strong> for early years language learning."
-msgstr "Un modo divertente e interattivo di imparare l'inglese per bambini"
 
-#: app/templates/home.hbs+div.div.div.h4:42
-msgid ""
-"Our scientifically structured method starts with the <strong>Learning Cubes:"
-"</strong> soft, safe cubes that interact with a tablet or smartphone to "
-"teach sounds, words and phrases to children, <strong>through play.</strong>"
+msgid "home.btn.what"
+msgstr "Che cos'è?"
+
+#. translation: A fun, interactive way for kids to learn English
+msgid "home.product.header"
+msgstr ""
+"Un modo divertente e interattivo di imparare l'inglese per bambini"
+
+msgid "home.product.description"
 msgstr ""
 "Il nostro metodo scientificamente strutturato parte dai <strong>Cubi di "
 "apprendimento:</strong> cubi morbidi e sicuri che interagiscono con tablet o "
@@ -37,34 +35,22 @@ msgstr ""
 "il gioco.</strong>"
 
 #. translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy.
-#: app/templates/home.hbs+div.div.div.p:45
-msgid ""
-"Learn over 100 words and phrases from our free apps, with no in-app "
-"purchases. The kit costs £35 inc. delivery to UK."
+msgid "home.product.detail"
 msgstr ""
 "Impara più di 100 parole e frasi dalle nostre app gratuite senza acquisti in "
 "app. Il kit costa 55 euro inclusa spedizione per l'Italia."
 
 #: app/templates/home.hbs+div.div.div:50
-msgid ""
-"{{!-- {{#link-to 'products' class=\"btn btn-navbar btn-cyan\"}}The Cubes{{/"
-"link-to}} --}} {{#scroll-to href='#story' label='story' offset=-60 class="
-"\"btn btn-magenta\"}} The Story {{/scroll-to}}"
+msgid "home.product.btn.cubes"
 msgstr ""
-"{{!-- {{#link-to 'products' class=\"btn btn-navbar btn-cyan\"}}I Cubi{{/link-"
-"to}} --}} {{#scroll-to href='#story' label='story' offset=-60 class=\"btn "
-"btn-magenta\"}} La storia {{/scroll-to}}"
+"La storia"
 
 #: app/templates/home.hbs+div.div.h2:60
-msgid "The Story"
+msgid "home.story.header"
 msgstr "La storia"
 
 #: app/templates/home.hbs+div.div.div.div.p:67
-msgid ""
-"<span class=\"p_starter\">What is it? </span> A method developed from "
-"extensive academic research that combines <strong>tactile physical "
-"interaction</strong> with digital apps to help children learn a language, by "
-"replicating the way they naturally acquire language from birth."
+msgid "home.story.subsection.what"
 msgstr ""
 "<span class=\"p_starter\">Che cos'è? </span> Un metodo sviluppato sulla base "
 "di approfondite ricerche che combinano l'<strong>interazione fisica tattile</"
@@ -73,11 +59,7 @@ msgstr ""
 "dalla nascita."
 
 #: app/templates/home.hbs+div.div.div.div.p:78
-msgid ""
-"<span class=\"p_starter\">How does it work? </span>We create interactive "
-"games and activities which children and parents play together. Children play "
-"learn their first sounds in a <strong>native accent</strong>, then words, "
-"then phrases. The first step is the Learning Cubes: read about them here."
+msgid "home.story.subsection.how"
 msgstr ""
 "<span class=\"p_starter\">Come funziona? </span>Creiamo giochi e attività "
 "interattivi a cui genitori e figli giocano insieme. I bambini imparano "
@@ -86,11 +68,7 @@ msgstr ""
 "al riguardo,"
 
 #: app/templates/home.hbs+div.div.div.div.p:87
-msgid ""
-"<span class=\"p_starter\">Why early years? </span>2 year olds are "
-"<strong>the world's best learners.</strong> Due to their brain plasticity, "
-"increased synaptic density, and other neurological factors, infants under "
-"the age of 6 absorb languages quickly and easily."
+msgid "home.story.subsection.why"
 msgstr ""
 "<span class=\"p_starter\">Perché i primi anni? </span>I bambini di 2 anni "
 "sono<strong>gli allievi migliori del mondo.</strong> I bambini di età "
@@ -98,77 +76,66 @@ msgstr ""
 "plasticità cerebrale, maggiore densità sinaptica e altri fattori neurologici,"
 
 #: app/templates/home.hbs+div.div.div.div.p:96
-msgid ""
-"<span class=\"p_starter\">Who are we? </span>We are: 1 English teacher, 1 "
-"computer scientist, 1 children's illustrator, + several brilliant academics "
-"who advise us. We're based in London, UK. Read more about the team {{#link-"
-"to 'about' class=\"underline\"}}here.{{/link-to}}"
+msgid "home.story.subsection.who"
 msgstr ""
 "<span class=\"p_starter\">Chi siamo? </span>Siamo: 1 insegnante di inglese, "
 "1 informatico, 1 illustratore per bambini e diversi brillanti accademici che "
 "ci offrono consulenza. La nostra sede è a Londra, Inghilterra. Maggiori "
-"informazioni sul team {{#link-to 'about' class=\"underline\"}}qui.{{/link-"
-"to}}"
+"informazioni sul team"
 
 #: app/templates/home.hbs+div.div:102
-msgid ""
-"{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="
-"\"btn btn-magenta\"}} What our users think {{/scroll-to}}"
+msgid "home.story.btn.testimonials"
 msgstr ""
-"{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="
-"\"btn btn-magenta\"}} Cosa pensano i nostri utenti {{/scroll-to}}"
+"Cosa pensano i nostri utenti"
 
 #: app/templates/home.hbs+div.div.div.h4:114
-msgid ""
-"\"It gives her so much confidence - she goes into her own little world\""
+msgid "home.testimonials.text"
 msgstr ""
 "\"Le dà molta sicurezza in se stessa, va nel suo piccolo mondo personale\""
 
 #: app/templates/home.hbs+div.div.div.p:115
-msgid "- Tasha & Olivia, London"
+msgid "home.testimonials.attribution"
 msgstr "- Tasha e Olivia, Londra"
 
-#: app/templates/home.hbs+div.div.div.h2:122
-msgid "Physical"
+msgid "home.testimonials.btn.story"
+msgstr "Leggi la storia"
+
+msgid ""
+"home.benefits.physical.header"
 msgstr "Fisico"
 
 #: app/templates/home.hbs+div.div.div.h4:123
-msgid ""
-"With the Learning Cubes, kids don't need to tap or swipe the screen - "
-"<strong>ever</strong>. <br/>Interacting with the cubes powers the game."
+msgid "home.benefits.physical.text"
 msgstr ""
 "Con i Cubi di apprendimento, i bambini non devono toccare o scorrere sullo "
 "schermo: <strong>mai</strong>. <br/>Il motore del gioco è l'interazione con "
 "i cubi."
 
 #: app/templates/home.hbs+div.div.div.h2:127
-msgid "Shared"
+msgid "home.benefits.shared.header"
 msgstr "Condiviso"
 
 #: app/templates/home.hbs+div.div.div.h4:128
-msgid ""
-"Children are proven to learn best when interacting with another person. With "
-"Lingumi, parent and child play and learn together. We'll teach you how best "
-"to play and learn together."
+msgid "home.benefits.shared.text"
 msgstr ""
 "È provato che i bambini imparano meglio interagendo con un'altra persona. "
 "Con Lingumi, genitore e bambino giocano e imparano insieme. Vi insegneremo "
 "come giocare e imparare insieme al meglio."
 
 #: app/templates/home.hbs+div.div.div.h2:132
-msgid "Playful"
+msgid "home.benefits.playful.header"
 msgstr "Ludico"
 
 #: app/templates/home.hbs+div.div.div.h4:133
-msgid ""
-"For early learners, we've replaced tapping and swiping with touching and "
-"holding: the Learning Cubes combine apps with physical play that boosts "
-"learning, and reduces screen addiction."
+msgid "home.benefits.playful.text"
 msgstr ""
 "Gli allievi precoci non devono toccare e scorrere lo schermo ma toccare e "
 "tenere in mano i Cubi di apprendimento, che combinano le app con gioco "
 "fisico che promuove l'apprendimento e diminuisce la dipendenza dallo schermo."
 
 #: app/templates/home.hbs+div.div.div.h4:142
-msgid "Buy the Learning Cubes"
+msgid "home.buy.header"
 msgstr "Compra i Cubi di apprendimento"
+
+msgid "home.buy.btn.buy"
+msgstr "Compra"
