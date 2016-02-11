@@ -8,29 +8,34 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('home', {path: '/'});
-  this.route('aboutUs');
-  this.route('method');
-  this.route('products');
-  this.route('login');
-  this.route('registerAccount');
-  this.route('forgottenPassword');
-  this.route('profile');
-  this.route('benefits');
-  this.route('educators');
-  this.route('slt');
-  this.route('faq');
-  this.route('testimonials');
-  this.route('blog');
-  this.route('starter-kit');
-  this.route('contact');
-  this.route('checkout');
-  this.route('order-conf');
-  this.route('international');
-  this.route('about');
-  this.route('reg-complete');
-  this.route('story');
-  this.route('apps');
+  // var locale= "lok";
+  this.route('locale', {path: '/:locale'}, function ()
+    {
+      this.route('home', {path: '/'});
+      this.route('aboutUs');
+      this.route('method');
+      this.route('products');
+      this.route('login');
+      this.route('registerAccount');
+      this.route('forgottenPassword');
+      this.route('profile');
+      this.route('benefits');
+      this.route('educators');
+      this.route('slt');
+      this.route('faq');
+      this.route('testimonials');
+      this.route('blog');
+      this.route('starter-kit');
+      this.route('contact');
+      this.route('checkout');
+      this.route('order-conf');
+      this.route('international');
+      this.route('about');
+      this.route('reg-complete');
+      this.route('story');
+      this.route('apps');
+    }
+  )
 });
 
 export default Router;

@@ -20,6 +20,9 @@ export function initialize(application) {
    */
   var language = Cookies.get('language') || window.navigator.userLanguage || window.navigator.language;
   var translationUrl = localeTranslationMapping[language];
+  application.register('urlSwitcher:locale', language);
+
+
   if (translationUrl !== undefined) {
     Ember.$.getJSON(translationUrl, function(translations) {
       var localeData = _.reduce(_.values(translations), function(a, b) {
@@ -27,7 +30,7 @@ export function initialize(application) {
         return _.merge(a, b);
       }, {});
 
-      //fix up the JSON for Jed
+      //fixes up the JSON for Jed
       // this is for the JSON compiler - po 2 JSON
       // creates an object for every PO file, creates a super object, this code below
       // merges those objects together, and then concatenates that into JSON
@@ -42,11 +45,13 @@ export function initialize(application) {
 
       Ember.i18n = new Jed(localeData);
       application.advanceReadiness();
+      // application.inject('route', 'locale', 'urlSwitcher:locale');
     });
   }
 }
 
 export default {
   name: 'i18n',
-  initialize
+  name: 'locale',
+  initialize: initialize
 };
