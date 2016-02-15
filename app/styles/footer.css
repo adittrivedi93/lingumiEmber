@@ -1,12 +1,36 @@
 #footer {
 	font-weight: 300;
 	width: 100%;
-	background-color: #edf8fa;
 	text-align: center;
-	padding: 3%;
-	padding-bottom: 9%;
 	color: #323232;
-	margin-top: 3%;
+	margin-top: 5%;
+}
+#footer a {
+	color: #c0e4f9;
+}
+#footer_layer_one {
+	margin: 5% 15%;
+}
+#footer_layer_one h2 {
+	font-weight: 300;
+}
+#footer_layer_one h4 {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+#footer_layer_two {
+	background-color: #3b9de6;
+	width: 100%;
+	padding: 5% 15%;
+	color: white;
+}
+#footer_layer_three {
+	margin-top: 5%;
+}
+#footer_layer_three p {
+	font-weight: 300;
+	font-size: 1em;
+	padding-top: 5px;
 }
 #footer h2 img {
 	padding: 5px;
@@ -15,4 +39,25 @@
 }
 #footer .row {
 	padding:15px;
+}
+#copyright_logo img {
+	width: 35%;
+	margin-top: 5%;
+}
+.footer-signup input {
+	border-radius: 16px;
+	border: none;
+	min-width: 300px;
+	min-height: 28px;
+	padding: 5px;
+	margin: 1%;
+	text-align: center;
+	color: #3b9de6;
+}
+.footer-signup button {
+	border-radius: 16px;
+	border: 2px solid white;
+	min-width: 80px;
+	background-color: #3b9de6;
+	margin-left: 5px;
 }

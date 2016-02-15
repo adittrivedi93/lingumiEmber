@@ -13,18 +13,19 @@
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right nav-pills">
 				<li>{{#link-to 'home' class="btn btn-navbar btn-cyan"}}Home{{/link-to}}</li>
-				<li>{{#link-to 'products' class="btn btn-navbar btn-magenta"}}Products{{/link-to}}</li>
-				<li>{{#link-to 'method' class="btn btn-navbar btn-green"}}Method{{/link-to}}</li>	
+				<li>{{#scroll-to href='#explainers' offset=-70 class="btn btn-navbar btn-magenta"}}Method{{/scroll-to}}</li>
+				<li>{{#link-to 'about' class="btn btn-navbar btn-green"}}About{{/link-to}}</li>
+				<li>{{#link-to 'contact' class="btn btn-navbar btn-cyan"}}Contact{{/link-to}}</li>
 
 
-				<li class="dropdown">
+				<!-- <li class="dropdown">
 					<a class="dropdown-toggle btn btn-navbar btn-red" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {{action 'selectedMore' on='click'}}>More<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>{{#link-to 'apps'}}Our Apps{{/link-to}}</li>
 						<li>{{#link-to 'benefits'}}Benefits{{/link-to}}</li>
 						<li>{{#link-to 'international'}}International{{/link-to}}</li>
 						<li>{{#link-to 'about'}}About Us{{/link-to}}</li>
-						<li>{{#link-to 'contact'}}Contact Us{{/link-to}}</li>
+						
 						<li>{{#link-to 'faq'}}FAQ{{/link-to}}</li>
 						<li>{{#link-to 'slt'}}Special Needs{{/link-to}}</li>
 						<li>{{#link-to 'educators'}}Schools & Nurseries{{/link-to}}</li>
@@ -37,8 +38,8 @@
 							{{/if}}
 						</li>
 					</ul>
-				</li>
-				<li>{{#link-to 'checkout' class="btn btn-cyan"}}<strong>BUY</strong>{{/link-to}}</li>
+				</li> -->
+				<!-- <li>{{#link-to 'checkout' class="btn btn-cyan"}}<strong>BUY</strong>{{/link-to}}</li> -->
 			</ul>
 		</div>
 	</nav>
