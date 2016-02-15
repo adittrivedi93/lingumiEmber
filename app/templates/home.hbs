@@ -1,153 +1,103 @@
-<!--These get injected into the outlet spacebar in 'application.hbs'-->
 <div class="page_content">
 	<div class="top">
-		<div id="video">
-			<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-			<div>
-				<div class="wistia_responsive_wrapper" style="height:450px;width:100%;">
-					<span class="wistia_embed wistia_async_ld5ha7yp8j popover=true videoFoam=true" style="display:inline-block;height:100%;width:100%;margin-top:2%">&nbsp;</span>
+		<div class="row">
+			<div class="col-sm-8">
+				<div id="strapline">
+					<h2>The early-years <br/><span class="weight-400"><span class="lingumi-blue">English language</span> method</span></h2>
+
+					<h3><img src="assets/icons/landing_research.png"><strong>Built from academic research</strong></h3>
+					<h3><img src="assets/icons/landing_adaptive.png"><strong>Delivered by adaptive technology</strong></h3>
+
+					{{#scroll-to href='#explainers' offset=-70 class="btn btn-magenta strapline-btn"}}
+						Find out more
+				{{/scroll-to}}
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div id="cover_img">
+					<img src="assets/biz/cover_img.png">
 				</div>
 			</div>
 		</div>
+	</div>
+	
 
-		<div class="strapline row">
-			<div id="language_labels" class="col-xs-3">
-				<img src="assets/language_labels.gif">
+	<div class="explainers quite_padded" id="explainers">
+
+		<h2>The Lingumi Method</h2>
+		<div class="row">
+			<div class="method col-md-4">
+				<img src="assets/biz/growth_icon_onblue.png">
+				<h4>Adaptive, self-strengthening learning content delivered to learners across interlinking products</h4>
 			</div>
-			<div class="col-xs-6">
-				<h2>
-				<!-- translation: The interactive way to learn English for kids -->
-					<strong>Teach your child a language</strong> at the best age for learning
-				</h2>
-
-				{{#scroll-to href='#explainers' label='explainers' offset=-60 class="btn btn-cyan"}}
-					What is it?
+			<div class="method col-md-4">
+				<img src="assets/biz/dec_tree_white.png">
+				<h4>Algorithmically-structured methodology blending tactile play and digital apps</h4>
+			</div>
+			<div class="method col-md-4">
+				<img src="assets/biz/research_icon_pink.png">
+				<h4>Outcome-driven product design, informed by user testing, studies, and specialised academic research</h4>
+			</div>
+			<div class="action col-md-12">
+				{{#scroll-to href='#landing-video' offset=-70 class="btn btn-magenta"}}
+						Outcomes
 				{{/scroll-to}}
 			</div>
-			<div id="age_label" class="col-xs-3">
-				<img src="assets/age_label2.gif">
+		</div>	
+	</div>
+
+	<div id="landing-video">
+		<h2>Early results:</h2>
+		<div class="row">
+			<div class="col-md-8" id="video_embed">
+				
+					<div>
+						<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_8xs4p7ilyv popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+					</div>
+					<div style="font-weight: 100; color: #595a5a">
+					</div>
+			</div>
+			<div class="col-md-4" id="tweets">
+				<blockquote class="twitter-tweet" data-lang="en" data-cards="hidden"><p lang="en" dir="ltr">Using research to inform their game design <a href="https://twitter.com/LingumiLabs">@LingumiLabs</a> :) <a href="https://t.co/rfl9mBDAX0">https://t.co/rfl9mBDAX0</a></p>&mdash; Kelwyn Looi (@KelwynLooi) <a href="https://twitter.com/KelwynLooi/status/693075402986778624">January 29, 2016</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Incredible results in preschoolers learning English from <a href="https://twitter.com/LingumiLabs">@LingumiLabs</a> <a href="https://t.co/HK7dsCATgD">https://t.co/HK7dsCATgD</a> <a href="https://twitter.com/memrise">@memrise</a></p>&mdash; Emerge Education (@emergelab) <a href="https://twitter.com/emergelab/status/693037547790979072">January 29, 2016</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+		{{#scroll-to href='#products' offset=-70 class="btn btn-magenta"}}
+						Products
+				{{/scroll-to}}
+	</div>
+
+	<div id="products" class="explainers quite_padded">
+		<h2>Connected products, effective outcomes</h2>
+		<div class="row">
+			<div class="method col-md-4">
+				<img src="assets/biz/starter_kit_transparent.png">
+				<h2>Learning Cubes</h2>
+				<h4>Our first product combines tactile foam cubes with our learning apps for iOS and Android, using augmented reality technology</h4>
+			</div>
+			<div class="method col-md-4">
+				<img src="assets/biz/fw_icon.png">
+				<h2>Digital Products</h2>
+				<h4>Our apps apply research into child language acquisition to game design, with a focus on engagement and efficacy</h4>
+			</div>
+			<div class="method col-md-4">
+				<img src="assets/biz/growth_icon.png">
+				<h2>Unified Experience</h2>
+				<h4>Each learner receives a unified, adaptive learning experience across any device or product</h4>
 			</div>
 		</div>
 	</div>
-
-	<div class="explainers well_padded" id="explainers">
-			<div id="top_kit">
-				<img src="assets/starter_kit.png">
-			</div>
-			<div id="top_kit_exp">
-				<h2>
-					<!-- translation: A fun, interactive way for kids to learn English -->
-					A <strong>fun, interactive method</strong> for early years language learning.
-				</h2>
-				<h4>
-					Our scientifically structured method starts with the <strong>Learning Cubes:</strong> soft, safe cubes that interact with a tablet or smartphone to teach sounds, words and phrases to children, <strong>through play.</strong>
-				</h4>
-				<h4>
-				<!-- translation: Learn over 100 words and phrases from our free apps, with no in-app purchases. The kit costs 55 euros including delivery to Italy. -->
-					Learn over 100 words and phrases from our free apps, with no in-app purchases.
-				</h4>
-				<h4>
-					<strike>£49.99 </strike><strong>£39.99</strong> early-bird price (including free delivery)
-				</h4>
-			</div>
-		<div class="action">
-			{{#link-to 'products' class="btn btn-navbar btn-white"}}The Cubes{{/link-to}}
-			{{#scroll-to href='#story' label='story' offset=-60 class="btn btn-magenta"}}
-					The Story
-			{{/scroll-to}}
-		</div>
-	</div>
+<!-- 
+	<div id="science" class="well_padded">
+		<h2>The Whitepaper</h2>
+		<h4>Our whitepaper details the academic research that has gone into the design and structure of the the Lingumi Method, how we design for efficacy and learning outcomes, and early results from our work with academics, families, schools, and special needs education professionals. <a href="mailto: hello@lingumi.com">Click here</a> to request a copy.</h4>
+		<h4>Our research whitepaper is available by request, and outlines the science, processes, and learning mechanisms used in the Method and products.</h4>
+	</div> -->
 
 
-	<div id="story">
-		<h2>The Story</h2>
 
-		<div class="row story_row very_well_padded">
-			<div class="col-sm-3">
-				<img src="assets/story_image_1.png">
-			</div>
-			<div class="col-sm-9">
-				<p>
-					<span class="p_starter">What is it? </span> A method developed from extensive academic research that combines <strong>tactile physical interaction</strong> with digital apps to help children learn a language, by replicating the way they naturally acquire language from birth.
-				</p>
-			</div>
-		</div>
-
-		<div class="row story_row very_well_padded">
-			<div class="col-sm-3">
-				<img src="assets/story_image_2.png">
-			</div>
-			<div class="col-sm-9">
-				<p><span class="p_starter">How does it work? </span>We create interactive games and activities which children and parents play together. Children play learn their first sounds in a <strong>native accent</strong>, then words, then phrases. The first step is the Learning Cubes: read about them {{#link-to 'products'}}here.{{/link-to}}</p>
-			</div>
-		</div>
-
-		<div class="row story_row very_well_padded">
-			<div class="col-sm-3">
-				<img src="assets/story_image_3.png">
-			</div>
-			<div class="col-sm-9">
-				<p><span class="p_starter">Why early years? </span>2 year olds are <strong>the world's best learners.</strong> Due to their brain plasticity, increased synaptic density, and other neurological factors, infants under the age of 6 absorb languages quickly and easily.</p>
-			</div>
-		</div>
-
-		<div class="row story_row very_well_padded">
-			<div class="col-sm-3">
-				<img src="assets/story_image_4.png">
-			</div>
-			<div class="col-sm-9">
-				<p><span class="p_starter">Who are we? </span>We are: 1 English teacher, 1 computer scientist, 1 children's illustrator, + several brilliant academics who advise us. We're based in London, UK. Read more about the team {{#link-to 'about' class="underline"}}here.{{/link-to}}</p>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="centered">
-		{{#scroll-to href='#testimonials' label='testimonials' offset=-60 class="btn btn-magenta"}}
-					What our users think
-		{{/scroll-to}}
-	</div>
-
-	<div class="row banner well_padded" id="testimonials">
-
-		<div class="col-sm-3" id="testimonials_img">
-			<img src="assets/stories/tasha_olivia.png">
-		</div>
-		<div class="col-sm-9">
-			<h4>"It gives her so much confidence - she goes into her own little world"</h4>
-			<p> - Tasha & Olivia, London</p>
-		</div>
-		{{#link-to 'story' class="float_right btn btn-cyan"}}See the stories{{/link-to}}
-	</div>
-
-	<div class="row" id="benefits">
-		<div class="col-md-4">
-			<img src="assets/story_image_1.png">
-			<h2>Physical</h2>
-			<h4>With the Learning Cubes, kids don't need to tap or swipe the screen - <strong>ever</strong>. <br/>Interacting with the cubes powers the game.</h4>
-		</div>
-
-		<div class="col-md-4">
-			<img src="assets/story_image_2.png">
-			<h2>Shared</h2>
-			<h4>Children are proven to learn best when interacting with another person. With Lingumi, parent and child play and learn together. We'll support you all the way.</h4>
-		</div>
-
-		<div class="col-md-4">
-			<img src="assets/playful_icon.png">
-			<h2>Playful</h2>
-			<h4>For early learners, we've replaced tapping and swiping with touching and holding: the Learning Cubes combine apps with physical play that boosts learning, and reduces screen addiction.</h4>
-		</div>
-	</div>
-
-{{!-- 	Add an awesome for parents (game view vs feedback) chunk here --}}
-
-	<div class="quite_padded" id="signup_bottom">
-
-		 <div class="landing_buy">
-		 <h4>Buy the Learning Cubes</h4>
-		 	{{#link-to 'checkout' class="btn btn-navbar btn-magenta"}}Buy{{/link-to}}
-		 </div>
-	</div>
-	{{#signup-footer}}{{/signup-footer}}
+<!-- 	{{#signup-footer}}{{/signup-footer}} -->
 </div>
